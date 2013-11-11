@@ -2,10 +2,27 @@
 var map = new L.Map('map');
 
 var osmURL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-osmAttribution = '2013 OpenStreetMap contributors, Red Cross',
+osmAttribution = '&copy; OpenStreetMap contributors, <a href="redcross.org">Red Cross</a>',
 osm = new L.TileLayer(osmURL, {maxZoom: 18, attribution: osmAttribution});
 
+var hotosmURL = 'http://c.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarina OpenStreetMap Team</a>, <a href="redcross.org">Red Cross</a>',
+hotosm = new L.TileLayer(hotosmURL, {maxZoom: 18, attribution: hotAttribution});
+
 map.setView(new L.LatLng(11.2500, 125.0000), 6).addLayer(osm);
+
+//add the map layer controls
+var baseMaps = {
+	'OSM Default': osm,
+	'HOT OSM': hotosm
+}
+
+// var overlayLayers = {
+// 	"Damage Assesment": dmgAssessment,
+// 	"COD Boundaries": codBoundaries
+// }
+
+L.control.layers(baseMaps).addTo(map);
 
 //time code
 function getTime() {
