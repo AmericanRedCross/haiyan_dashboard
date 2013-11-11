@@ -17,11 +17,19 @@ var baseMaps = {
 	'HOT OSM': hotosm
 }
 
-// var overlayLayers = {
-// 	"Damage Assesment": dmgAssessment,
-// 	"COD Boundaries": codBoundaries
-// }
+// add NGA layers
 
+var ngaDamage = L.geoJson(NGA_10NOV13_Damage); 
+var ngaImpassRoads = L.geoJson(NGA_10NOV13_ImpassableRoads_e1900); 
+var ngaBridgeOut = L.geoJson(NGA_10NOV13_BridgeOut_e1900); 
+
+var overlayLayers = {
+ 	'Damage Assesment': ngaDamage,
+ 	'Impassable Roads': ngaImpassRoads,
+        'Bridge Out': ngaBridgeOut
+}
+
+L.control.layers(overlayLayers).addTo(map);
 L.control.layers(baseMaps).addTo(map);
 
 //time code
