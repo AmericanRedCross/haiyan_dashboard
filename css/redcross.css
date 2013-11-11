@@ -1,0 +1,16 @@
+#map {
+  	height: 700px;
+  	margin: -20px
+}
+
+#arclogo {
+	width: 90%;
+	padding: auto;
+	margin: auto;
+}
+
+.time, .facts{
+	padding-left: 5px;
+	color: #000;
+	clear: both;
+}
