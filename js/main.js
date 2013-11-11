@@ -5,20 +5,6 @@ var osmURL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 osmAttribution = '2013 OpenStreetMap contributors, Red Cross',
 osm = new L.TileLayer(osmURL, {maxZoom: 18, attribution: osmAttribution});
 
-//add NGA layers
-
-$.getJSON('geojson/NGA_10NOV13_Damage.geojson',function(data){
-   L.geoJson(data).addTo(map); 
-});
-
-$.getJSON('geojson/NGA_10NOV13_ImpassableRoads_e1900.geojson',function(data){
-   L.geoJson(data).addTo(map); 
-});
-
-$.getJSON('geojson/NGA_10NOV13_BridgeOut_e1900.geojson',function(data){
-   L.geoJson(data).addTo(map); 
-});
-
 map.setView(new L.LatLng(11.2500, 125.0000), 6).addLayer(osm);
 
 //time code
