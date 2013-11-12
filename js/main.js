@@ -7,14 +7,54 @@ var hotosmURL = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
 hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarina OpenStreetMap Team</a>, <a href="redcross.org">Red Cross</a>',
 hotosm = new L.TileLayer(hotosmURL, {maxZoom: 18, attribution: hotAttribution});
 
+var surgeMapLayer = L.mapbox.tileLayer('americanredcross.StormSurgeMaxHeight');
+var surgeGridLayer = L.mapbox.gridLayer('americanredcross.StormSurgeMaxHeight');
+var surgeGridControl = L.mapbox.gridControl(surgeGridLayer);
+
 var ngaLayer = L.mapbox.tileLayer('americanredcross.NGA_DamageAssessment_Nov11');
+var ngaGridLayer = L.mapbox.gridLayer('americanredcross.NGA_DamageAssessment_Nov11');
+var ngaGridControl = L.mapbox.gridControl(ngaGridLayer);
+
 var copernicusBldgsNov8Layer = L.mapbox.tileLayer('americanredcross.COPERNIUCS_Complete_Bldgs_Damages_Nov8');
-var stormSurgeHeightLayer = L.mapbox.tileLayer('americanredcross.StormSurgeMaxHeight');
+var copernicusGridLayer = L.mapbox.gridLayer('americanredcross.COPERNIUCS_Complete_Bldgs_Damages_Nov8');
+var copernicusGridControl = L.mapbox.gridControl(copernicusGridLayer);
+
 
 var map = L.map('map', {
 	zoom: 6,
 	center: [11.2500, 125.0000],
-	// layers: [osm, hotosm, ngaLayer, copernicusBldgsNov8Layer, stormSurgeHeightLayer]
+	layers: [hotosm]
+});
+
+
+map.on('overlayadd', function(eventLayer){
+	if (eventLayer.name == "Storm Surge Max Height<br>(zoom layers 6-10)"){
+		map.addLayer(surgeGridLayer);
+		map.addControl(surgeGridControl);
+	}
+	if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
+		map.addLayer(copernicusGridLayer);
+		map.addControl(copernicusGridControl);
+	}
+	if (eventLayer.name == "NGA_DamageAssessment_Nov11<br>(zoom levels 10-16)"){
+		map.addLayer(ngaGridLayer);
+		map.addControl(ngaGridControl);
+	}
+});
+
+map.on('overlayremove', function(eventLayer){
+	if (eventLayer.name == "Storm Surge Max Height<br>(zoom layers 6-10)"){
+		map.removeLayer(surgeGridLayer);
+		map.removeControl(surgeGridControl);
+	}
+	if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
+		map.removeLayer(copernicusGridLayer);
+		map.removeControl(copernicusGridControl);
+	}
+	if (eventLayer.name == "NGA_DamageAssessment_Nov11<br>(zoom levels 10-16)"){
+		map.removeLayer(ngaGridLayer);
+		map.removeControl(ngaGridControl);
+	}
 });
 
 var zoomLevel = map.getZoom().toString();
@@ -31,7 +71,7 @@ var baseMaps = {
 };
 
 var overlayLayers = {
-	"Storm Surge Max Height<br>(zoom layers 6-10)": stormSurgeHeightLayer,
+	"Storm Surge Max Height<br>(zoom layers 6-10)": surgeMapLayer,
 	"COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)": copernicusBldgsNov8Layer,
 	"NGA_DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer	
 }
