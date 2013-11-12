@@ -15,45 +15,27 @@ var ngaLayer = L.mapbox.tileLayer('americanredcross.NGA_DamageAssessment_Nov11')
 var ngaGridLayer = L.mapbox.gridLayer('americanredcross.NGA_DamageAssessment_Nov11');
 var ngaGridControl = L.mapbox.gridControl(ngaGridLayer);
 
-
 var copernicusBldgsNov8Layer = L.mapbox.tileLayer('americanredcross.COPERNIUCS_Complete_Bldgs_Damages_Nov8');
-//  ! has a legend
-
-// var copernicusGridLayer = L.mapbox.gridLayer('americanredcross.COPERNIUCS_Complete_Bldgs_Damages_Nov8');
-// var copernicusGridControl = L.mapbox.gridControl(copernicusGridLayer);
+//  ! has a legend, not a teaser
 
 var impassableRoadsLayer = L.mapbox.tileLayer('americanredcross.g6869a4i');
-//  ! has a legend
-
-// var impassableRoadsGridLayer = L.mapbox.gridLayer('americanredcross.g6869a4i');
-// var impassableRoadsLegend = L.mapbox.legendControl(impassableRoadsGridLayer);
-
+//  ! has a legend, not a teaser
 
 var map = L.map('map', {
 	zoom: 6,
 	center: [11.2500, 125.0000],
 	layers: [hotosm]
 });
-// map.addControl(L.mapbox.legendControl());
-
 
 map.on('overlayadd', function(eventLayer){
 	if (eventLayer.name == "Storm Surge Max Height<br>(zoom layers 6-10)"){
 		map.addLayer(surgeGridLayer);
 		map.addControl(surgeGridControl);
 	}
-	if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
-		map.addLayer(copernicusGridLayer);
-		map.addControl(copernicusGridControl);
-	}
 	if (eventLayer.name == "NGA_DamageAssessment_Nov11<br>(zoom levels 10-16)"){
 		map.addLayer(ngaGridLayer);
 		map.addControl(ngaGridControl);
-	}
-	if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
-		map.addLayer(impassableRoadsGridLayer);
-		map.addControl(L.mapbox.legendControl());
-	}
+	}	
 });
 
 map.on('overlayremove', function(eventLayer){
@@ -61,17 +43,9 @@ map.on('overlayremove', function(eventLayer){
 		map.removeLayer(surgeGridLayer);
 		map.removeControl(surgeGridControl);
 	}
-	if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
-		map.removeLayer(copernicusGridLayer);
-		map.removeControl(copernicusGridControl);
-	}
 	if (eventLayer.name == "NGA_DamageAssessment_Nov11<br>(zoom levels 10-16)"){
 		map.removeLayer(ngaGridLayer);
 		map.removeControl(ngaGridControl);
-	}
-	if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
-		map.removeLayer(impassableRoadsGridLayer);
-		map.removeControl(impassableRoadsLegend);
 	}
 });
 
@@ -85,7 +59,7 @@ map.on('zoomend', function(){
 
 var baseMaps = {
 	"OSM standard": osm,
-	"HOT OSM": hotosm.addTo(map)	
+	"HOT OSM": hotosm	
 };
 
 var overlayLayers = {
