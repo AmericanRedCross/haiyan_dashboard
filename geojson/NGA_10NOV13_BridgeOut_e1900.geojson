@@ -1,8 +1,0 @@
-var NGA_10NOV13_BridgeOut_e1900 = {
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "Production": "11\/09\/2013", "Remote_Sen": "11\/09\/2013", "Level_Full": "BRIDGEOUT", "Level_": "BO" }, "geometry": { "type": "LineString", "coordinates": [ [ 124.48936226975297, 11.360644382832049 ], [ 124.48925894934109, 11.360917876558801 ], [ 124.48918854861267, 11.361100588221632 ], [ 124.48913186614277, 11.361177506336901 ] ] } }
-
-]
-}
