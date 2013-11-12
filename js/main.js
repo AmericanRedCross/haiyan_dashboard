@@ -25,7 +25,7 @@ var ngaBridgeOut = L.geoJson(NGA_10NOV13_BridgeOut_e1900);
 var overlayLayers = {
  	'Damage Assesment': ngaDamage,
  	'Impassable Roads': ngaImpassRoads,
-        'Bridge Out': ngaBridgeOut
+    'Bridge Out': ngaBridgeOut
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
@@ -60,11 +60,5 @@ $('#map').css("height", ($(window).height()));
 $(window).on("resize", resize);
 resize();
 function resize(){
-
-    if($(window).width()>=980){
-        $('#map').css("height", ($(window).height()));    
-    }else{
-        $('#map').css("height", ($(window).height()));    
-    }
-
+	$('#map').css("height", ($(window).height()));    
 }
