@@ -5,10 +5,10 @@
     margin: -20px;
 }
 
-#arclogo {
+.logo {
 	width: 90%;
-	padding: auto;
-	margin: auto;
+	padding: 5px;
+	margin: 5px;
 }
 
 .time, .facts{

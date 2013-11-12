@@ -1,98 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Red Cross Haiyan Response</title>
+  <title>Red Cross Haiyan Response</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/redcross.css" rel="stylesheet">
-   
-    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+  <!-- Add custom CSS here -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/redcross.css" rel="stylesheet">
+
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
 
     <!--[if lte IE 8]>
       <link href='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
-    <![endif]-->
-    
-    <script src="geojson/NGA_10NOV13_Damage.geojson" type="text/javascript"></script>
-    <script src="geojson/NGA_10NOV13_ImpassableRoads_e1900.geojson" type="text/javascript"></script>
-    <script src="geojson/NGA_10NOV13_BridgeOut_e1900.geojson" type="text/javascript"></script>
+      <![endif]-->
 
-  </head>
+    </head>
 
-  <body>
-  
-    <div id="wrapper">
-      
-      <!-- Sidebar -->
-      <div id="sidebar-wrapper">
-        <a href="http://redcross.org"><img src="images/redcross-logo.png" id="arclogo" /></a>
-        <a href="http://redcross.org.uk"><img src="images/BRC_logo.PNG" id="arclogo" /></a>
-              <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                Time
-              </a>
-            </h4>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="panel-body">
-              <span id="dcTime"></span><br />
-              <span id="philTime"></span>
+    <body>
+
+      <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+          <a href="http://ifrc.org"><img src="images/ifrc_logo.png" class="logo" /></a>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Time
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <span id="dcTime"><b>Washington, DC:</b> </span><br />
+                  <span id="philTime"><b>Manilla:</b> </span>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Quick Facts
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <p>Deaths: <span id='deaths'>1,200</span>
+                    <br />Displaced: <span id='displaced'>100</span>
+                    <br />Homeless: <span id='homeless'>100</span>
+                    <br />$ Donated: <span id='donated'>$1</span>
+                    <br />IFRC Personal: <span id='personal'>33</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Team Locations
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <span id='pTable'></span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                Quick Facts
-              </a>
-            </h4>
-          </div>
-          <div id="collapseTwo" class="panel-collapse collapse">
-            <div class="panel-body">
-              <p>Deaths: <span id='deaths'>1,200</span>
-                <br />Displaced: <span id='displaced'>100</span>
-                <br />$ Donated: <span id='donated'>$1</span>
-                <br />IFRC Personal: <span id='personal'>33</span>
-              </p>
+        </div>  
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+          <!-- Keep all page content within the page-content inset div! -->
+          <div class="page-content inset">
+            <div class="row">
+              <div class="col-md-12 fill">
+                <div id="zoomLevelBox">Current Zoom Level: <span id='zoomLevel'></span></div>
+                <div id='map'></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>  
-      <!-- Page content -->
-      <div id="page-content-wrapper">
-        <!-- Keep all page content within the page-content inset div! -->
-        <div class="page-content inset">
-          <div class="row">
-            <div class="col-md-12 fill">
-              <div id="zoomLevelBox">Current Zoom Level: <span id='zoomLevel'></span></div>
-              <div id='map'></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-	
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <!-- Put this into a custom JavaScript file to make things more organized -->
-    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+      <!-- Bootstrap core JavaScript -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <!-- Put this into a custom JavaScript file to make things more organized -->
+      <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+      <script src="js/main.js"></script>
+    </body>
+    </html>

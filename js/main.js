@@ -85,7 +85,7 @@ map.on('zoomend', function(){
 
 var baseMaps = {
 	"OSM standard": osm,
-	"HOT OSM": hotosm	
+	"HOT OSM": hotosm.addTo(map)	
 };
 
 var overlayLayers = {
@@ -109,7 +109,7 @@ function getTime() {
 		var dcSunset = json.sunset.substring((json.sunset.length-5),json.sunset.length);
 		var dcSunrise = json.sunrise.substring((json.sunrise.length-5),json.sunrise.length);
 		// $('#dcTime').append('Washington DC <br />' + dcTime + '<br />SR' + dcSunrise + ' / SS' + dcSunset);
-		$('#dcTime').append('Washington DC: ' + dcTime);
+		$('#dcTime').append(json.time);
 	});
 
 	$.getJSON(philTimeURL, function(json, textStatus) {
@@ -117,7 +117,7 @@ function getTime() {
 		var philSunset = json.sunset.substring((json.sunset.length-5),json.sunset.length);
 		var philSunrise = json.sunrise.substring((json.sunrise.length-5),json.sunrise.length);
 		// $('#philTime').append('Manila <br />' + philTime + '<br />SR' + philSunrise + ' / SS' + philSunset);
-		$('#philTime').append('Manila: ' + philTime);
+		$('#philTime').append(json.time);
 	});
 }
 
