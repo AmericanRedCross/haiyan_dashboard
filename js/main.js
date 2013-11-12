@@ -27,7 +27,7 @@ map.on('zoomend', function(){
 
 var baseMaps = {
 	"OSM standard": osm,
-	"HOT OSM": hotosm	
+	"HOT OSM": hotosm.addTo(map)	
 };
 
 var overlayLayers = {
