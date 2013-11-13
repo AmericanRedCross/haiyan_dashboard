@@ -20,6 +20,7 @@ var copernicusBldgsNov8Layer = L.mapbox.tileLayer('americanredcross.COPERNIUCS_C
 
 var impassableRoadsLayer = L.mapbox.tileLayer('americanredcross.g6869a4i');
 //  ! has a legend, not a teaser
+<<<<<<< HEAD
 
 var atriskUrl ='http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}';
 var atriskLayer = L.tileLayer(atriskUrl, {attribution: '(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg'});
@@ -61,6 +62,7 @@ map.on('zoomend', function(){
 })
 
 var baseMaps = {
+<<<<<<< HEAD
         "OSM standard": osm,
         "HOT OSM": hotosm        
 };
@@ -74,8 +76,6 @@ var overlayLayers = {
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
-
-
 
 //time code
 function getTime() {
@@ -107,11 +107,5 @@ $('#map').css("height", ($(window).height()));
 $(window).on("resize", resize);
 resize();
 function resize(){
-
-    if($(window).width()>=980){
-        $('#map').css("height", ($(window).height()));    
-    }else{
-        $('#map').css("height", ($(window).height()));    
-    }
-
+	$('#map').css("height", ($(window).height()));    
 }
