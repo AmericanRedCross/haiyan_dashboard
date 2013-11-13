@@ -42,3 +42,8 @@ html, body {
 	padding: 6px 8px;	
 	border: 1px solid #ccc;
 }
+
+/*bootstrap has white text for this and the text in the legend pulled from mapbox doesnt show*/
+.label {
+	color: black;
+}
