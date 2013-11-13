@@ -7,6 +7,10 @@ var hotosmURL = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
 hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarina OpenStreetMap Team</a>, <a href="redcross.org">Red Cross</a>',
 hotosm = new L.TileLayer(hotosmURL, {maxZoom: 18, attribution: hotAttribution});
 
+var taclobanSatURL = 'http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png',
+taclobanSatAtt = '&copy; US Government (USG) under the NextView (NV) License',
+taclobanSat = new L.TileLayer(taclobanSatURL, {maxZoom: 20, attribution: taclobanSatAtt});
+
 var surgeMapLayer = L.mapbox.tileLayer('americanredcross.StormSurgeMaxHeight');
 var surgeGridLayer = L.mapbox.gridLayer('americanredcross.StormSurgeMaxHeight');
 var surgeGridControl = L.mapbox.gridControl(surgeGridLayer);
@@ -24,6 +28,10 @@ var impassableRoadsLayer = L.mapbox.tileLayer('americanredcross.g6869a4i');
 var atriskUrl ='http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}';
 var atriskLayer = L.tileLayer(atriskUrl, {attribution: '(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg'});
 
+var prepostRoads = L.mapbox.tileLayer('americanredcross.w7xbhuxr');
+var prepostRoadsGridLayer = L.mapbox.tileLayer('americanredcross.w7xbhuxr');
+var prepostRoadsGridControl = L.mapbox.gridControl(prepostRoadsGridLayer);
+
 var map = L.map('map', {
         zoom: 6,
         center: [11.2500, 125.0000],
@@ -38,7 +46,12 @@ map.on('overlayadd', function(eventLayer){
         if (eventLayer.name == "DamageAssessment_Nov11<br>(zoom levels 10-16)"){
                 map.addLayer(ngaGridLayer);
                 map.addControl(ngaGridControl);
-        }        
+        }
+
+        if (eventLayer.name == "Pre/Post Roads <br>(zoom levels 11-17)"){
+                map.addLayer(prepostRoadsGridLayer);
+                map.addControl(prepostRoadsGridControl);
+        }      
 });
 
 map.on('overlayremove', function(eventLayer){
@@ -49,6 +62,10 @@ map.on('overlayremove', function(eventLayer){
         if (eventLayer.name == "DamageAssessment_Nov11<br>(zoom levels 10-16)"){
                 map.removeLayer(ngaGridLayer);
                 map.removeControl(ngaGridControl);
+        }
+        if (eventLayer.name == "Pre/Post Roads <br>(zoom levels 11-17)"){
+                map.addLayer(prepostRoadsGridLayer);
+                map.addControl(prepostRoadsGridControl);
         }
 });
 
@@ -62,7 +79,8 @@ map.on('zoomend', function(){
 
 var baseMaps = {
         "OSM standard": osm,
-        "HOT OSM": hotosm        
+        "HOT OSM": hotosm,
+        "Post Imagery - Tacloban": taclobanSat        
 };
 
 var overlayLayers = {
@@ -70,7 +88,8 @@ var overlayLayers = {
         "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)": copernicusBldgsNov8Layer,
         "DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer,
         "Impassable Roads<br>(zoom levels 9-16)": impassableRoadsLayer,
-        "Elements At Risk": atriskLayer
+        "Elements At Risk": atriskLayer,
+        "Pre/Post Roads <br>(zoom levels 11-17)": prepostRoads
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);

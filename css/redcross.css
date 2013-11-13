@@ -32,6 +32,11 @@ html, body {
 	height:100%;
 }
 
+.mapTitle {
+	margin: auto;
+	padding: auto;
+}
+
 #zoomLevelBox {
 	position: absolute;
 	z-index: 9999;
