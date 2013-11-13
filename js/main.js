@@ -30,6 +30,8 @@ var map = L.map('map', {
         layers: [hotosm]
 });
 
+var legendControl = L.mapbox.legendControl().addTo(map);
+
 map.on('overlayadd', function(eventLayer){
         if (eventLayer.name == "Storm Surge Max Height<br>(zoom layers 6-10)"){
                 map.addLayer(surgeGridLayer);
@@ -38,7 +40,13 @@ map.on('overlayadd', function(eventLayer){
         if (eventLayer.name == "DamageAssessment_Nov11<br>(zoom levels 10-16)"){
                 map.addLayer(ngaGridLayer);
                 map.addControl(ngaGridControl);
-        }        
+        }
+        if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }     
+        if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }            
 });
 
 map.on('overlayremove', function(eventLayer){
@@ -50,6 +58,12 @@ map.on('overlayremove', function(eventLayer){
                 map.removeLayer(ngaGridLayer);
                 map.removeControl(ngaGridControl);
         }
+        if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
+        }
+        if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
+        }    
 });
 
 var zoomLevel = map.getZoom().toString();
