@@ -32,6 +32,10 @@ var prepostRoads = L.mapbox.tileLayer('americanredcross.w7xbhuxr');
 var prepostRoadsGridLayer = L.mapbox.tileLayer('americanredcross.w7xbhuxr');
 var prepostRoadsGridControl = L.mapbox.gridControl(prepostRoadsGridLayer);
 
+var evacPersonsByProvince = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince');
+var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince');
+var evacPersonsByProvinceGridControl = L.mapbox.gridControl(evacPersonsByProvinceGridLayer);
+
 var map = L.map('map', {
         zoom: 6,
         center: [11.2500, 125.0000],
@@ -49,7 +53,6 @@ map.on('overlayadd', function(eventLayer){
                 map.addLayer(ngaGridLayer);
                 map.addControl(ngaGridControl);
         }
-
         if (eventLayer.name == "Pre/Post Roads <br>(zoom levels 11-17)"){
                 map.addLayer(prepostRoadsGridLayer);
                 map.addControl(prepostRoadsGridControl);
@@ -59,7 +62,12 @@ map.on('overlayadd', function(eventLayer){
         }     
         if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
-        }            
+        }
+        if (eventLayer.name == "Evacuated Persons by Province Nov-11 <br>(zoom levels 6-10)"){
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+                map.addLayer(evacPersonsByProvinceGridLayer);
+                map.addControl(evacPersonsByProvinceGridControl);
+        }              
 });
 
 map.on('overlayremove', function(eventLayer){
@@ -75,13 +83,17 @@ map.on('overlayremove', function(eventLayer){
                 map.addLayer(prepostRoadsGridLayer);
                 map.addControl(prepostRoadsGridControl);
         }
-
         if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
         }
         if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
-        }    
+        }
+        if (eventLayer.name == "Evacuated Persons by Province Nov-11 <br>(zoom levels 6-10)"){
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
+                map.removeLayer(evacPersonsByProvinceGridLayer);
+                map.removeControl(evacPersonsByProvinceGridControl);
+        }     
 });
 
 var zoomLevel = map.getZoom().toString();
@@ -104,7 +116,8 @@ var overlayLayers = {
         "DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer,
         "Impassable Roads<br>(zoom levels 9-16)": impassableRoadsLayer,
         "Elements At Risk": atriskLayer,
-        "Pre/Post Roads <br>(zoom levels 11-17)": prepostRoads
+        "Pre/Post Roads <br>(zoom levels 11-17)": prepostRoads,
+        "Evacuated Persons by Province Nov-11 <br>(zoom levels 6-10)": evacPersonsByProvince
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
