@@ -1,34 +1,50 @@
 //map code
-var map = L.mapbox.map('map', 'americanredcross.StormSurge')
-	.setView([11.2500, 125.0000], 6);
-
 var osmURL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 osmAttribution = '&copy; OpenStreetMap contributors, <a href="redcross.org">Red Cross</a>',
 osm = new L.TileLayer(osmURL, {maxZoom: 18, attribution: osmAttribution});
 
-var hotosmURL = 'http://c.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+var hotosmURL = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
 hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarina OpenStreetMap Team</a>, <a href="redcross.org">Red Cross</a>',
 hotosm = new L.TileLayer(hotosmURL, {maxZoom: 18, attribution: hotAttribution});
 
-//add the map layer controls
+var ngaLayer = L.mapbox.tileLayer('americanredcross.NGA_DamageAssessment_Nov11');
+var copernicusBldgsNov8Layer = L.mapbox.tileLayer('americanredcross.COPERNIUCS_Complete_Bldgs_Damages_Nov8');
+var stormSurgeHeightLayer = L.mapbox.tileLayer('americanredcross.StormSurgeMaxHeight');
+
+var map = L.map('map', {
+	zoom: 6,
+	center: [11.2500, 125.0000],
+	// layers: [osm, hotosm, ngaLayer, copernicusBldgsNov8Layer, stormSurgeHeightLayer]
+});
+
+var zoomLevel = map.getZoom().toString();
+$("#zoomLevel").html(zoomLevel);
+
+map.on('zoomend', function(){
+	zoomLevel = map.getZoom().toString();
+	$("#zoomLevel").html(zoomLevel);
+})
+
 var baseMaps = {
-	'OSM Default': osm,
-	'HOT OSM': hotosm
-}
-
-// add NGA layers
-
-var ngaDamage = L.geoJson(NGA_10NOV13_Damage); 
-var ngaImpassRoads = L.geoJson(NGA_10NOV13_ImpassableRoads_e1900); 
-var ngaBridgeOut = L.geoJson(NGA_10NOV13_BridgeOut_e1900); 
+	"OSM standard": osm,
+	"HOT OSM": hotosm	
+};
 
 var overlayLayers = {
+<<<<<<< HEAD
  	'Damage Assesment': ngaDamage,
  	'Impassable Roads': ngaImpassRoads,
     'Bridge Out': ngaBridgeOut
+=======
+	"Storm Surge Max Height<br>(zoom layers 6-10)": stormSurgeHeightLayer,
+	"COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)": copernicusBldgsNov8Layer,
+	"NGA_DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer	
+>>>>>>> 383166016d398cfea5271b90a5e60f609bd14c87
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
+
+
 
 //time code
 function getTime() {
