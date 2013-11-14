@@ -50,8 +50,12 @@ var populationGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_OCHA_Popul
 var populationGridControl = L.mapbox.gridControl(populationGridLayer);
 
 var icrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
-var ifrcGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
-var ifrcGridControl = L.mapbox.gridControl(ifrcGridLayer);
+var icrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
+var icrcAreaGridControl = L.mapbox.gridControl(icrcAreaGridLayer);
+
+var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_IFRC_ActiveAreas_Nov13');
+var ifrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_IFRC_ActiveAreas_Nov13');
+var ifrcAreaGridControl = L.mapbox.gridControl(ifrcAreaGridLayer);
 
 var map = L.map('map', {
         zoom: 6,
@@ -96,10 +100,13 @@ map.on('overlayadd', function(eventLayer){
         }
 
         if (eventLayer.name == "ICRC Area of Opps"){
-                map.addLayer(ifrcGridLayer);
-                map.addControl(ifrcGridControl);
+                map.addLayer(icrcAreaGridLayer);
+                map.addControl(icrcAreaGridControl);
         }
-
+        if (eventLayer.name == "IFRC Area of Opps"){
+                map.addLayer(icrcAreaGridLayer);
+                map.addControl(icrcAreaGridControl);
+        }
         //legend controls
         if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
@@ -146,8 +153,12 @@ map.on('overlayremove', function(eventLayer){
         }
 
         if (eventLayer.name == "ICRC Area of Opps"){
-                map.removeLayer(ifrcGridLayer);
-                map.removeControl(ifrcGridControl);
+                map.removeLayer(icrcAreaGridLayer);
+                map.removeControl(icrcAreaGridControl);
+        }
+        if (eventLayer.name == "IFRC Area of Opps"){
+                map.removeLayer(ifrcAreaGridLayer);
+                map.removeControl(ifrcAreaGridControl);
         }
 
         //legends controls
@@ -186,6 +197,7 @@ var overlayLayers = {
         "Schools DFED 2009": schools,
         "Population by Baranguy": populationByArea,
         "ICRC Area of Opps": icrcAreaOpps
+        "IFRC Area of Opps": ifrcAreaOpps
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
