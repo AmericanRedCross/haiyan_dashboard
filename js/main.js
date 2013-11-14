@@ -49,7 +49,7 @@ var populationByArea = L.mapbox.tileLayer('americanredcross.HAIYAN_OCHA_Populati
 var populationGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010');
 var populationGridControl = L.mapbox.gridControl(populationGridLayer);
 
-var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
+var icrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
 var ifrcGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
 var ifrcGridControl = L.mapbox.gridControl(ifrcGridLayer);
 
@@ -95,7 +95,7 @@ map.on('overlayadd', function(eventLayer){
                 map.addControl(populationGridControl);
         }
 
-        if (eventLayer.name == "IFRC Area of Opps"){
+        if (eventLayer.name == "ICRC Area of Opps"){
                 map.addLayer(ifrcGridLayer);
                 map.addControl(ifrcGridControl);
         }
@@ -145,7 +145,7 @@ map.on('overlayremove', function(eventLayer){
                 map.removeControl(populationGridControl);
         }
 
-        if (eventLayer.name == "IFRC Area of Opps"){
+        if (eventLayer.name == "ICRC Area of Opps"){
                 map.removeLayer(ifrcGridLayer);
                 map.removeControl(ifrcGridControl);
         }
@@ -185,7 +185,7 @@ var overlayLayers = {
         "Cash Transfer": cashTransfer,
         "Schools DFED 2009": schools,
         "Population by Baranguy": populationByArea,
-        "IFRC Area of Opps": ifrcAreaOpps
+        "ICRC Area of Opps": icrcAreaOpps
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
