@@ -38,7 +38,7 @@ var evacuatedGridLayer = L.mapbox.gridLayer('americanredcross.Haiyan_2013-11-11_
 var evacuatedGridControl = L.mapbox.gridControl(evacuatedGridLayer);
 
 var cashTransfer = L.mapbox.tileLayer('americanredcross.HAIYAN_CashTransfer_Nov13');
-var cashTransferGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_CashTransfer_Nov13e');
+var cashTransferGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_CashTransfer_Nov13');
 var cashTransferGridControl = L.mapbox.gridControl(cashTransferGridLayer);
 
 var schools = L.mapbox.tileLayer('americanredcross.HAIYAN_Schools');
@@ -52,6 +52,10 @@ var populationGridControl = L.mapbox.gridControl(populationGridLayer);
 var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
 var ifrcGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
 var ifrcGridControl = L.mapbox.gridControl(ifrcGridLayer);
+
+var airports = L.mapbox.tileLayer('americanredcross.HAIYAN_airstrips');
+var airportsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_airstrips');
+var airportsGridControl = L.mapbox.gridControl(airportsGridLayer);
 
 var map = L.map('map', {
         zoom: 6,
@@ -98,6 +102,11 @@ map.on('overlayadd', function(eventLayer){
         if (eventLayer.name == "IFRC Area of Opps"){
                 map.addLayer(ifrcGridLayer);
                 map.addControl(ifrcGridControl);
+        }
+
+        if (eventLayer.name == "Airports"){
+                map.addLayer(airportsGridLayer);
+                map.addControl(airportsGridControl);
         }
 
         //legend controls
@@ -150,6 +159,11 @@ map.on('overlayremove', function(eventLayer){
                 map.removeControl(ifrcGridControl);
         }
 
+        if (eventLayer.name == "Airports"){
+                map.removeLayer(airportsGridLayer);
+                map.removeControl(airportsGridControl);
+        }
+
         //legends controls
         if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
@@ -185,7 +199,8 @@ var overlayLayers = {
         "Cash Transfer": cashTransfer,
         "Schools DFED 2009": schools,
         "Population by Baranguy": populationByArea,
-        "IFRC Area of Opps": ifrcAreaOpps
+        "IFRC Area of Opps": ifrcAreaOpps,
+        "Airports": aiports
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);

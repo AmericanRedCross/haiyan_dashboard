@@ -42,6 +42,11 @@ ul {
 	margin-left:-40px;
 }
 
+#title {
+	margin: 20px;
+	padding: auto;
+}
+
 #zoomLevelBox {
 	position: absolute;
 	z-index: 9999;
