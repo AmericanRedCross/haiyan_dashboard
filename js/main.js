@@ -49,9 +49,9 @@ var populationByArea = L.mapbox.tileLayer('americanredcross.HAIYAN_OCHA_Populati
 var populationGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010');
 var populationGridControl = L.mapbox.gridControl(populationGridLayer);
 
-var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
-var ifrcGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
-var ifrcGridControl = L.mapbox.gridControl(ifrcGridLayer);
+var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_IFRC_ActiveAreas_Nov13');
+var ifrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_IFRC_ActiveAreas_Nov13');
+var ifrcAreaGridControl = L.mapbox.gridControl(ifrcAreaGridLayer);
 
 var airports = L.mapbox.tileLayer('americanredcross.HAIYAN_airstrips');
 var airportsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_airstrips');
@@ -99,16 +99,15 @@ map.on('overlayadd', function(eventLayer){
                 map.addControl(populationGridControl);
         }
 
-        if (eventLayer.name == "IFRC Area of Opps"){
-                map.addLayer(ifrcGridLayer);
-                map.addControl(ifrcGridControl);
+        if (eventLayer.name == "ICRC Area of Opps"){
+                map.addLayer(icrcAreaGridLayer);
+                map.addControl(icrcAreaGridControl);
         }
 
         if (eventLayer.name == "Airports"){
                 map.addLayer(airportsGridLayer);
                 map.addControl(airportsGridControl);
         }
-
         //legend controls
         if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
@@ -154,9 +153,9 @@ map.on('overlayremove', function(eventLayer){
                 map.removeControl(populationGridControl);
         }
 
-        if (eventLayer.name == "IFRC Area of Opps"){
-                map.removeLayer(ifrcGridLayer);
-                map.removeControl(ifrcGridControl);
+        if (eventLayer.name == "ICRC Area of Opps"){
+                map.removeLayer(icrcAreaGridLayer);
+                map.removeControl(icrcAreaGridControl);
         }
 
         if (eventLayer.name == "Airports"){
