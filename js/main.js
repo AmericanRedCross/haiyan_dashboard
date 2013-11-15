@@ -106,7 +106,7 @@ map.on('overlayadd', function(eventLayer){
                 map.addControl(schoolsGridControl);
         }
 
-        if (eventLayer.name == "Population"){
+        if (eventLayer.name == "Population by Baranguy"){
                 map.addLayer(populationGridLayer);
                 map.addControl(populationGridControl);
         }
@@ -141,7 +141,10 @@ map.on('overlayadd', function(eventLayer){
         if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         } 
-        if (eventLayer.name == "Population"){
+        if (eventLayer.name == "Population by Baranguy"){
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }
+        if (eventLayer.name == "Cash Transfer"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
                   
@@ -177,7 +180,7 @@ map.on('overlayremove', function(eventLayer){
                 map.removeControl(schoolsGridControl);
         }
 
-        if (eventLayer.name == "Population"){
+        if (eventLayer.name == "Population by Baranguy"){
                 map.removeLayer(populationGridLayer);
                 map.removeControl(populationGridControl);
         }
@@ -214,7 +217,10 @@ map.on('overlayremove', function(eventLayer){
         if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
         }
-        if (eventLayer.name == "Population"){
+        if (eventLayer.name == "Population by Baranguy"){
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
+        }
+        if (eventLayer.name == "Cash Transfer"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
