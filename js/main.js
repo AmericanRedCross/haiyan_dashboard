@@ -49,16 +49,28 @@ var populationByArea = L.mapbox.tileLayer('americanredcross.HAIYAN_OCHA_Populati
 var populationGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010');
 var populationGridControl = L.mapbox.gridControl(populationGridLayer);
 
-var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_IFRC_ActiveAreas_Nov13');
-var ifrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_IFRC_ActiveAreas_Nov13');
-var ifrcAreaGridControl = L.mapbox.gridControl(ifrcAreaGridLayer);
-
 var airports = L.mapbox.tileLayer('americanredcross.HAIYAN_airstrips');
 var airportsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_airstrips');
 var airportsGridControl = L.mapbox.gridControl(airportsGridLayer);
 
+var townhalls = L.mapbox.tileLayer('americanredcross.HAIYAN_Townhalls');
+var townHallsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Townhalls');
+var townhallsGridControl = L.mapbox.gridControl(townHallsGridLayer);
+
+var erus = L.mapbox.tileLayer('americanredcross.HAIYAN_IFRC_Staff_Deployments');
+var erusGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_IFRC_Staff_Deployments');
+var erusGridControl = L.mapbox.gridControl(erusGridLayer);
+
+var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_Evacuation_Centers');
+var ifrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Evacuation_Centers');
+var ifrcAreaGridControl = L.mapbox.gridControl(ifrcAreaGridLayer);
+
+var icrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
+var icrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
+var icrcAreaGridControl = L.mapbox.gridControl(icrcAreaGridLayer);
+
 var map = L.map('map', {
-        zoom: 6,
+        zoom: 8,
         center: [11.2500, 125.0000],
         layers: [hotosm]
 });
@@ -103,10 +115,24 @@ map.on('overlayadd', function(eventLayer){
                 map.addLayer(icrcAreaGridLayer);
                 map.addControl(icrcAreaGridControl);
         }
+        if (eventLayer.name == "IFRC Area of Opps"){
+                map.addLayer(ifrcAreaGridLayer);
+                map.addControl(ifrcAreaGridControl);
+        }
 
         if (eventLayer.name == "Airports"){
                 map.addLayer(airportsGridLayer);
                 map.addControl(airportsGridControl);
+        }
+
+        if (eventLayer.name == "TownHalls"){
+                map.addLayer(townHallsGridLayer);
+                map.addControl(townHallsGridControl);
+        }
+
+        if (eventLayer.name == "IFRC ERUs"){
+                map.addLayer(erusGridLayer);
+                map.addControl(erusGridControl);
         }
         //legend controls
         if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
@@ -115,6 +141,9 @@ map.on('overlayadd', function(eventLayer){
         if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         } 
+        if (eventLayer.name == "Population"){
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }
                   
 });
 
@@ -158,9 +187,24 @@ map.on('overlayremove', function(eventLayer){
                 map.removeControl(icrcAreaGridControl);
         }
 
+        if (eventLayer.name == "IFRC Area of Opps"){
+                map.removeLayer(ifrcAreaGridLayer);
+                map.removeControl(ifrcAreaGridControl);
+        }
+
         if (eventLayer.name == "Airports"){
                 map.removeLayer(airportsGridLayer);
                 map.removeControl(airportsGridControl);
+        }
+
+        if (eventLayer.name == "TownHalls"){
+                map.removeLayer(townHallsGridLayer);
+                map.removeControl(townHallsGridControl);
+        }
+
+        if (eventLayer.name == "IFRC ERUs"){
+                map.removeLayer(erusGridLayer);
+                map.removeControl(erusGridControl);
         }
 
         //legends controls
@@ -169,6 +213,9 @@ map.on('overlayremove', function(eventLayer){
         }
         if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
+        }
+        if (eventLayer.name == "Population"){
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
 });
@@ -188,18 +235,21 @@ var baseMaps = {
 };
 
 var overlayLayers = {
+        "Population by Baranguy": populationByArea,
+        "Elements At Risk": atriskLayer,
+        "Schools DFED 2009": schools,
+        "Airports": airports,
+        "TownHalls": townhalls,
+        "Cash Transfer": cashTransfer,
         "Storm Surge Max Height<br>(zoom layers 6-10)": surgeMapLayer,
         "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)": copernicusBldgsNov8Layer,
         "DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer,
         "Impassable Roads<br>(zoom levels 9-16)": impassableRoadsLayer,
-        "Elements At Risk": atriskLayer,
         "Pre/Post Roads <br>(zoom levels 11-17)": prepostRoads,
         "Evacuated By Area": evacuatedByArea,
-        "Cash Transfer": cashTransfer,
-        "Schools DFED 2009": schools,
-        "Population by Baranguy": populationByArea,
+        "IFRC ERUs": erus,
         "IFRC Area of Opps": ifrcAreaOpps,
-        "Airports": aiports
+        "ICRC Area of Opps": icrcAreaOpps
 }
 
 L.control.layers(baseMaps, overlayLayers).addTo(map);
