@@ -6,141 +6,119 @@
 // they should be listed
 
 var maplayers = {
-    "baselayers": [
-        {
+    "baselayers": {
+        "OpenStreetMap": {
             "id": "osm",
-            "name": "OpenStreetMap",
             "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
             "attribution": "&copy; OpenStreetMap contributors, <a href='redcross.org'>Red Cross</a>"
         },
-        {
+        "HOT OSM": {
             "id": "hotosm",
-            "name": "HOT OSM",
             "url": "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
             "attribution": "&copy; OpenStreetMap contributors, <a href='http://hot.openstreetmap.org/'>Humanitarina OpenStreetMap Team</a>, <a href='redcross.org'>Red Cross</a>"
         },
-        {
+        "Toner": {
             "id": "stamen",
-            "name": "Toner",
             "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
             "attribution": "Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>. Data by <a href='http://openstreetmap.org'>OpenStreetMap</a>, under <a href='http://creativecommons.org/licenses/by-sa/3.0'>CC BY SA</a>."
         },
-        {
+        "Post Imagery - Tacloban": {
             "id": "taclobanSat",
-            "name": "Post Imagery - Tacloban",
             "url": "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
             "attribution": "&copy; US Government (USG) under the NextView (NV) License"
         },
-        {
+        "Pre Imagery - Medellin": {
             "id": "medellin",
-            "name": "Pre Imagery - Medellin",
             "url": "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
             "attribution": "&copy; US Government (USG) under the NextView (NV) License"
         }
-    ],
-    "overlays": [
-        {
+    },
+    "overlays": {
+        "Elements at Risk": {
             "id": "astrisk",
-            "name": "Elements at Risk",
             "url": "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
             "attribution": "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg",
             "group": "base"
         },
-        {
+        "Storm Surge Max Height": {
             "id": "surge",
-            "name": "Storm Surge Max Height",
             "url": "americanredcross.StormSurgeMaxHeight",
             "group": "damage"
         },
-        {
+        "USG Damange Assessment": {
             "id": "nga",
-            "name": "USG Damange Assessment",
             "url": "americanredcross.NGA_DamageAssessment_Nov11",
             "group": "damage"
         },
-        {
+        "Tacloban Building Damage Nov8": {
             "id": "copernicus",
-            "name": "Tacloban Building Damage Nov8",
             "url": "americanredcross.Building_Damages_Tacloban",
             "group": "damage"
         },
-        {
+        "Pre/Post Disaster Roads": {
             "id": "prepostroads",
-            "name": "Pre/Post Disaster Roads",
             "url": "americanredcross.Building_Damages_Tacloban",
             "group": "damage"
         },
-        {
+        "Impassable Roads": {
             "id": "impassableRoads",
-            "name": "Impassable Roads",
             "url": "americanredcross.HAIYAN_Bridges",
             "group": "damage"
         },
-        {
+        "cashtransfer": {
             "id": "cashtransfer",
-            "name": "cashtransfer",
             "url": "americanredcross.HAIYAN_CashTransfer_Nov13",
             "group": "base"
         },
-        {
+        "evacuatedbyarea": {
             "id": "evacuatedbyarea",
-            "name": "evacuatedbyarea",
             "url": "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
         },
-        {
+        "schools": {
             "id": "schools",
-            "name": "schools",
             "url": "americanredcross.HAIYAN_Schools",
             "group": "base"
         },
-        {
+        "population": {
             "id": "population",
-            "name": "population",
             "url": "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010",
             "group": "base"
         },
-        {
+        "airports": {
             "id": "airports",
-            "name": "airports",
             "url": "americanredcross.Philippines_airstrips",
             "group": "base"
         },
-        {
+        "townhalls": {
             "id": "townhalls",
-            "name": "townhalls",
             "url": "americanredcross.HAIYAN_Townhalls",
             "group": "base"
         },
-        {
+        "erus": {
             "id": "erus",
-            "name": "erus",
             "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments",
             "group": "redcross"
         },
-        {
+        "ifrcAreaOpps": {
             "id": "ifrcAreaOpps",
-            "name": "ifrcAreaOpps",
             "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments",
             "group": "redcross"
         },
-        {
+        "icrcAreaOpps": {
             "id": "icrcAreaOpps",
-            "name": "icrcAreaOpps",
             "url": "americanredcross.HAIYAN_ICRC_ActiveAreas",
             "group": "redcross"
         },
-        {
+        "atlas": {
             "id": "atlas",
-            "name": "atlas",
             "url": "americanredcross.HAIYAN_Atlas_Bounds",
             "group": "base"
         },
-        {
+        "bantayanBLDs": {
             "id": "bantayanBLDs",
-            "name": "bantayanBLDs",
             "url": "americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013"
         }
-    ]
+    }
 };
 
 
