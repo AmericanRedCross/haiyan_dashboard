@@ -45,89 +45,89 @@ var maplayers = {
         },
         "Storm Surge Max Height": {
             "id": "surge",
-            "url": "americanredcross.StormSurgeMaxHeight",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.StormSurgeMaxHeight/{z}/{y}/{x}.png",
             "group": "damage"
         },
         "USG Damange Assessment": {
             "id": "nga",
-            "url": "americanredcross.NGA_DamageAssessment_Nov11",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.NGA_DamageAssessment_Nov11/{z}/{y}/{x}.png",
             "group": "damage"
         },
         "Tacloban Building Damage Nov8": {
             "id": "copernicus",
-            "url": "americanredcross.Building_Damages_Tacloban",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.Building_Damages_Tacloban/{z}/{y}/{x}.png",
             "group": "damage"
         },
         "Pre/Post Disaster Roads": {
             "id": "prepostroads",
-            "url": "americanredcross.Building_Damages_Tacloban",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.Building_Damages_Tacloban/{z}/{y}/{x}.png",
             "group": "damage"
         },
         "Impassable Roads": {
             "id": "impassableRoads",
-            "url": "americanredcross.HAIYAN_Bridges",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Bridges/{z}/{y}/{x}.png",
             "group": "damage"
         },
         "cashtransfer": {
             "id": "cashtransfer",
-            "url": "americanredcross.HAIYAN_CashTransfer_Nov13",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_CashTransfer_Nov13/{z}/{y}/{x}.png",
             "group": "base"
         },
         "evacuatedbyarea": {
             "id": "evacuatedbyarea",
-            "url": "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince/{z}/{y}/{x}.png"
         },
         "schools": {
             "id": "schools",
-            "url": "americanredcross.HAIYAN_Schools",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Schools/{z}/{y}/{x}.png",
             "group": "base"
         },
         "population": {
             "id": "population",
-            "url": "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010/{z}/{y}/{x}.png",
             "group": "base"
         },
         "airports": {
             "id": "airports",
-            "url": "americanredcross.Philippines_airstrips",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.Philippines_airstrips/{z}/{y}/{x}.png",
             "group": "base"
         },
         "townhalls": {
             "id": "townhalls",
-            "url": "americanredcross.HAIYAN_Townhalls",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Townhalls/{z}/{y}/{x}.png",
             "group": "base"
         },
         "erus": {
             "id": "erus",
-            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_IFRC_Staff_Deployments/{z}/{y}/{x}.png",
             "group": "redcross"
         },
         "ifrcAreaOpps": {
             "id": "ifrcAreaOpps",
-            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_IFRC_Staff_Deployments/{z}/{y}/{x}.png",
             "group": "redcross"
         },
         "icrcAreaOpps": {
             "id": "icrcAreaOpps",
-            "url": "americanredcross.HAIYAN_ICRC_ActiveAreas",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_ICRC_ActiveAreas/{z}/{y}/{x}.png",
             "group": "redcross"
         },
         "atlas": {
             "id": "atlas",
-            "url": "americanredcross.HAIYAN_Atlas_Bounds",
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Atlas_Bounds/{z}/{y}/{x}.png",
             "group": "base"
         },
         "bantayanBLDs": {
             "id": "bantayanBLDs",
-            "url": "americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013"
+            "url": "http://{switch}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013/{z}/{y}/{x}.png"
         }
     }
 };
 
 
 
-// var evacPersonsByProvince = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince');
-// var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince');
+// var evacPersonsByProvince = L.mapbox.tileLayer('http://{switch}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{y}/{x}.png);
+// var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('http://{switch}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{y}/{x}.png);
 // var evacPersonsByProvinceGridControl = L.mapbox.gridControl(evacPersonsByProvinceGridLayer);
 
 var map = L.map('map', {
