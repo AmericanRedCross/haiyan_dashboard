@@ -5,8 +5,11 @@
 // map layers in the overlay object have a group property indicating in which group
 // they should be listed
 
+var baseLayers,
+    groupedOverlays;
+
 var maplayers = {
-    "baselayers": {
+    baseLayers: {
         "OpenStreetMap": {
             "id": "osm",
             "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -33,7 +36,7 @@ var maplayers = {
             "attribution": "&copy; US Government (USG) under the NextView (NV) License"
         }
     },
-    "overlays": {
+    groupedOverlays: {
         "Elements at Risk": {
             "id": "astrisk",
             "url": "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
@@ -129,9 +132,10 @@ var maplayers = {
 
 var map = L.map('map', {
         zoom: 8,
-        center: [11.2500, 125.0000],
-        layers: maplayers.baselayers.url
+        center: [11.2500, 125.0000]
 });
+
+L.tileLayer(maplayers.baseLayers["HOT OSM"].url).addTo(map);
 
 var legendControl = L.mapbox.legendControl().addTo(map);
 
@@ -141,16 +145,16 @@ $('#zoomLevel').html(zoomLevel);
 map.on('zoomend', function(){
         zoomLevel = map.getZoom().toString();
         $('#zoomLevel').html(zoomLevel);
-})
+});
 
-L.control.groupedLayers(maplayers.baselayers.url, maplayers.overlays.url).addTo(map);
+L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 
 // time code
 function getTime() {
         var philTimeURL = 'http://api.geonames.org/timezoneJSON?lat=14.5833&lng=120.9667&username=amcross';
         var dcTimeURL = 'http://api.geonames.org/timezoneJSON?lat=38.8951&lng=-77.0367&username=amcross';
         var genevaTimeURL = 'http://api.geonames.org/timezoneJSON?lat=46.2000&lng=6.1500&username=amcross';
-        var klTimeURL = 'http://api.geonames.org/timezoneJSON?lat=3.1357&lng=101.6880&username=amcross'; 
+        var klTimeURL = 'http://api.geonames.org/timezoneJSON?lat=3.1357&lng=101.6880&username=amcross';
 
         $.getJSON(philTimeURL, function(json, textStatus) {
                 // var philTime = json.time.substring((json.time.length-5),json.time.length);
