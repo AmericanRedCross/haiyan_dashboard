@@ -8,9 +8,20 @@ var hotosmURL = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
 hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarina OpenStreetMap Team</a>, <a href="redcross.org">Red Cross</a>',
 hotosm = new L.TileLayer(hotosmURL, {maxZoom: 18, attribution: hotAttribution});
 
+var stamenLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+});
+
 var taclobanSatURL = 'http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png',
 taclobanSatAtt = '&copy; US Government (USG) under the NextView (NV) License',
 taclobanSat = new L.TileLayer(taclobanSatURL, {maxZoom: 20, attribution: taclobanSatAtt});
+
+var medellinURL = 'http://hiu-maps.net/hot/1.0.0/cebu-post-flipped/{z}/{x}/{y}.png',
+medellinAtt = '&copy; US Government (USG) under the NextView (NV) License',
+medellinSat = new L.TileLayer(medellinURL, {maxZoom: 20, attribution: medellinAtt});
+
+var atriskUrl ='http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}';
+var atriskLayer = L.tileLayer(atriskUrl, {attribution: '(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg'});
 
 var surgeMapLayer = L.mapbox.tileLayer('americanredcross.StormSurgeMaxHeight');
 var surgeGridLayer = L.mapbox.gridLayer('americanredcross.StormSurgeMaxHeight');
@@ -20,14 +31,13 @@ var ngaLayer = L.mapbox.tileLayer('americanredcross.NGA_DamageAssessment_Nov11')
 var ngaGridLayer = L.mapbox.gridLayer('americanredcross.NGA_DamageAssessment_Nov11');
 var ngaGridControl = L.mapbox.gridControl(ngaGridLayer);
 
-var copernicusBldgsNov8Layer = L.mapbox.tileLayer('americanredcross.COPERNIUCS_Complete_Bldgs_Damages_Nov8');
-//  ! has a legend, not a teaser
+var copernicusBldgsNov8Layer = L.mapbox.tileLayer('americanredcross.Building_Damages_Tacloban');
+var copernicusGridLayer = L.mapbox.gridLayer('americanredcross.Building_Damages_Tacloban');
+var copernicusGridControl = L.mapbox.gridControl(copernicusGridLayer);
 
 var impassableRoadsLayer = L.mapbox.tileLayer('americanredcross.HAIYAN_Bridges');
-//  ! has a legend, not a teaser
-
-var atriskUrl ='http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}';
-var atriskLayer = L.tileLayer(atriskUrl, {attribution: '(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg'});
+var impassableGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Bridges');
+var impassableGridControl = L.mapbox.gridControl(impassableGridLayer);
 
 var prepostRoads = L.mapbox.tileLayer('americanredcross.w7xbhuxr');
 var prepostRoadsGridLayer = L.mapbox.gridLayer('americanredcross.w7xbhuxr');
@@ -49,13 +59,13 @@ var populationByArea = L.mapbox.tileLayer('americanredcross.HAIYAN_OCHA_Populati
 var populationGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010');
 var populationGridControl = L.mapbox.gridControl(populationGridLayer);
 
-var airports = L.mapbox.tileLayer('americanredcross.HAIYAN_airstrips');
-var airportsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_airstrips');
+var airports = L.mapbox.tileLayer('americanredcross.Philippines_airstrips');
+var airportsGridLayer = L.mapbox.gridLayer('americanredcross.Philippines_airstrips');
 var airportsGridControl = L.mapbox.gridControl(airportsGridLayer);
 
-var townhalls = L.mapbox.tileLayer('americanredcross.HAIYAN_Townhalls');
+var townHalls = L.mapbox.tileLayer('americanredcross.HAIYAN_Townhalls');
 var townHallsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Townhalls');
-var townhallsGridControl = L.mapbox.gridControl(townHallsGridLayer);
+var townHallsGridControl = L.mapbox.gridControl(townHallsGridLayer);
 
 var erus = L.mapbox.tileLayer('americanredcross.HAIYAN_IFRC_Staff_Deployments');
 var erusGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_IFRC_Staff_Deployments');
@@ -65,9 +75,18 @@ var ifrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_Evacuation_Center
 var ifrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Evacuation_Centers');
 var ifrcAreaGridControl = L.mapbox.gridControl(ifrcAreaGridLayer);
 
-var icrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
-var icrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas_Nov13');
+var icrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas');
+var icrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas');
 var icrcAreaGridControl = L.mapbox.gridControl(icrcAreaGridLayer);
+
+var atlas = L.mapbox.tileLayer('americanredcross.HAIYAN_Atlas_Bounds');
+var atlasGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Atlas_Bounds');
+var atlasGridControl = L.mapbox.gridControl(atlasGridLayer);
+
+var bantayanBLDs = L.mapbox.tileLayer('americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013');
+var bantayanBLDsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013');
+var bantayanBLDsGridControl = L.mapbox.gridControl(bantayanBLDsGridLayer);
+
 
 var map = L.map('map', {
         zoom: 8,
@@ -79,72 +98,87 @@ var legendControl = L.mapbox.legendControl().addTo(map);
 
 map.on('overlayadd', function(eventLayer){
         //grid controls
-        if (eventLayer.name == "Storm Surge Max Height<br>(zoom layers 6-10)"){
+        if (eventLayer.name == "Storm Surge Max Height"){
                 map.addLayer(surgeGridLayer);
                 map.addControl(surgeGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
-        if (eventLayer.name == "DamageAssessment_Nov11<br>(zoom levels 10-16)"){
+        if (eventLayer.name == "USG Damange Assessment"){
                 map.addLayer(ngaGridLayer);
                 map.addControl(ngaGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
-        if (eventLayer.name == "Pre/Post Roads <br>(zoom levels 11-17)"){
+        if (eventLayer.name == "Pre/Post Roads"){
                 map.addLayer(prepostRoadsGridLayer);
                 map.addControl(prepostRoadsGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         } 
         if (eventLayer.name == "Evacuated By Area"){
                 map.addLayer(evacuatedGridLayer);
                 map.addControl(evacuatedGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         } 
 
         if (eventLayer.name == "Cash Transfer"){
                 map.addLayer(cashTransferGridLayer);
                 map.addControl(cashTransferGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "Schools DFED 2009"){
                 map.addLayer(schoolsGridLayer);
                 map.addControl(schoolsGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "Population by Baranguy"){
                 map.addLayer(populationGridLayer);
                 map.addControl(populationGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "ICRC Area of Opps"){
                 map.addLayer(icrcAreaGridLayer);
                 map.addControl(icrcAreaGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
         if (eventLayer.name == "IFRC Area of Opps"){
                 map.addLayer(ifrcAreaGridLayer);
                 map.addControl(ifrcAreaGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "Airports"){
                 map.addLayer(airportsGridLayer);
                 map.addControl(airportsGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "TownHalls"){
                 map.addLayer(townHallsGridLayer);
                 map.addControl(townHallsGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "IFRC ERUs"){
                 map.addLayer(erusGridLayer);
                 map.addControl(erusGridControl);
-        }
-        //legend controls
-        if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }
+
+        if (eventLayer.name == "Bantayan Buildings"){
+                map.addLayer(bantayanBLDsGridLayer);
+                map.addControl(bantayanBLDsGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }
+
+        if (eventLayer.name == "Tacloban Building Damage Nov8"){
+                map.addLayer(copernicusGridLayer);
+                map.addControl(copernicusGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+                
         }     
-        if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
-                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
-        } 
-        if (eventLayer.name == "Population by Baranguy"){
-                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
-        }
-        if (eventLayer.name == "Cash Transfer"){
+        if (eventLayer.name == "Impassable Roads"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
                   
@@ -152,76 +186,90 @@ map.on('overlayadd', function(eventLayer){
 
 map.on('overlayremove', function(eventLayer){
         //grid controls
-        if (eventLayer.name == "Storm Surge Max Height<br>(zoom layers 6-10)"){
+        if (eventLayer.name == "Storm Surge Max Height"){
                 map.removeLayer(surgeGridLayer);
                 map.removeControl(surgeGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
-        if (eventLayer.name == "DamageAssessment_Nov11<br>(zoom levels 10-16)"){
+        if (eventLayer.name == "USG Damange Assessment"){
                 map.removeLayer(ngaGridLayer);
                 map.removeControl(ngaGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
-        if (eventLayer.name == "Pre/Post Roads <br>(zoom levels 11-17)"){
+        if (eventLayer.name == "Pre/Post Roads"){
                 map.removeLayer(prepostRoadsGridLayer);
                 map.removeControl(prepostRoadsGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "Evacuated By Area"){
                 map.removeLayer(evacuatedGridLayer);
                 map.removeControl(evacuatedGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         } 
 
         if (eventLayer.name == "Cash Transfer"){
                 map.removeLayer(cashTransferGridLayer);
                 map.removeControl(cashTransferGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         } 
 
         if (eventLayer.name == "Schools DFED 2009"){
                 map.removeLayer(schoolsGridLayer);
                 map.removeControl(schoolsGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "Population by Baranguy"){
                 map.removeLayer(populationGridLayer);
                 map.removeControl(populationGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "ICRC Area of Opps"){
                 map.removeLayer(icrcAreaGridLayer);
                 map.removeControl(icrcAreaGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "IFRC Area of Opps"){
                 map.removeLayer(ifrcAreaGridLayer);
                 map.removeControl(ifrcAreaGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "Airports"){
                 map.removeLayer(airportsGridLayer);
                 map.removeControl(airportsGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "TownHalls"){
                 map.removeLayer(townHallsGridLayer);
                 map.removeControl(townHallsGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         if (eventLayer.name == "IFRC ERUs"){
                 map.removeLayer(erusGridLayer);
                 map.removeControl(erusGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
+        }
+
+        if (eventLayer.name == "Bantayan Buildings"){
+                map.removeLayer(bantayanBLDsGridLayer);
+                map.removeControl(bantayanBLDsGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
         //legends controls
-        if (eventLayer.name == "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)"){
+        if (eventLayer.name == "Tacloban Building Damage Nov8"){
+                map.removeLayer(copernicusGridLayer);
+                map.removeControl(copernicusGridControl);
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
         }
-        if (eventLayer.name == "Impassable Roads<br>(zoom levels 9-16)"){
+        if (eventLayer.name == "Impassable Roads"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
-        }
-        if (eventLayer.name == "Population by Baranguy"){
-                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
-        }
-        if (eventLayer.name == "Cash Transfer"){
-                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
 
 });
@@ -237,28 +285,39 @@ map.on('zoomend', function(){
 var baseMaps = {
         "OSM standard": osm,
         "HOT OSM": hotosm,
-        "Post Imagery - Tacloban": taclobanSat        
+        "Toner": stamenLayer,
+        "Post Imagery - Tacloban": taclobanSat,
+        "Pre Imagery - Medellin": medellinSat     
 };
 
-var overlayLayers = {
-        "Population by Baranguy": populationByArea,
-        "Elements At Risk": atriskLayer,
-        "Schools DFED 2009": schools,
-        "Airports": airports,
-        "TownHalls": townhalls,
-        "Cash Transfer": cashTransfer,
-        "Storm Surge Max Height<br>(zoom layers 6-10)": surgeMapLayer,
-        "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)": copernicusBldgsNov8Layer,
-        "DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer,
-        "Impassable Roads<br>(zoom levels 9-16)": impassableRoadsLayer,
-        "Pre/Post Roads <br>(zoom levels 11-17)": prepostRoads,
-        "Evacuated By Area": evacuatedByArea,
-        "IFRC ERUs": erus,
-        "IFRC Area of Opps": ifrcAreaOpps,
-        "ICRC Area of Opps": icrcAreaOpps
-}
+var groupedOverlays = {
+        "Base Layers": {
+                "Population by Baranguy": populationByArea,
+                "Elements At Risk": atriskLayer,
+                "Schools DFED 2009": schools,
+                "Airports": airports,
+                "TownHalls": townHalls,
+                "Cash Transfer": cashTransfer
+        },
+        "Damage Layers": {
+                "Storm Surge Max Height": surgeMapLayer,
+                "Tacloban Building Damage Nov8": copernicusBldgsNov8Layer,
+                "USG Damange Assessment": ngaLayer,
+                "Impassable Roads": impassableRoadsLayer,
+                "Pre/Post Roads": prepostRoads,
+                "Bantayan Buildings": bantayanBLDs
+        },
+        "Red Cross Layers": {
+                "IFRC ERUs": erus,
+                "IFRC Area of Opps": ifrcAreaOpps,
+                "ICRC Area of Opps": icrcAreaOpps
+        },
+        "Philippines RC Layers": {
+                "Evacuated By Area": evacuatedByArea
+        }
+};
 
-L.control.layers(baseMaps, overlayLayers).addTo(map);
+L.control.groupedLayers(baseMaps, groupedOverlays).addTo(map);
 
 //time code
 function getTime() {
@@ -275,7 +334,7 @@ function getTime() {
         });
 
         $.getJSON(dcTimeURL, function(json, textStatus) {
-                var dcTime = json.time.substring((json.time.length-5),json.time.length);
+                // var dcTime = json.time.substring((json.time.length-5),json.time.length);
                 $('#dcTime').append(json.time);
         });
         

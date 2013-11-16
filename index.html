@@ -22,6 +22,22 @@
       <link href='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.ie.css' rel='stylesheet'>
       <![endif]-->
 
+      <style type="text/css">
+        .leaflet-control-layers-group-name {
+          font-weight: bold;
+          margin-bottom: .2em;
+          display: block;
+        }
+
+        .leaflet-control-layers-group {
+          margin-bottom: .5em;
+        }
+
+        .leaflet-control-layers-group label {
+          padding-left: .5em;
+        }
+      </style>
+
     </head>
     <body>
       <div id="wrapper">
@@ -110,6 +126,7 @@
       <script src="js/bootstrap.js"></script>
       <!-- Put this into a custom JavaScript file to make things more organized -->
       <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+      <script src="js/leaflet.groupedlayercontrol.js"></script>
       <script src="js/main.js"></script>
     </body>
     </html>
