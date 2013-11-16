@@ -84,7 +84,6 @@ var icrcAreaOpps = L.mapbox.tileLayer('americanredcross.HAIYAN_ICRC_ActiveAreas'
 var icrcAreaGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_ICRC_ActiveAreas');
 var icrcAreaGridControl = L.mapbox.gridControl(icrcAreaGridLayer);
 
-<<<<<<< HEAD
 var atlas = L.mapbox.tileLayer('americanredcross.HAIYAN_Atlas_Bounds');
 var atlasGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Atlas_Bounds');
 var atlasGridControl = L.mapbox.gridControl(atlasGridLayer);
@@ -92,9 +91,6 @@ var atlasGridControl = L.mapbox.gridControl(atlasGridLayer);
 var bantayanBLDs = L.mapbox.tileLayer('americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013');
 var bantayanBLDsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013');
 var bantayanBLDsGridControl = L.mapbox.gridControl(bantayanBLDsGridLayer);
-
-=======
->>>>>>> 711fd320714cabe77a109fd4031f699074389fb2
 
 var map = L.map('map', {
         zoom: 8,
@@ -172,22 +168,14 @@ map.on('overlayadd', function(eventLayer){
                 map.addLayer(erusGridLayer);
                 map.addControl(erusGridControl);
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
-<<<<<<< HEAD
         }
 
         if (eventLayer.name == "Bantayan Buildings"){
                 map.addLayer(bantayanBLDsGridLayer);
                 map.addControl(bantayanBLDsGridControl);
-=======
 
        }
-//         if (eventLayer.name == "Evacuated Persons by Province Nov-11 <br>(zoom levels 6-10)"){
-//                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
-//                 map.addLayer(evacPersonsByProvinceGridLayer);
-//                 map.addControl(evacPersonsByProvinceGridControl);
-//         }              
         if (eventLayer.name == "Population by Baranguy"){
->>>>>>> 711fd320714cabe77a109fd4031f699074389fb2
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
         }
 
@@ -290,20 +278,12 @@ map.on('overlayremove', function(eventLayer){
         if (eventLayer.name == "Impassable Roads"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);                       
         }
-<<<<<<< HEAD
-=======
-//         if (eventLayer.name == "Evacuated Persons by Province Nov-11 <br>(zoom levels 6-10)"){
-//                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
-//                 map.removeLayer(evacPersonsByProvinceGridLayer);
-//                 map.removeControl(evacPersonsByProvinceGridControl);
-//         }     
         if (eventLayer.name == "Population by Baranguy"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
         if (eventLayer.name == "Cash Transfer"){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
->>>>>>> 711fd320714cabe77a109fd4031f699074389fb2
 
 });
 
@@ -323,7 +303,6 @@ var baseMaps = {
         "Pre Imagery - Medellin": medellinSat     
 };
 
-<<<<<<< HEAD
 var groupedOverlays = {
         "Base Layers": {
                 "Population by Baranguy": populationByArea,
@@ -350,26 +329,6 @@ var groupedOverlays = {
                 "Evacuated By Area": evacuatedByArea
         }
 };
-=======
-var overlayLayers = {
-        "Population by Baranguy": populationByArea,
-        "Elements At Risk": atriskLayer,
-        "Schools DFED 2009": schools,
-        "Airports": airports,
-        "TownHalls": townhalls,
-        "Cash Transfer": cashTransfer,
-        "Storm Surge Max Height<br>(zoom layers 6-10)": surgeMapLayer,
-        "COPERNIUCS_Complete_Bldgs_Damages_Nov8<br>(zoom levels 14-19)": copernicusBldgsNov8Layer,
-        "DamageAssessment_Nov11<br>(zoom levels 10-16)": ngaLayer,
-        "Impassable Roads<br>(zoom levels 9-16)": impassableRoadsLayer,     
-        // "Evacuated Persons by Province Nov-11 <br>(zoom levels 6-10)": evacPersonsByProvince,
-        "Pre/Post Roads <br>(zoom levels 11-17)": prepostRoads,
-        "Evacuated By Area": evacuatedByArea,
-        "IFRC ERUs": erus,
-        "IFRC Area of Opps": ifrcAreaOpps,
-        "ICRC Area of Opps": icrcAreaOpps
-}
->>>>>>> 711fd320714cabe77a109fd4031f699074389fb2
 
 L.control.groupedLayers(baseMaps, groupedOverlays).addTo(map);
 
