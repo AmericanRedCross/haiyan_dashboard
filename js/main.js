@@ -144,41 +144,6 @@ map.on('zoomend', function(){
         $("#zoomLevel").html(zoomLevel);
 })
 
-var baseMaps = {
-        "OSM standard": osm,
-        "HOT OSM": hotosm,
-        "Toner": stamenLayer,
-        "Post Imagery - Tacloban": taclobanSat,
-        "Pre Imagery - Medellin": medellinSat     
-};
-
-var groupedOverlays = {
-        "Base Layers": {
-                "Population by Baranguy": populationByArea,
-                "Elements At Risk": atriskLayer,
-                "Schools DFED 2009": schools,
-                "Airports": airports,
-                "TownHalls": townHalls,
-                "Cash Transfer": cashTransfer
-        },
-        "Damage Layers": {
-                "Storm Surge Max Height": surgeMapLayer,
-                "Tacloban Building Damage Nov8": copernicusBldgsNov8Layer,
-                "USG Damange Assessment": ngaLayer,
-                "Impassable Roads": impassableRoadsLayer,
-                "Pre/Post Disaster Roads": prepostRoads,
-                "Bantayan Buildings": bantayanBLDs
-        },
-        "Red Cross Layers": {
-                "IFRC ERUs": erus,
-                "IFRC Area of Opps": ifrcAreaOpps,
-                "ICRC Area of Opps": icrcAreaOpps
-        },
-        "Philippines RC Layers": {
-                "Evacuated By Area": evacuatedByArea
-        }
-};
-
 L.control.groupedLayers(baseMaps, groupedOverlays).addTo(map);
 
 // time code
