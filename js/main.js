@@ -147,6 +147,18 @@ map.on('zoomend', function(){
         $('#zoomLevel').html(zoomLevel);
 });
 
+var tileLayerMaker = function(layerObj) {
+    for (key in layerObj) {
+        //console.log(key);
+        var layerUrl = layerObj[key].url;
+        console.log(layerUrl);
+        layerObj["tileLayer"] = L.tileLayer(layerUrl);
+    }
+};
+
+tileLayerMaker(maplayers.baseLayers);
+tileLayerMaker(maplayers.groupedOverlays);
+
 L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 
 // time code
