@@ -102,7 +102,7 @@ var maplayers = {
         {
             "id": "airports",
             "name": "airports",
-            "url": "americanredcross.Philippines_airstrips"
+            "url": "americanredcross.Philippines_airstrips",
             "group": "base"
         },
         {
@@ -152,20 +152,20 @@ var maplayers = {
 var map = L.map('map', {
         zoom: 8,
         center: [11.2500, 125.0000],
-        layers: [hotosm]
+        layers: maplayers.baselayers.url
 });
 
 var legendControl = L.mapbox.legendControl().addTo(map);
 
 var zoomLevel = map.getZoom().toString();
-$("#zoomLevel").html(zoomLevel);
+$('#zoomLevel').html(zoomLevel);
 
 map.on('zoomend', function(){
         zoomLevel = map.getZoom().toString();
-        $("#zoomLevel").html(zoomLevel);
+        $('#zoomLevel').html(zoomLevel);
 })
 
-L.control.groupedLayers(baseMaps, groupedOverlays).addTo(map);
+L.control.groupedLayers(maplayers.baselayers.url, maplayers.overlays.url).addTo(map);
 
 // time code
 function getTime() {
@@ -201,9 +201,9 @@ setTimeout(getTime(),1000);
 
 
 //map size code
-$('#map').css("height", ($(window).height()));
-$(window).on("resize", resize);
+$('#map').css('height', ($(window).height()));
+$(window).on('resize', resize);
 resize();
 function resize(){
-	$('#map').css("height", ($(window).height()));    
+	$('#map').css('height', ($(window).height()));
 }
