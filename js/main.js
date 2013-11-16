@@ -1,5 +1,10 @@
 // map code
 
+// json object of map layers
+// there are 2 objects in the json, one for "swtichable" base maps, and one for overlays
+// map layers in the overlay object have a group property indicating in which group
+// they should be listed
+
 var maplayers = {
     "baselayers": [
         {
