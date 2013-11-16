@@ -1,7 +1,7 @@
 // map code
 
 var maplayers = {
-    "features": [
+    "baselayers": [
         {
             "id": "osm",
             "name": "OpenStreetMap",
@@ -31,92 +31,104 @@ var maplayers = {
             "name": "Pre Imagery - Medellin",
             "url": "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
             "attribution": "&copy; US Government (USG) under the NextView (NV) License"
-        },
+        }
+    ],
+    "overlays": [
         {
             "id": "astrisk",
             "name": "Elements at Risk",
             "url": "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
-            "attribution": "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg"
+            "attribution": "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg",
+            "group": "base"
         },
         {
             "id": "surge",
             "name": "Storm Surge Max Height",
-            "url": "americanredcross.StormSurgeMaxHeight"
-        },
-        {
-            "id": "surge",
-            "name": "Storm Surge Max Height",
-            "url": "americanredcross.StormSurgeMaxHeight"
+            "url": "americanredcross.StormSurgeMaxHeight",
+            "group": "damage"
         },
         {
             "id": "nga",
-            "name": "NGA",
-            "url": "americanredcross.NGA_DamageAssessment_Nov11"
+            "name": "USG Damange Assessment",
+            "url": "americanredcross.NGA_DamageAssessment_Nov11",
+            "group": "damage"
         },
         {
             "id": "copernicus",
-            "name": "copernicus",
-            "url": "americanredcross.Building_Damages_Tacloban"
+            "name": "Tacloban Building Damage Nov8",
+            "url": "americanredcross.Building_Damages_Tacloban",
+            "group": "damage"
         },
         {
             "id": "prepostroads",
-            "name": "prepostroads",
-            "url": "americanredcross.Building_Damages_Tacloban"
+            "name": "Pre/Post Disaster Roads",
+            "url": "americanredcross.Building_Damages_Tacloban",
+            "group": "damage"
         },
         {
             "id": "impassableRoads",
-            "name": "impassableRoads",
-            "url": "americanredcross.HAIYAN_Bridges"
+            "name": "Impassable Roads",
+            "url": "americanredcross.HAIYAN_Bridges",
+            "group": "damage"
         },
         {
-            "id": "cashTransfer",
-            "name": "cashTransfer",
-            "url": "americanredcross.HAIYAN_CashTransfer_Nov13"
+            "id": "cashtransfer",
+            "name": "cashtransfer",
+            "url": "americanredcross.HAIYAN_CashTransfer_Nov13",
+            "group": "base"
         },
         {
-            "id": "evacuatedByArea",
-            "name": "evacuatedByArea",
+            "id": "evacuatedbyarea",
+            "name": "evacuatedbyarea",
             "url": "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
         },
         {
             "id": "schools",
             "name": "schools",
-            "url": "americanredcross.HAIYAN_Schools"
+            "url": "americanredcross.HAIYAN_Schools",
+            "group": "base"
         },
         {
             "id": "population",
             "name": "population",
-            "url": "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010"
+            "url": "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010",
+            "group": "base"
         },
         {
             "id": "airports",
             "name": "airports",
             "url": "americanredcross.Philippines_airstrips"
+            "group": "base"
         },
         {
             "id": "townhalls",
             "name": "townhalls",
-            "url": "americanredcross.HAIYAN_Townhalls"
+            "url": "americanredcross.HAIYAN_Townhalls",
+            "group": "base"
         },
         {
             "id": "erus",
             "name": "erus",
-            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments",
+            "group": "redcross"
         },
         {
             "id": "ifrcAreaOpps",
             "name": "ifrcAreaOpps",
-            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments",
+            "group": "redcross"
         },
         {
             "id": "icrcAreaOpps",
             "name": "icrcAreaOpps",
-            "url": "americanredcross.HAIYAN_ICRC_ActiveAreas"
+            "url": "americanredcross.HAIYAN_ICRC_ActiveAreas",
+            "group": "redcross"
         },
         {
             "id": "atlas",
             "name": "atlas",
-            "url": "americanredcross.HAIYAN_Atlas_Bounds"
+            "url": "americanredcross.HAIYAN_Atlas_Bounds",
+            "group": "base"
         },
         {
             "id": "bantayanBLDs",
