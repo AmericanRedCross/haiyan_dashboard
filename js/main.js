@@ -359,14 +359,9 @@ var groupedOverlays = {
                 "Tacloban Building Damage Nov8": copernicusBldgsNov8Layer,
                 "USG Damange Assessment": ngaLayer,
                 "Impassable Roads": impassableRoadsLayer,
-<<<<<<< HEAD
                 "Pre/Post Roads": prepostRoads,
                 "Bantayan Buildings": bantayanBLDs,
                 "Affected Persons": affectedPersons
-=======
-                "Pre/Post Disaster Roads": prepostRoads,
-                "Bantayan Buildings": bantayanBLDs
->>>>>>> 8600cc66e3374be56a22c9913d99a5578b1343c7
         },
         "Red Cross Layers": {
                 "IFRC ERUs": erus,
