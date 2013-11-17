@@ -117,7 +117,7 @@ map.on('overlayadd', function(eventLayer){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
                 legendControl.setPosition('bottomleft');
         }
-        if (eventLayer.name == "Pre/Post Roads"){
+        if (eventLayer.name == "Pre/Post Disaster Roads"){
                 map.addLayer(prepostRoadsGridLayer);
                 map.addControl(prepostRoadsGridControl);
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
@@ -232,7 +232,7 @@ map.on('overlayremove', function(eventLayer){
                 map.removeControl(ngaGridControl);
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         }
-        if (eventLayer.name == "Pre/Post Roads"){
+        if (eventLayer.name == "Pre/Post Disaster Roads"){
                 map.removeLayer(prepostRoadsGridLayer);
                 map.removeControl(prepostRoadsGridControl);
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
@@ -359,9 +359,14 @@ var groupedOverlays = {
                 "Tacloban Building Damage Nov8": copernicusBldgsNov8Layer,
                 "USG Damange Assessment": ngaLayer,
                 "Impassable Roads": impassableRoadsLayer,
+<<<<<<< HEAD
                 "Pre/Post Roads": prepostRoads,
                 "Bantayan Buildings": bantayanBLDs,
                 "Affected Persons": affectedPersons
+=======
+                "Pre/Post Disaster Roads": prepostRoads,
+                "Bantayan Buildings": bantayanBLDs
+>>>>>>> 8600cc66e3374be56a22c9913d99a5578b1343c7
         },
         "Red Cross Layers": {
                 "IFRC ERUs": erus,
