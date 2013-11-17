@@ -37,22 +37,22 @@ groupedOverlays = {
             "url": "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
             "attribution": "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg"
         },
-        "cashtransfer": {
+        "Cash Transfers": {
             "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_CashTransfer_Nov13/{z}/{y}/{x}.png"
         },
-        "evacuatedbyarea": {
+        "Evacuated by Area": {
             "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince/{z}/{y}/{x}.png"
         },
-        "schools": {
+        "Schools": {
             "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Schools/{z}/{y}/{x}.png"
         },
-        "population": {
+        "Populated Areas": {
             "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010/{z}/{y}/{x}.png"
         },
-        "airports": {
+        "Airports": {
             "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Philippines_airstrips/{z}/{y}/{x}.png"
         },
-        "townhalls": {
+        "Townhalls": {
             "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Townhalls/{z}/{y}/{x}.png"
         }
     },
@@ -139,7 +139,7 @@ var overlayMaker = function (layerObj) {
             var layerUrl = _layers[_layer]["url"];
             _layers[_layer] = L.tileLayer(layerUrl);
         }
-        layerObj[_layers] = _layers;
+        layerObj[_group] = _layers;
     }
     return layerObj;
 };
