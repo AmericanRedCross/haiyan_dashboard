@@ -32,74 +32,73 @@ baseLayers = {
 };
 
 groupedOverlays = {
-    "Points of interest": {
+    "Points of Interest": {
         "Elements at Risk": {
             "url": "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
             "attribution": "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg"
         },
         "Cash Transfers": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_CashTransfer_Nov13/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_CashTransfer_Nov13"
         },
         "Evacuated by Area": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince/{z}/{x}/{y}.png"
+            "url": "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
         },
         "Schools": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Schools/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_Schools"
         },
         "Populated Areas": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010"
         },
         "Airports": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Philippines_airstrips/{z}/{x}/{y}.png"
+            "url": "americanredcross.Philippines_airstrips"
         },
         "Townhalls": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Townhalls/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_Townhalls"
         }
     },
     "Damage": {
         "Storm Surge Max Height": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.StormSurgeMaxHeight/{z}/{x}/{y}.png"
+            "url": "americanredcross.StormSurgeMaxHeight"
         },
         "USG Damange Assessment": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.NGA_DamageAssessment_Nov11/{z}/{x}/{y}.png"
+            "url": "americanredcross.NGA_DamageAssessment_Nov11"
         },
-        "Tacloban Building Damage Nov8": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Building_Damages_Tacloban/{z}/{x}/{y}.png"
+        "Tacloban Building Damage Nov. 8": {
+            "url": "americanredcross.Building_Damages_Tacloban"
         },
         "Pre/Post Disaster Roads": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Building_Damages_Tacloban/{z}/{x}/{y}.png"
+            "url": "americanredcross.Building_Damages_Tacloban"
         },
         "Impassable Roads": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Bridges/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_Bridges"
         }
     },
     "Red Cross": {
         "erus": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_IFRC_Staff_Deployments/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments"
         },
         "ifrcAreaOpps": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_IFRC_Staff_Deployments/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_IFRC_Staff_Deployments"
         },
         "icrcAreaOpps": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_ICRC_ActiveAreas/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_ICRC_ActiveAreas"
         },
         "atlas": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Atlas_Bounds/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_Atlas_Bounds"
         },
         "bantayanBLDs": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013/{z}/{x}/{y}.png"
+            "url": "americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013"
         }
     }
 };
 
+var hotosm = L.tileLayer(baseLayers["HOT OSM"].url);
+
 var map = L.map('map', {
     zoom: 8,
-    center: [11.2500, 125.0000]
+    center: [11.2500, 125.0000],
+    layers: [hotosm,]
 });
-
-L.tileLayer(baseLayers["HOT OSM"].url).addTo(map);
-
-var legendControl = L.mapbox.legendControl().addTo(map);
 
 var zoomLevel = map.getZoom().toString();
 $('#zoomLevel').html(zoomLevel);
@@ -109,8 +108,8 @@ map.on('zoomend', function(){
     $('#zoomLevel').html(zoomLevel);
 });
 
-// var evacPersonsByProvince = L.mapbox.tileLayer('http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{x}/{y}.png);
-// var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{x}/{y}.png);
+// var evacPersonsByProvince = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{x}/{y}.png);
+// var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{x}/{y}.png);
 // var evacPersonsByProvinceGridControl = L.mapbox.gridControl(evacPersonsByProvinceGridLayer);
 
 /* 
@@ -137,7 +136,8 @@ var overlayMaker = function (layerObj) {
         var _layers = layerObj[_group];
         for (var _layer in _layers) {
             var layerUrl = _layers[_layer]["url"];
-            _layers[_layer] = L.tileLayer(layerUrl);
+            _layers[_layer] = L.mapbox.tileLayer(layerUrl);
+            L.mapbox.gridControl(_layers[_layer]);
         }
         layerObj[_group] = _layers;
     }
@@ -148,6 +148,22 @@ baseLayers = baseMaker(baseLayers);
 groupedOverlays = overlayMaker(groupedOverlays);
 
 L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
+
+// var legendControl = L.mapbox.legendControl().addTo(map);
+
+// map.on('overlayadd', function(eventLayer) {
+//     map.addControl(eventLayer);
+//     if (eventLayer.layer.getTileJSON().legend) {
+//         legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+//     }
+// });
+
+// map.on('overlayremove', function(eventLayer) {
+//     map.removeControl(eventLayer);
+//     if (eventLayer.layer.getTileJSON().legend) {
+//         legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
+//     }
+// };
 
 // time code
 function getTime() {
