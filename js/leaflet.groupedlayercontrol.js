@@ -239,7 +239,7 @@ L.Control.GroupedLayers = L.Control.extend({
 
         this._domGroups[obj.group.id] = groupContainer;
       }
-      label.className = 'group_'+obj.group.id;
+      label.className = 'group_'+obj.group.id+' labelhide';
       container = groupContainer;
     } else {
       container = this._baseLayersList;
