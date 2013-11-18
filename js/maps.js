@@ -80,10 +80,13 @@ var grouped_overlays = {
         },
         "Poverty by Municipality": {
             url: "americanredcross.HAIYAN_Poverty_by_Municipality"
+        },
+        "Atlas": {
+            "url": "americanredcross.HAIYAN_Atlas_Bounds"
+        },
+        "Poverty": {
+            "url": "americanredcross.HAIYAN_Poverty_by_Municipality"
         }
-        // "Atlas": {
-        //     "url": "americanredcross.HAIYAN_Atlas_Bounds"
-        // },
     },
     "Damage Layers": {
         "Storm Surge Max Height": {
@@ -95,14 +98,17 @@ var grouped_overlays = {
         "Tacloban Building Damage Nov. 8": {
             url: "americanredcross.Building_Damages_Tacloban"
         },
+        "UNSTAT": {
+            url: "americanredcross.HAIYAN_AffectedBldgA_15Nov2013"
+        },
         "Pre/Post Disaster Roads": {
             url: "americanredcross.Building_Damages_Tacloban"
         },
         "Impassable Roads": {
             url: "americanredcross.HAIYAN_Bridges"
         },
-        "bantayanBLDs": {
-            url: "americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013"
+        "Affected Persons": {
+            url: "americanredcross.HAIYAN_Affected_Persons"
         }
     },
     "Red Cross Layers": {
@@ -111,6 +117,9 @@ var grouped_overlays = {
         },
         "IFRC Area of Opps": {
             url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+        },
+        "Philippines RC Chapters": {
+            url: "americanredcross.m5zv9529"
         }
     },
     "Philippines RC Layers": {
