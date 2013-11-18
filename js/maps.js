@@ -98,8 +98,11 @@ var grouped_overlays = {
         "Tacloban Building Damage Nov. 8": {
             url: "americanredcross.Building_Damages_Tacloban"
         },
-        "UNSTAT": {
+        "UNOSAT - North Cebu": {
             url: "americanredcross.HAIYAN_AffectedBldgA_15Nov2013"
+        },
+        "UNOSAT - North Leyte": {
+            url: "americanredcross.HAIYAN_Ormoc_Damages"
         },
         "Pre/Post Disaster Roads": {
             url: "americanredcross.Building_Damages_Tacloban"
