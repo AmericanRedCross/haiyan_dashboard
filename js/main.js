@@ -130,6 +130,10 @@ var mapTypeTest = function(url) {
     return value
 }
 
+// Generates a new layer object readable by Leaflet's grouped control.
+// Take an exisiting layer object and condense the attribution and url information into
+// either a Leaflet or MapBox tileLayer
+// Returns the new layerObj
 var layerObjMaker = function(layerObj) {
     
     var newObj = {}
@@ -183,9 +187,19 @@ var map = L.map('map', {
 
 var legendControl = L.mapbox.legendControl().addTo(map);
 
+/* 
+Add and remove grid overlays
+
+Since we don't know how many more layers will be added in the future,
+we're saving them in an array rather than saving them to variables.
+*/
 var grid_layers = [];
 var grid_controls = [];
 
+// Simple tile layers are taken care of by Leaflet's legend control.
+// More complex layers with grids and legends require special handling.
+// Take the layer that was just removed, checks the current active grid
+// layers and controls, and removes that data from view.
 map.on("overlayremove", function(eventLayer){
     var group = eventLayer.group.name;
     var name = eventLayer.name;
@@ -193,11 +207,22 @@ map.on("overlayremove", function(eventLayer){
     var value = mapTypeTest(url);
     if (!value) {
         legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
-        map.removeLayer(grid_layers[grid_layers.length-1]);
-        map.removeControl(grid_controls[grid_controls.length-1]);
+        var id = eventLayer.layer._tilejson.id
+        for (el in grid_layers) {
+            if (id === grid_layers[el]._tilejson.id) {
+                map.removeLayer(grid_layers[el]);
+            }
+        }
+        for (el in grid_controls) {
+            if (id === grid_controls[el]._layer._tilejson.id) {
+                map.removeControl(grid_controls[el]);
+            }
+        }
     }
 });
 
+// Once we add a grid layer and grid controls, they're pushed to an array to be accessed for removal.
+// Take an event layer, get the id of the tile layer, and call L.mapbox.gridControl() and L.mapbox.gridLayer()
 map.on("overlayadd", function(eventLayer) {
     var group = eventLayer.group.name;
     var name = eventLayer.name;
@@ -215,6 +240,8 @@ map.on("overlayadd", function(eventLayer) {
     }
 });
 
+// Create the grouped layer control from the plugin
+// See https://github.com/ismyrnow/Leaflet.groupedlayercontrol
 L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 
 var zoomLevel = map.getZoom().toString();
