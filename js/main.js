@@ -165,5 +165,5 @@ $('#map').css('height', ($(window).height()));
 $(window).on('resize', resize);
 resize();
 function resize(){
-	$('#map').css('height', ($(window).height()));
+        $('#map').css('height', ($(window).height()));
 }
