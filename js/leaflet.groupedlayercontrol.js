@@ -1,5 +1,5 @@
 // A layer control which provides for layer groupings.
-// Author: Ishmael Smyrnow
+// Author: Ishmael Smyrnow + Simon Johnson(added group layer collapsing + expansion)
 L.Control.GroupedLayers = L.Control.extend({
   options: {
     collapsed: true,
@@ -198,7 +198,7 @@ L.Control.GroupedLayers = L.Control.extend({
     var label = document.createElement('label'),
 		    input,
 		    checked = this._map.hasLayer(obj.layer);
-
+    
     if (obj.overlay) {
       input = document.createElement('input');
       input.type = 'checkbox';
@@ -230,15 +230,16 @@ L.Control.GroupedLayers = L.Control.extend({
         groupContainer.id = 'leaflet-control-layers-group-' + obj.group.id;
 
         var groupLabel = document.createElement('span');
-        groupLabel.className = 'leaflet-control-layers-group-name';
+        groupLabel.className = 'leaflet-control-layers-group-name Lgroup_'+ obj.group.id;;
         groupLabel.innerHTML = obj.group.name;
-
+        
         groupContainer.appendChild(groupLabel);
+        L.DomEvent.on(groupLabel, 'click', this._onLabelClick, this);
         container.appendChild(groupContainer);
 
         this._domGroups[obj.group.id] = groupContainer;
       }
-
+      label.className = 'group_'+obj.group.id;
       container = groupContainer;
     } else {
       container = this._baseLayersList;
@@ -269,6 +270,28 @@ L.Control.GroupedLayers = L.Control.extend({
     }
 
     this._handlingClick = false;
+  },
+  
+  _onLabelClick: function (e){
+    var src = e.srcElement
+    //extract group id
+    var groupid = src.className.split(" ")[1].substring(1);
+    //obtain labels of layers in control
+    var labels = this._form.getElementsByTagName('label'),
+		    labelsLen = labels.length;
+
+    //loop through layers
+    for (i = 0; i < labelsLen; i++) {
+      label = labels[i];
+      var labelclasses = label.className.split(" ");
+      //add class to those which match
+      if(labelclasses.length==1 && labelclasses[0]==groupid){
+        labels[i].className = labelclasses[0]+" labelhide";
+      } 
+      if(labelclasses.length>1 && labelclasses[0]==groupid){
+        labels[i].className = labelclasses[0] 
+      }      
+    }
   },
 
   _expand: function () {
