@@ -183,6 +183,9 @@ var map = L.map('map', {
 
 var legendControl = L.mapbox.legendControl().addTo(map);
 
+var grid_layers = [];
+var grid_controls = [];
+
 map.on("overlayremove", function(eventLayer){
     var group = eventLayer.group.name;
     var name = eventLayer.name;
@@ -190,9 +193,8 @@ map.on("overlayremove", function(eventLayer){
     var value = mapTypeTest(url);
     if (!value) {
         legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
-        // var id = eventLayer.layer.id;
-        // grid_layer = "http://api.tiles.mapbox.com/v3/" + id + "/0/0/0.grid.json";
-        // L.control
+        map.removeLayer(grid_layers[grid_layers.length-1]);
+        map.removeControl(grid_controls[grid_controls.length-1]);
     }
 });
 
@@ -203,7 +205,9 @@ map.on("overlayadd", function(eventLayer) {
     var value = mapTypeTest(url);
     if (!value) {
         var grid_layer = L.mapbox.gridLayer(url);
+        grid_layers.push(grid_layer);
         var grid_control = L.mapbox.gridControl(grid_layer);
+        grid_controls.push(grid_control);
         map.addLayer(grid_layer);
         map.addControl(grid_control, {follow: true});
         legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
