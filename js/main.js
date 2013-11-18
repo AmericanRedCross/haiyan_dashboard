@@ -1,105 +1,217 @@
-// map code
+/*
 
-// json object of map layers
-// there are 2 objects in the json, one for "swtichable" base maps, and one for overlays
-// map layers in the overlay object have a group property indicating in which group
-// they should be listed
+JSON for your base layers, including attribution.
+The object key will be the displayed layer name.
+example:
 
-var baseLayers,
-    groupedOverlays;
+"Layer Name": {
+    url: "http://some.place.com/{z}/{x}/{y}.png" OR "some_mapbox_map.ID",
+    attribution: "&copy; Foo Bar"
+};
 
-baseLayers = {
+Remove layers by commenting them out.
+Additional overlay layer groups need to be nested within an object whose
+key is the group overlay display name.
+
+example:
+
+"Group Name": {
+    "Layer Name": {
+        url: "http://some.place.com/{z}/{x}/{y}.png" OR "some_mapbox_map.ID",
+        attribution: "&copy; Foo Bar"
+    }
+}
+
+*/
+
+
+var base_layers = {
     "HOT OSM": {
-        "url": "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
-        "attribution": "&copy; OpenStreetMap contributors, <a href='http://hot.openstreetmap.org/'>Humanitarina OpenStreetMap Team</a>, <a href='redcross.org'>Red Cross</a>"
+        url: "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
+        attribution: "&copy; OpenStreetMap contributors, <a href='http://hot.openstreetmap.org/'>Humanitarina OpenStreetMap Team</a>, <a href='redcross.org'>Red Cross</a>"
     },
     "OpenStreetMap": {
-        "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-        "attribution": "&copy; OpenStreetMap contributors, <a href='redcross.org'>Red Cross</a>"
+        url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        attribution: "&copy; OpenStreetMap contributors, <a href='redcross.org'>Red Cross</a>"
     },
     "Toner": {
-        "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
-        "attribution": "Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>. Data by <a href='http://openstreetmap.org'>OpenStreetMap</a>, under <a href='http://creativecommons.org/licenses/by-sa/3.0'>CC BY SA</a>."
-    },
-    "Post Imagery - Tacloban": {
-        "url": "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
-        "attribution": "&copy; US Government (USG) under the NextView (NV) License"
-    },
-    "Pre Imagery - Medellin": {
-        "url": "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
-        "attribution": "&copy; US Government (USG) under the NextView (NV) License"
+        url: "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+        attribution: "Map tiles by <a href='http://stamen.com'>Stamen Design</a>, under <a href='http://creativecommons.org/licenses/by/3.0'>CC BY 3.0</a>. Data by <a href='http://openstreetmap.org'>OpenStreetMap</a>, under <a href='http://creativecommons.org/licenses/by-sa/3.0'>CC BY SA</a>."
     }
 };
 
-groupedOverlays = {
-    "Points of Interest": {
+var grouped_overlays = {
+    "Imagery": {
+        "Digital Globe": {
+            url: "http://hiu-maps.net/hot/1.0.0/haiyan-dg-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; Digital Globe & US Government (USG) under the NextView (NV) License"
+        },
+        "Post Imagery - Tacloban": {
+            url: "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; US Government (USG) under the NextView (NV) License"
+        },
+        "Pre Imagery - Medellin": {
+            url: "http://hiu-maps.net/hot/1.0.0/cebu-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; US Government (USG) under the NextView (NV) License"
+        }
+    },
+    "Base Layers": {
+        "Population by Baranguy": {
+            url: "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010"
+        },
         "Elements at Risk": {
-            "url": "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
-            "attribution": "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg"
+            url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
+            attribution: "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg",
         },
-        "Cash Transfers": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_CashTransfer_Nov13/{z}/{x}/{y}.png"
-        },
-        "Evacuated by Area": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince/{z}/{x}/{y}.png"
-        },
-        "Schools": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Schools/{z}/{x}/{y}.png"
-        },
-        "Populated Areas": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010/{z}/{x}/{y}.png"
+        "Schools DFED 2009": {
+            url: "americanredcross.HAIYAN_Schools"
         },
         "Airports": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Philippines_airstrips/{z}/{x}/{y}.png"
+            url: "americanredcross.Philippines_airstrips"
         },
         "Townhalls": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Townhalls/{z}/{x}/{y}.png"
+            url: "americanredcross.HAIYAN_Townhalls"
+        },
+        "Cash Transfers": {
+            url: "americanredcross.HAIYAN_CashTransfer_Nov13"
+        },
+        "Evacuated by Area": {
+            url: "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
+        },
+        "Poverty by Municipality": {
+            url: "americanredcross.HAIYAN_Poverty_by_Municipality"
         }
+        // "Atlas": {
+        //     "url": "americanredcross.HAIYAN_Atlas_Bounds"
+        // },
     },
-    "Damage": {
+    "Damage Layers": {
         "Storm Surge Max Height": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.StormSurgeMaxHeight/{z}/{x}/{y}.png"
+            url: "americanredcross.StormSurgeMaxHeight"
         },
         "USG Damange Assessment": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.NGA_DamageAssessment_Nov11/{z}/{x}/{y}.png"
+            url: "americanredcross.NGA_DamageAssessment_Nov11"
         },
         "Tacloban Building Damage Nov. 8": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Building_Damages_Tacloban/{z}/{x}/{y}.png"
+            url: "americanredcross.Building_Damages_Tacloban"
         },
         "Pre/Post Disaster Roads": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.Building_Damages_Tacloban/{z}/{x}/{y}.png"
+            url: "americanredcross.Building_Damages_Tacloban"
         },
         "Impassable Roads": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Bridges/{z}/{x}/{y}.png"
-        }
-    },
-    "Red Cross": {
-        "erus": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_IFRC_Staff_Deployments/{z}/{x}/{y}.png"
-        },
-        "ifrcAreaOpps": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_IFRC_Staff_Deployments/{z}/{x}/{y}.png"
-        },
-        "icrcAreaOpps": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_ICRC_ActiveAreas/{z}/{x}/{y}.png"
-        },
-        "atlas": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Atlas_Bounds/{z}/{x}/{y}.png"
+            url: "americanredcross.HAIYAN_Bridges"
         },
         "bantayanBLDs": {
-            "url": "http://{s}.tiles.mapbox.com/v3/americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013/{z}/{x}/{y}.png"
+            url: "americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013"
+        }
+    },
+    "Red Cross Layers": {
+        "IFRC ERUs": {
+            url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+        },
+        "IFRC Area of Opps": {
+            url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+        }
+    },
+    "Philippines RC Layers": {
+        "Evacuated by Area": {
+            url: "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
         }
     }
 };
+
+// var evacPersonsByProvince = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince');
+// var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince');
+// var evacPersonsByProvinceGridControl = L.mapbox.gridControl(evacPersonsByProvinceGridLayer);
+
+var mapTypeTest = function(url) {
+    var regex = /http(s|):/;
+    var value = regex.test(url);
+    return value
+}
+
+var layerObjMaker = function(layerObj) {
+    
+    var newObj = {}
+    var layers = [];
+    for (var layer in layerObj) {
+        var layerUrl = layerObj[layer].url;
+        value = mapTypeTest(layerUrl)
+        if (value == true) {
+            newObj[layer] = L.tileLayer(layerUrl, {
+                attribution: layerObj[layer].attribution
+            });
+        } else {
+            newObj[layer] = L.mapbox.tileLayer(layerUrl);
+            layerObj.grid_layer = L.mapbox.gridLayer(layerUrl);
+            layerObj.grid_control = L.mapbox.gridControl(layerObj.grid_layer);
+        }
+    };
+    return newObj;
+}
+
+/* 
+baseMaker takes an object containing a tileLayer url and attribution
+it returns a condensed object of a tileLayer containing the attribution and a maxZoom
+*/
+var baseMaker = function(layerObj) {
+    var base_layers = layerObjMaker(layerObj);
+    return base_layers;
+};
+
+/* 
+overlayMaker takes an object containting objects of tileLayers
+*/
+var overlayMaker = function (groupObj) {
+    newGroupObj = {}
+    for (var group in groupObj) {
+        var layerObj = groupObj[group];
+        var group_layers = layerObjMaker(layerObj);
+        newGroupObj[group] = group_layers;
+    }
+    return newGroupObj;
+};
+
+var baseLayers = baseMaker(base_layers);
+var groupedOverlays = overlayMaker(grouped_overlays);
 
 var map = L.map('map', {
     zoom: 8,
-    center: [11.2500, 125.0000]
+    center: [11.2500, 125.0000],
+    layers: [baseLayers["HOT OSM"]]
 });
 
-L.tileLayer(baseLayers["HOT OSM"].url).addTo(map);
-
 var legendControl = L.mapbox.legendControl().addTo(map);
+
+map.on("overlayremove", function(eventLayer){
+    var group = eventLayer.group.name;
+    var name = eventLayer.name;
+    var url = grouped_overlays[group][name].url;
+    var value = mapTypeTest(url);
+    if (!value) {
+        legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
+        // var id = eventLayer.layer.id;
+        // grid_layer = "http://api.tiles.mapbox.com/v3/" + id + "/0/0/0.grid.json";
+        // L.control
+    }
+});
+
+map.on("overlayadd", function(eventLayer) {
+    var group = eventLayer.group.name;
+    var name = eventLayer.name;
+    var url = grouped_overlays[group][name].url;
+    var value = mapTypeTest(url);
+    if (!value) {
+        var grid_layer = L.mapbox.gridLayer(url);
+        var grid_control = L.mapbox.gridControl(grid_layer);
+        map.addLayer(grid_layer);
+        map.addControl(grid_control, {follow: true});
+        legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        legendControl.setPosition('bottomleft');
+    }
+});
+
+L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 
 var zoomLevel = map.getZoom().toString();
 $('#zoomLevel').html(zoomLevel);
@@ -108,46 +220,6 @@ map.on('zoomend', function(){
     zoomLevel = map.getZoom().toString();
     $('#zoomLevel').html(zoomLevel);
 });
-
-// var evacPersonsByProvince = L.mapbox.tileLayer('http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{x}/{y}.png);
-// var evacPersonsByProvinceGridLayer = L.mapbox.tileLayer('http://{s}.tiles.mapbox.com/v3/americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince'/{z}/{x}/{y}.png);
-// var evacPersonsByProvinceGridControl = L.mapbox.gridControl(evacPersonsByProvinceGridLayer);
-
-/* 
-baseMaker takes an object containing a tileLayer url and attribution
-it returns a condensed object of a tileLayer containing the attribution and a maxZoom
-*/
-var baseMaker = function(layerObj) {
-    for (var _key in layerObj) {
-        //console.log(key);
-        var layerUrl = layerObj[_key]["url"];
-        layerObj[_key] = L.tileLayer(layerUrl, {
-            maxZoom: 18,
-            attribution: layerObj[_key].attribution
-        });
-    }
-    return layerObj;
-};
-
-/* 
-overlayMaker takes an object containting objects of tileLayers
-*/
-var overlayMaker = function (layerObj) {
-    for (var _group in layerObj) {
-        var _layers = layerObj[_group];
-        for (var _layer in _layers) {
-            var layerUrl = _layers[_layer]["url"];
-            _layers[_layer] = L.tileLayer(layerUrl);
-        }
-        layerObj[_group] = _layers;
-    }
-    return layerObj;
-};
-
-baseLayers = baseMaker(baseLayers);
-groupedOverlays = overlayMaker(groupedOverlays);
-
-L.control.groupedLayers(baseLayers, groupedOverlays).addTo(map);
 
 // time code
 function getTime() {
