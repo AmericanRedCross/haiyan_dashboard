@@ -92,7 +92,7 @@ var grouped_overlays = {
         "Storm Surge Max Height": {
             url: "americanredcross.StormSurgeMaxHeight"
         },
-        "USG Damange Assessment": {
+        "USG Damage Assessment": {
             url: "americanredcross.NGA_DamageAssessment_Nov11"
         },
         "Tacloban Building Damage Nov. 8": {
