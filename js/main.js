@@ -1,11 +1,11 @@
 //map code
 
 var osmURL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-osmAttribution = '&copy; OpenStreetMap contributors, <a href="redcross.org">Red Cross</a>',
+osmAttribution = '&copy; OpenStreetMap contributors',
 osm = new L.TileLayer(osmURL, {maxZoom: 18, attribution: osmAttribution});
 
 var hotosmURL = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
-hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarina OpenStreetMap Team</a>, <a href="redcross.org">Red Cross</a>',
+hotAttribution = '&copy; OpenStreetMap contributors, <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>',
 hotosm = new L.TileLayer(hotosmURL, {maxZoom: 18, attribution: hotAttribution});
 
 var stamenLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
@@ -91,9 +91,13 @@ var poverty = L.mapbox.tileLayer('americanredcross.HAIYAN_Poverty_by_Municipalit
 var povertyGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Poverty_by_Municipality');
 var povertyGridControl = L.mapbox.gridControl(povertyGridLayer);
 
-var bantayanBLDs = L.mapbox.tileLayer('americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013');
-var bantayanBLDsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_Bantayan_AffectedBuildings_15Nov2013');
-var bantayanBLDsGridControl = L.mapbox.gridControl(bantayanBLDsGridLayer);
+var philRCChapters = L.mapbox.tileLayer('americanredcross.m5zv9529');
+var philRCChaptersGridLayer = L.mapbox.gridLayer('americanredcross.m5zv9529');
+var philRCChaptersGridControl = L.mapbox.gridControl(philRCChaptersGridLayer);
+
+var unstatBLDs = L.mapbox.tileLayer('americanredcross.HAIYAN_AffectedBldgA_15Nov2013');
+var unstatBLDsGridLayer = L.mapbox.gridLayer('americanredcross.HAIYAN_AffectedBldgA_15Nov2013');
+var unstatBLDsGridControl = L.mapbox.gridControl(unstatBLDsGridLayer);
 
 var map = L.map('map', {
         zoom: 8,
@@ -178,12 +182,6 @@ map.on('overlayadd', function(eventLayer){
                 legendControl.setPosition('bottomleft');
         }
 
-        if (eventLayer.name == "Bantayan Buildings"){
-                map.addLayer(bantayanBLDsGridLayer);
-                map.addControl(bantayanBLDsGridControl);
-                legendControl.setPosition('bottomleft');
-
-       }
         if (eventLayer.name == "Population by Baranguy"){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
                 legendControl.setPosition('bottomleft');
@@ -212,11 +210,11 @@ map.on('overlayadd', function(eventLayer){
                 legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
                 legendControl.setPosition('bottomleft');
         } 
-        // if (eventLayer.name == "Place Names"){
-        //         map.addLayer(atlasGridLayer);
-        //         map.addControl(atlasGridControl);
-        //         legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
-        // }        
+        if (eventLayer.name == "UNSTAT Damage"){
+                map.addLayer(unstatGridLayer);
+                map.addControl(unstatGridControl);
+                legendControl.addLegend(eventLayer.layer.getTileJSON().legend);
+        }        
 
 });
 
@@ -316,11 +314,11 @@ map.on('overlayremove', function(eventLayer){
                 legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
         } 
 
-        // if (eventLayer.name == "Place Names"){
-        //         map.removeLayer(atlasGridLayer);
-        //         map.removeControl(atlasGridControl);
-        //         legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
-        // }
+        if (eventLayer.name == "UNSTAT Damage"){
+                map.removeLayer(unstatGridLayer);
+                map.removeControl(unstatGridControl);
+                legendControl.removeLegend(eventLayer.layer.getTileJSON().legend);
+        }
 
 });
 
@@ -358,9 +356,9 @@ var groupedOverlays = {
                 "Storm Surge Max Height": surgeMapLayer,
                 "Tacloban Building Damage Nov8": copernicusBldgsNov8Layer,
                 "USG Damange Assessment": ngaLayer,
+                "UNSTAT Damage": unstatBLDs,
                 "Impassable Roads": impassableRoadsLayer,
                 "Pre/Post Roads": prepostRoads,
-                "Bantayan Buildings": bantayanBLDs,
                 "Affected Persons": affectedPersons
         },
         "Red Cross Layers": {
@@ -368,6 +366,7 @@ var groupedOverlays = {
                 "IFRC Area of Opps": ifrcAreaOpps
         },
         "Philippines RC Layers": {
+                "Philippines Chapters": philRCChapters,
                 "Evacuated By Area": evacuatedByArea
         }
 };
@@ -414,5 +413,3 @@ resize();
 function resize(){
 	$('#map').css("height", ($(window).height()));    
 }
-
-
