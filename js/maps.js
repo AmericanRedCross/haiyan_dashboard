@@ -116,7 +116,7 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
         },
         "IFRC Area of Opps": {
-            url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+            url: "americanredcross.HAIYAN_Evacuation_Centers"
         }
     },
     "Philippines RC Layers": {
