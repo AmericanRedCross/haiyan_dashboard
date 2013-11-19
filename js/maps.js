@@ -75,17 +75,14 @@ var grouped_overlays = {
         "Cash Transfers": {
             url: "americanredcross.HAIYAN_CashTransfer_Nov13"
         },
-        "Evacuated by Area": {
-            url: "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
-        },
         "Poverty by Municipality": {
             url: "americanredcross.HAIYAN_Poverty_by_Municipality"
         },
         "Atlas": {
             "url": "americanredcross.HAIYAN_Atlas_Bounds"
         },
-        "Poverty": {
-            "url": "americanredcross.HAIYAN_Poverty_by_Municipality"
+        "Mangroves": {
+            "url": "americanredcross.jvrq9f6r"
         }
     },
     "Damage Layers": {
@@ -120,14 +117,14 @@ var grouped_overlays = {
         },
         "IFRC Area of Opps": {
             url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
-        },
-        "Philippines RC Chapters": {
-            url: "americanredcross.m5zv9529"
         }
     },
     "Philippines RC Layers": {
         "Evacuated by Area": {
             url: "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
+        },
+        "Philippines RC Chapters": {
+            url: "americanredcross.m5zv9529"
         }
     }
 };
