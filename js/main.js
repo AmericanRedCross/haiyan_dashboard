@@ -60,6 +60,9 @@ var map = L.map('map', {
     layers: [baseLayers["HOT OSM"]]
 });
 
+//need to add geocoder, fails for some reason
+// var geocoder = L.mapbox.geocoderControl('americanredcross.m5zv9529').addTo(map);
+
 var legendControl = L.mapbox.legendControl().addTo(map);
 
 /* 
@@ -138,7 +141,7 @@ function getTime() {
                 // var philTime = json.time.substring((json.time.length-5),json.time.length);
                 var philSunset = json.sunset.substring((json.sunset.length-5),json.sunset.length);
                 var philSunrise = json.sunrise.substring((json.sunrise.length-5),json.sunrise.length);
-                $('#philTime').append(json.time + '<br />Sunrise: ' + philSunrise + '<br />Sunset: ' + philSunset);
+                $('#philTime').append(json.time + '<br /><img src="images/sun.png" class="timeicon">Sunrise: ' + philSunrise + '<br /><img src="images/moon.png" class="timeicon">Sunset: ' + philSunset);
         });
 
         $.getJSON(dcTimeURL, function(json, textStatus) {

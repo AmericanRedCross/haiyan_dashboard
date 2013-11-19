@@ -101,9 +101,6 @@ var grouped_overlays = {
         "UNOSAT - North Leyte": {
             url: "americanredcross.HAIYAN_Ormoc_Damages"
         },
-        "Pre/Post Disaster Roads": {
-            url: "americanredcross.Building_Damages_Tacloban"
-        },
         "Impassable Roads": {
             url: "americanredcross.HAIYAN_Bridges"
         },
