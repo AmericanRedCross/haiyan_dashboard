@@ -28,7 +28,7 @@ example:
 var base_layers = {
     "HOT OSM": {
         url: "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
-        attribution: "&copy; OpenStreetMap contributors, <a href='http://hot.openstreetmap.org/'>Humanitarina OpenStreetMap Team</a>, <a href='redcross.org'>Red Cross</a>"
+        attribution: "&copy; OpenStreetMap contributors, <a href='http://hot.openstreetmap.org/'>Humanitarian OpenStreetMap Team</a>, <a href='redcross.org'>Red Cross</a>"
     },
     "OpenStreetMap": {
         url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
@@ -61,7 +61,7 @@ var grouped_overlays = {
         },
         "Elements at Risk": {
             url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
-            attribution: "(c) OpenStreetMap contriubutors (c) tiles: GIScience Heidelberg",
+            attribution: "&copy; OpenStreetMap contriubutors &copy; tiles: GIScience Heidelberg",
         },
         "Schools DFED 2009": {
             url: "americanredcross.HAIYAN_Schools"
