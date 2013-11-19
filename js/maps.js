@@ -59,10 +59,10 @@ var grouped_overlays = {
         "Population by Baranguy": {
             url: "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010"
         },
-        "Elements at Risk": {
-            url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
-            attribution: "&copy; OpenStreetMap contriubutors &copy; tiles: GIScience Heidelberg",
-        },
+        // "Elements at Risk": {
+        //     url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
+        //     attribution: "&copy; OpenStreetMap contriubutors &copy; tiles: GIScience Heidelberg",
+        // },
         "Schools DFED 2009": {
             url: "americanredcross.HAIYAN_Schools"
         },
@@ -87,22 +87,25 @@ var grouped_overlays = {
     },
     "Damage Layers": {
         "Storm Surge Max Height": {
-            url: "americanredcross.StormSurgeMaxHeight"
+            url: "americanredcross.HAIYAN_Storm_Surge"
         },
         "USG Damage Assessment": {
             url: "americanredcross.NGA_DamageAssessment_Nov11"
         },
         "Tacloban Building Damage Nov. 8": {
-            url: "americanredcross.Building_Damages_Tacloban"
+            url: "americanredcross.COPERNICUS_Damages_Tacloban"
         },
-        "UNOSAT - North Cebu": {
-            url: "americanredcross.HAIYAN_AffectedBldgA_15Nov2013"
-        },
-        "UNOSAT - North Leyte": {
+        // "UNOSAT - North Cebu": {
+        //     url: "americanredcross.HAIYAN_AffectedBldgA_15Nov2013"
+        // },
+        "UNOSAT Building Assessment": {
             url: "americanredcross.HAIYAN_Ormoc_Damages"
         },
         "Impassable Roads": {
             url: "americanredcross.HAIYAN_Bridges"
+        },
+        "Tacloban Roads": {
+            url: "americanredcross.HAIYAN_Tomnod_Nov12"
         },
         "Affected Persons": {
             url: "americanredcross.HAIYAN_Affected_Persons"
@@ -110,10 +113,13 @@ var grouped_overlays = {
     },
     "Red Cross Layers": {
         "IFRC ERUs": {
-            url: "americanredcross.HAIYAN_IFRC_Staff_Deployments"
+            url: "americanredcross.IFRC_coordination_19Nov"
         },
         "IFRC Area of Opps": {
             url: "americanredcross.HAIYAN_Evacuation_Centers"
+        },
+        "Humanitarian 3W": {
+            url: "americanredcross.HAIYAN_3W"
         }
     },
     "Philippines RC Layers": {

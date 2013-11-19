@@ -57,7 +57,7 @@ var groupedOverlays = overlayMaker(grouped_overlays);
 var map = L.map('map', {
     zoom: 8,
     center: [11.2500, 125.0000],
-    layers: [baseLayers["HOT OSM"]]
+    layers: [baseLayers["Humanitarian OSM"]]
 });
 
 //need to add geocoder, fails for some reason
