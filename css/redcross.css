@@ -11,6 +11,11 @@
 	margin: 5px;
 }
 
+.prclogo {
+	height: 40px;
+	padding: 3px;
+}
+
 .time, .facts{
 	padding-left: 5px;
 	color: #000;
@@ -43,8 +48,9 @@ ul {
 }
 
 #title {
-	margin: 20px;
-	padding: auto;
+	margin: 3px;
+	float: right;
+	display: inline;
 }
 
 #zoomLevelBox {
