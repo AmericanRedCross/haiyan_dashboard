@@ -112,9 +112,9 @@ var grouped_overlays = {
         }
     },
     "Red Cross Layers": {
-        "IFRC ERUs": {
-            url: "americanredcross.IFRC_coordination_19Nov"
-        },
+        // "IFRC ERUs": {
+        //     url: "americanredcross.IFRC_coordination_19Nov"
+        // },
         "IFRC Area of Opps": {
             url: "americanredcross.HAIYAN_Evacuation_Centers"
         },
