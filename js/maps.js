@@ -82,7 +82,7 @@ var grouped_overlays = {
             "url": "americanredcross.HAIYAN_Atlas_Bounds"
         },
         "Mangroves": {
-            "url": "americanredcross.jvrq9f6r"
+            "url": "americanredcross.ivqme7b9"
         }
     },
     "Damage Layers": {
