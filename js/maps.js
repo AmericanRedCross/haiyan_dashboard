@@ -26,7 +26,7 @@ example:
 
 
 var base_layers = {
-    "HOT OSM": {
+    "Humanitarian OSM": {
         url: "http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png",
         attribution: "&copy; OpenStreetMap contributors, <a href='http://hot.openstreetmap.org/'>Humanitarian OpenStreetMap Team</a>, <a href='redcross.org'>Red Cross</a>"
     },
