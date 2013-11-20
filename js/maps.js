@@ -79,10 +79,12 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Poverty_by_Municipality"
         },
         "Atlas": {
-            "url": "americanredcross.HAIYAN_Atlas_Bounds"
+            "url": "americanredcross.HAIYAN_Atlas_Bounds",
+            "attribution":"GADM"
         },
         "Mangroves": {
-            "url": "americanredcross.ivqme7b9"
+            "url": "americanredcross.ivqme7b9",
+            "attribution": "<a href='http://usgs.gov'>USGS</a>"
         }
     },
     "Damage Layers": {
@@ -95,9 +97,6 @@ var grouped_overlays = {
         "Tacloban Building Damage Nov. 8": {
             url: "americanredcross.COPERNICUS_Damages_Tacloban"
         },
-        // "UNOSAT - North Cebu": {
-        //     url: "americanredcross.HAIYAN_AffectedBldgA_15Nov2013"
-        // },
         "UNOSAT Building Assessment": {
             url: "americanredcross.HAIYAN_Ormoc_Damages"
         },
@@ -106,26 +105,18 @@ var grouped_overlays = {
         },
         "Tacloban Roads": {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
-        },
-        "Affected Persons": {
-            url: "americanredcross.HAIYAN_Affected_Persons"
         }
     },
     "Red Cross Layers": {
-        "IFRC ERUs": {
-            url: "americanredcross.IFRC_coordination_19Nov"
-        },
         "IFRC Area of Opps": {
             url: "americanredcross.HAIYAN_Evacuation_Centers"
         },
         "Humanitarian 3W": {
-            url: "americanredcross.HAIYAN_3W"
+            url: "americanredcross.HAIYAN_3W",
+            attribution: "UNOCHA & MapAction"
         }
     },
     "Philippines RC Layers": {
-        "Evacuated by Area": {
-            url: "americanredcross.Haiyan_2013-11-11_EvacuatedPersonsByProvince"
-        },
         "Philippines RC Chapters": {
             url: "americanredcross.m5zv9529"
         }
