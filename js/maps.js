@@ -116,8 +116,8 @@ var grouped_overlays = {
             attribution: "UNOCHA & MapAction"
         }
     },
-    "Philippines RC Layers": {
-        "Philippines RC Chapters": {
+    "Philippine RC Layers": {
+        "Philippine RC Chapters": {
             url: "americanredcross.m5zv9529"
         }
     }
