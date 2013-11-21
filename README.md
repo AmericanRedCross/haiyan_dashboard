@@ -7,11 +7,11 @@ The maps, figures, and layers show on this page are public. Additional operation
 
 **Thanks:**
 This project could not have been possible without the huge help and support from a number of volunteers.
-- [Gerald](http://github.com/) from [MapBox](http://mapbox.com)
+- [Gerald](https://github.com/geraldarthur) from [MapBox](http://mapbox.com)
 	- Refactored the way layers are added to the map to be more sustainable
 - [Ian](http://github.com/ian29) from [MapBox](http://mapbox.com)
 	- Made horrible variable declarations into a pretty json file
-- [Simon Johnson](http://redcross.org.uk) from [British Red Cross](http://redcross.org.uk)
+- [Simon Johnson](https://github.com/SimonbJohnson) from [British Red Cross](http://redcross.org.uk)
 	- Altered Leaflet Group Controls to make groups collapsable
 
 **Technology Used:**
