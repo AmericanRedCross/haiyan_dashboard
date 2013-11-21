@@ -4,13 +4,6 @@ var express = require('express')
   , BasicStrategy = require('passport-http').BasicStrategy
   , userauth = require('./js/userauth.js');
 
-// var users = [
-//     { id: 1, username: 'factim', password: 'haiyan'}
-//   , { id: 2, username: 'redcross', password: 'opendata'}
-// ];
-
-console.log(users);
-
 function findByUsername(username, fn) {
   for (var i = 0, len = users.length; i < len; i++) {
     var user = users[i];
@@ -55,7 +48,7 @@ app.configure(function() {
   app.use(passport.initialize());
   app.use(app.router);
   app.use(express.static(__dirname + '/'));
-  app.use(express.static(__dirname + '/secure'));
+  // app.use(express.static(__dirname + '/secure'));
 });
 
 
