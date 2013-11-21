@@ -105,6 +105,9 @@ var grouped_overlays = {
         },
         "Tacloban Roads": {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
+        },
+        "Power Outages": {
+            url: "americanredcross.4362bj4i"
         }
     },
     "Red Cross Layers": {
