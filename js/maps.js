@@ -92,13 +92,15 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Storm_Surge"
         },
         "USG Damage Assessment": {
-            url: "americanredcross.NGA_DamageAssessment_Nov11"
+            url: "americanredcross.NGA_DamageAssessment_Nov11",
+            attribution: "NGA"
         },
         "Tacloban Building Damage Nov. 8": {
             url: "americanredcross.COPERNICUS_Damages_Tacloban"
         },
         "UNOSAT Building Assessment": {
-            url: "americanredcross.HAIYAN_Ormoc_Damages"
+            url: "americanredcross.HAIYAN_Ormoc_Damages",
+            attribution: "UNOSAT"
         },
         "Impassable Roads": {
             url: "americanredcross.HAIYAN_Bridges"
@@ -107,13 +109,19 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
         },
         "Power Outages": {
-            url: "americanredcross.4362bj4i"
+            url: "americanredcross.4362bj4i",
+            attribution: "NDRRMC"
         }
     },
     "Red Cross Layers": {
         "IFRC Area of Opps": {
-            url: "americanredcross.HAIYAN_Evacuation_Centers"
+            url: "americanredcross.HAIYAN_Evacuation_Centers",
+            attribution: "<a href='http://ifrc.org'>IFRC</a>"
         },
+        "ICRC Area of Opps": {
+            url: "americanredcross.ztmrhpvi",
+            attribution: "<a href='http://icrc.org'>ICRC</a>"
+        }
         "Humanitarian 3W": {
             url: "americanredcross.HAIYAN_3W",
             attribution: "UNOCHA & MapAction"
@@ -121,7 +129,8 @@ var grouped_overlays = {
     },
     "Philippine RC Layers": {
         "Philippine RC Chapters": {
-            url: "americanredcross.m5zv9529"
+            url: "americanredcross.m5zv9529",
+            attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         }
     }
 };
