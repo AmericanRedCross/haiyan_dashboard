@@ -115,6 +115,22 @@ var grouped_overlays = {
         "Power Outages": {
             url: "americanredcross.4362bj4i",
             attribution: "NDRRMC"
+        },
+        "Totally Damaged Buildings": {
+            url: "americanredcross.yiqtcsor",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Mobilized Volunteers": {
+            url: "americanredcross.kngeqaor",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Persons Affected": {
+            url: "americanredcross.r0nhr529",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Deaths": {
+            url: "americanredcross.z54p9zfr",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         }
     },
     "Red Cross Layers": {
