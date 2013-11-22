@@ -125,7 +125,7 @@ var grouped_overlays = {
         "ICRC Area of Opps": {
             url: "americanredcross.ztmrhpvi",
             attribution: "<a href='http://icrc.org'>ICRC</a>"
-        }
+        },
         "Humanitarian 3W": {
             url: "americanredcross.HAIYAN_3W",
             attribution: "UNOCHA & MapAction"
