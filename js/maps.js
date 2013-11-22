@@ -85,6 +85,10 @@ var grouped_overlays = {
         "Mangroves": {
             "url": "americanredcross.ivqme7b9",
             "attribution": "<a href='http://usgs.gov'>USGS</a>"
+        },
+        "Radio Stations": {
+            "url": "americanredcross.Haiyan_Radio_Stations",
+            "attribution": "<a href='http://infoasaid'>Infoasaid</a>"
         }
     },
     "Damage Layers": {
