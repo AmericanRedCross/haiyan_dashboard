@@ -85,6 +85,10 @@ var grouped_overlays = {
         "Mangroves": {
             "url": "americanredcross.ivqme7b9",
             "attribution": "<a href='http://usgs.gov'>USGS</a>"
+        },
+        "Radio Stations": {
+            "url": "americanredcross.Haiyan_Radio_Stations",
+            "attribution": "<a href='http://infoasaid'>Infoasaid</a>"
         }
     },
     "Damage Layers": {
@@ -92,13 +96,15 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Storm_Surge"
         },
         "USG Damage Assessment": {
-            url: "americanredcross.NGA_DamageAssessment_Nov11"
+            url: "americanredcross.NGA_DamageAssessment_Nov11",
+            attribution: "NGA"
         },
         "Tacloban Building Damage Nov. 8": {
             url: "americanredcross.COPERNICUS_Damages_Tacloban"
         },
         "UNOSAT Building Assessment": {
-            url: "americanredcross.HAIYAN_Ormoc_Damages"
+            url: "americanredcross.HAIYAN_Ormoc_Damages",
+            attribution: "UNOSAT"
         },
         "Impassable Roads": {
             url: "americanredcross.HAIYAN_Bridges"
@@ -107,12 +113,34 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
         },
         "Power Outages": {
-            url: "americanredcross.4362bj4i"
+            url: "americanredcross.4362bj4i",
+            attribution: "NDRRMC"
+        },
+        "Totally Damaged Buildings": {
+            url: "americanredcross.yiqtcsor",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Mobilized Volunteers": {
+            url: "americanredcross.kngeqaor",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Persons Affected": {
+            url: "americanredcross.r0nhr529",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Deaths": {
+            url: "americanredcross.z54p9zfr",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         }
     },
     "Red Cross Layers": {
         "IFRC Area of Opps": {
-            url: "americanredcross.HAIYAN_Evacuation_Centers"
+            url: "americanredcross.HAIYAN_Evacuation_Centers",
+            attribution: "<a href='http://ifrc.org'>IFRC</a>"
+        },
+        "ICRC Area of Opps": {
+            url: "americanredcross.ztmrhpvi",
+            attribution: "<a href='http://icrc.org'>ICRC</a>"
         },
         "Humanitarian 3W": {
             url: "americanredcross.HAIYAN_3W",
@@ -121,7 +149,8 @@ var grouped_overlays = {
     },
     "Philippine RC Layers": {
         "Philippine RC Chapters": {
-            url: "americanredcross.m5zv9529"
+            url: "americanredcross.m5zv9529",
+            attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         }
     }
 };
