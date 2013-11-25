@@ -111,27 +111,43 @@ var grouped_overlays = {
         },
         "Tacloban Roads": {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
-        },
+        }
+        
+    },
+    "NDRRMC": {
         "Power Outages": {
             url: "americanredcross.4362bj4i",
-            attribution: "NDRRMC"
-        },
-        "Totally Damaged Buildings": {
-            url: "americanredcross.yiqtcsor",
             attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         },
-        "Mobilized Volunteers": {
-            url: "americanredcross.kngeqaor",
+        "Affected Families": {
+            url: "americanredcross.wa0s5rk9",
             attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         },
-        "Persons Affected": {
-            url: "americanredcross.r0nhr529",
+        "Affected Persons": {
+            url: "americanredcross.jb8rggb9",
             attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         },
-        "Deaths": {
-            url: "americanredcross.z54p9zfr",
+        "Families in Shelters": {
+            url: "americanredcross.lvsiqkt9",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Families outside Shelters": {
+            url: "americanredcross.en42huxr",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        // "Number of Shelters": {
+        //     url: "americanredcross.en42huxr",
+        //     attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        // },
+        "Persons in Shelters": {
+            url: "americanredcross.gdpzm2t9",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Persons outside Shelters": {
+            url: "americanredcross.0zskbj4i",
             attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         }
+
     },
     "Red Cross Layers": {
         "IFRC Area of Opps": {
