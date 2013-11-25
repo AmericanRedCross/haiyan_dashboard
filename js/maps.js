@@ -111,6 +111,26 @@ var grouped_overlays = {
         },
         "Tacloban Roads": {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
+        },
+        "Capoocan - Damanged Buildings": {
+            url: "americanredcross.f168ncdi",
+            attribution: "UNOSAT"
+        }, 
+        "Dulag - Damanged Buildings": {
+            url: "americanredcross.8xwjc3di",
+            attribution: "UNOSAT"
+        },
+        "Isabel - Damanged Buildings": {
+            url: "americanredcross.8famj9k9",
+            attribution: "UNOSAT"
+        },
+        "Madridejos - Damanged Buildings": {
+            url: "americanredcross.n81l9pb9",
+            attribution: "UNOSAT"
+        },
+        "Ormoc - Damanged Buildings": {
+            url: "americanredcross.cp5bfbt9",
+            attribution: "UNOSAT"
         }
         
     },
