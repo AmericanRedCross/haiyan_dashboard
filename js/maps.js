@@ -90,10 +90,6 @@ var grouped_overlays = {
         "Radio Stations": {
             "url": "americanredcross.Haiyan_Radio_Stations",
             "attribution": "<a href='http://infoasaid'>Infoasaid</a>"
-        },
-        "UN Coordination Hubs": {
-            "url": "americanredcross.uncoordinationhubs",
-            "attribution": "UNOCHA & MapAction"
         }
     },
     "Damage Layers": {
@@ -117,23 +113,23 @@ var grouped_overlays = {
         "Tacloban Roads": {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
         },
-        "Capoocan - Damanged Buildings": {
+        "Capoocan - Buildings": {
             url: "americanredcross.f168ncdi",
             attribution: "UNOSAT"
         }, 
-        "Dulag - Damanged Buildings": {
+        "Dulag - Buildings": {
             url: "americanredcross.8xwjc3di",
             attribution: "UNOSAT"
         },
-        "Isabel - Damanged Buildings": {
+        "Isabel - Buildings": {
             url: "americanredcross.8famj9k9",
             attribution: "UNOSAT"
         },
-        "Madridejos - Damanged Buildings": {
+        "Madridejos - Buildings": {
             url: "americanredcross.n81l9pb9",
             attribution: "UNOSAT"
         },
-        "Ormoc - Damanged Buildings": {
+        "Ormoc - Buildings": {
             url: "americanredcross.cp5bfbt9",
             attribution: "UNOSAT"
         }
@@ -174,7 +170,7 @@ var grouped_overlays = {
         }
 
     },
-    "Red Cross Layers": {
+    "Red Cross": {
         "IFRC Area of Opps": {
             url: "americanredcross.HAIYAN_Evacuation_Centers",
             attribution: "<a href='http://ifrc.org'>IFRC</a>"
@@ -183,15 +179,19 @@ var grouped_overlays = {
             url: "americanredcross.ztmrhpvi",
             attribution: "<a href='http://icrc.org'>ICRC</a>"
         },
-        "Humanitarian 3W": {
-            url: "americanredcross.HAIYAN_3W",
-            attribution: "UNOCHA & MapAction"
-        }
-    },
-    "Philippine RC Layers": {
         "Philippine RC Chapters": {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+        }
+    },
+    "Other Organizations": {
+        "UN Coordination Hubs": {
+            "url": "americanredcross.uncoordinationhubs",
+            "attribution": "UNOCHA & MapAction"
+        },
+        "Humanitarian 3W": {
+            url: "americanredcross.HAIYAN_3W",
+            attribution: "UNOCHA & MapAction"
         }
     }
 };
