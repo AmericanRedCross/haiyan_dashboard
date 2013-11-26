@@ -90,6 +90,10 @@ var grouped_overlays = {
         "Radio Stations": {
             "url": "americanredcross.Haiyan_Radio_Stations",
             "attribution": "<a href='http://infoasaid'>Infoasaid</a>"
+        },
+        "UN Coordination Hubs": {
+            "url": "americanredcross.uncoordinationhubs",
+            "attribution": "UNOCHA & MapAction"
         }
     },
     "Damage Layers": {
