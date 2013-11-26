@@ -73,7 +73,8 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Townhalls"
         },
         "Cash Transfers": {
-            url: "americanredcross.HAIYAN_CashTransfer_Nov13"
+            url: "americanredcross.HAIYAN_CashTransfer_Nov13",
+            attribution: "OpenStreetMap"
         },
         "Poverty by Municipality": {
             url: "americanredcross.HAIYAN_Poverty_by_Municipality"
@@ -106,9 +107,9 @@ var grouped_overlays = {
             url: "americanredcross.HAIYAN_Ormoc_Damages",
             attribution: "UNOSAT"
         },
-        "Impassable Roads": {
-            url: "americanredcross.HAIYAN_Bridges"
-        },
+        // "Impassable Roads": {
+        //     url: "americanredcross.HAIYAN_Bridges"
+        // },
         "Tacloban Roads": {
             url: "americanredcross.HAIYAN_Tomnod_Nov12"
         },
