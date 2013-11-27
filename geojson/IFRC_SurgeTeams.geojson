@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Ormoc",
+        "People":37,
+        "Teams":"Basic Health Care ERU, Relief ERU (2)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5849609375,
+          11.005904459659464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Tacloban",
+        "People":17,
+        "Teams":"Coordination, Logs ERU, IT Telecoms ERU, Mass Sanitation ERU (2), Base Camp Assessment Team"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00278472900389,
+          11.24440897484637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Cebu City",
+        "People":41,
+        "Teams":"Coordination, Logs ERU (2), IT/Telecoms ERU (2), Basic Health Care ERU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.89659881591795,
+          10.302421395223778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Roxas City",
+        "People":6,
+        "Teams": "Relief ERU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.75299072265624,
+          11.584306143443152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Tolusa",
+        "People":6,
+        "Teams": "WASAN M15 ERU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.035400390625,
+          11.060494720525115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Manila",
+        "People":4,
+        "Teams":"Coordination"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.025390625,
+          14.604847155053898
+        ]
+      }
+    }
+  ]
+}

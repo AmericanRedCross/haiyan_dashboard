@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Ormoc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5849609375,
+          11.005904459659464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Tacloban"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.00278472900389,
+          11.24440897484637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Cebu City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.89659881591795,
+          10.302421395223778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Roxas City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.75299072265624,
+          11.584306143443152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Iloilo City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.57377624511719,
+          10.710538618820472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Guiuan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.72616577148438,
+          11.031178989235686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "City": "Borongan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.43502807617186,
+          11.61020230428723
+        ]
+      }
+    }
+  ]
+}
