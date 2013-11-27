@@ -14,6 +14,7 @@
 .prclogo {
 	height: 40px;
 	padding: 3px;
+	float:right;
 }
 
 .time, .facts{
@@ -48,9 +49,9 @@ ul {
 }
 
 #title {
-	margin: 3px;
-	float: right;
-	display: inline;
+	margin: 5px;
+	/*float: right;
+	display: inline;*/
 }
 
 #zoomLevelBox {
@@ -80,9 +81,10 @@ ul {
 /*leaflet control group layers */
 .leaflet-control-layers-group-name {
 	font-weight: bold;
+	font-size:13px;
 	margin-bottom: .2em;
 	display: block;
-        cursor:pointer;
+    cursor:pointer;
 }
 
 .leaflet-control-layers-group {
