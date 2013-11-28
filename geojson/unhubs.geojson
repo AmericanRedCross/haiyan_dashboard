@@ -4,7 +4,16 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Ormoc"
+        "Name": "Ormoc",
+        "Telephone": "-",
+        "Email": "philippines@humanitarianresponse.info",
+        "Location": "Philippines",
+        "Address 1": "-",
+        "Address 2": "",
+        "City": "Ormoc",
+        "State": "-",
+        "Postal Code": 6541,
+        "Country": "PH"
       },
       "geometry": {
         "type": "Point",
@@ -17,7 +26,16 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Tacloban"
+        "Name": "Tacloban",
+        "Telephone": "unknown",
+        "Email": "undac.tacloban@gmail.com",
+        "Location": "VIII (Eastern Visayas)",
+        "Address 1": "Leyte Sports Development Center Athletic Road (cross street with Paterno St.) Tacloban",
+        "Address 2": "Latitude: 11å¡14'20.76\" Longitude: 124å¡59'57.48\"",
+        "City": "Tacloban",
+        "State": "VIII",
+        "Postal Code": 6500,
+        "Country": "PH"
       },
       "geometry": {
         "type": "Point",
@@ -30,7 +48,14 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Cebu City"
+        "Name": "Cebu",
+        "Location": "VII (Central Visayas)",
+        "Address 1": "Unknown",
+        "Address 2": "",
+        "City": "Cebu",
+        "State": "VII",
+        "Postal Code": 6000,
+        "Country": "PH"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +68,16 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Roxas City"
+        "Name": "Roxas",
+        "Telephone": "Unknown",
+        "Email": "undac.roxas@gmail.com",
+        "Location": "VI (Western Visayas)",
+        "Address 1": "Roxas Provincial Hall (City Hall/Capitol) McKinley and Taft St. Roxas City",
+        "Address 2": "Lat 11 34' 59.87' Long 122 45' 11.15'",
+        "City": "Roxas",
+        "State": "VI",
+        "Postal Code": 5800,
+        "Country": "PH"
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +90,7 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Iloilo City"
+        "Name": "Iloilo City"
       },
       "geometry": {
         "type": "Point",
@@ -69,7 +103,16 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Guiuan"
+        "Name": "Guiuan",
+        "Telephone": "8.82167E+11",
+        "Email": "philippines@humanitarianresponse.info",
+        "Location": "VIII (Eastern Visayas)",
+        "Address 1": "Unknown",
+        "Address 2": "",
+        "City": "Guiuan",
+        "State": "VIII",
+        "Postal Code": 6809,
+        "Country": "PH"
       },
       "geometry": {
         "type": "Point",
@@ -82,13 +125,79 @@
     {
       "type": "Feature",
       "properties": {
-        "City": "Borongan"
+        "Name": "Borongan"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           125.43502807617186,
           11.61020230428723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Manilla",
+        "Telephone": "+63 (0) 843 9553",
+        "Email": "ochaphilippines@un.org",
+        "Location": "NCR - National Capital Region",
+        "Address 1": "30/F, Yuchengco Tower, RCBC Plaza",
+        "Address 2": "Ayala Avenue",
+        "City": "Makati City",
+        "State": "NCR",
+        "Postal Code": 1226,
+        "Country": "PH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99243164062501,
+          14.604847155053898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Davao City",
+        "Telephone": "082 285 2562",
+        "Email": "schmidtm@un.org",
+        "Location": "Samal City",
+        "Address 1": "No. 384. Sampaguita, corner Tulip Street, Juna subdivision",
+        "Address 2": "Matina",
+        "City": "Davao City",
+        "State": "Region 11",
+        "Postal Code": 1124,
+        "Country": "PH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.60943603515625,
+          7.070229595488747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name":"Cotabato Sub-Office",
+        "Telephone":"+63 (0) 64 421 7935",
+        "Email":"muktar@un.org",
+        "Location":"Cotabato City",
+        "Address 1":"No. 080 Rufo Manara St.",
+        "Address 2":"Rosary Heights 10",
+        "City":"Cotabato City",
+        "State":"Mindanao",
+        "Postal Code":9600,
+        "Country":"PH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.23339843749999,
+          7.234423433691038
         ]
       }
     }
