@@ -1,0 +1,992 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "name": "Bacolod - Abyan Radyo", "freq_value": "1035.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "name": "DZAS - Metro Manila - Agapay ng Sambayanan", "freq_value": "702.0" }, "geometry": { "type": "Point", "coordinates": [ 121.034, 14.5616 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "name": "DZJC - Ilocos Norte - Aksyon Radyo", "freq_value": "747.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "name": "DXGO-AM - Davao City - Aksyon Radyo", "freq_value": "855.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "name": "DYVL-AM - Justice Romualdez Street Corner Real Street, Tacloban City, Leyte - Aksyon Radyo", "freq_value": "819.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "name": "DYMS-AM - Catbalogan, Samar - Aksyon Radyo", "freq_value": "1044.0" }, "geometry": { "type": "Point", "coordinates": [ 124.89, 11.7596 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "name": "DYSM - Catarman, Northern Samar - Aksyon Radyo", "freq_value": "972.0" }, "geometry": { "type": "Point", "coordinates": [ 124.638, 12.5017 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "name": "DYEZ - Bacolod - Aksyon Radyo", "freq_value": "684.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "name": "DYOK-AM - Iloilo - Aksyon Radyo", "freq_value": "720.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "name": "DWCM - Dagupan City, Pangasinan - Aksyon Radyo", "freq_value": "1161.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "name": "DYRO - Roxas City, Capiz - Allied BC", "freq_value": "945.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "name": "DYAY - Mingranilla, Cebu - Allied BC", "freq_value": "1584.0" }, "geometry": { "type": "Point", "coordinates": [ 123.789, 10.2433 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "name": "DYRP - Iloilo City, Iloilo - Allied BC", "freq_value": "1017.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "name": "DWLQ - Lucena City, Quezon - Allied BC", "freq_value": "1296.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "name": "DXRT-AM - Jolo, Sulu - Angel Radyo", "freq_value": "873.0" }, "geometry": { "type": "Point", "coordinates": [ 120.995, 6.04696 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "name": "DWDD - Metro Manila - Armed Forces Radio", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "name": "DXID-FM - Pagadian City, Zamboanga Del Sur - Association for Islamic Development Orgs.", "freq_value": "101.5" }, "geometry": { "type": "Point", "coordinates": [ 123.425, 7.8238 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "name": "DXID - AM Pagadian City, Zamboanga Del Sur - Association for Islamic Development Orgs.", "freq_value": "1566.0" }, "geometry": { "type": "Point", "coordinates": [ 123.425, 7.8238 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "name": "DZDF - Cabanatuan City, Nueva Ecija - Baha'i Radio 1584", "freq_value": "1584.0" }, "geometry": { "type": "Point", "coordinates": [ 120.975, 15.4874 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "name": "DYDD - Cebu City, Cebu - Bantay Radyo", "freq_value": "1260.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "name": "DTZZ-AM - Guihulngan. Negros Oriental - Bantay Radyo", "freq_value": "1458.0" }, "geometry": { "type": "Point", "coordinates": [ 123.273, 10.1186 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "name": "DZJO-AM - Infanta City, Quezon - Bayanihan BC", "freq_value": "720.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 14.7455 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "name": "Baguio City, Benguet - Benguet Broadcasting Corporation", "freq_value": "1512.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "name": "Naga City, Camarines Sur - Bicol BS", "freq_value": "603.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "name": "Legazpi City, Albay - Bicol BS", "freq_value": "1440.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "name": "DXES-AM - General Santos City, South Cotabato - Bombo Radyo", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "name": "DXMC-AM - Koronadal City, South Cotabato - Bombo Radyo", "freq_value": "1026.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "name": "DXBR-AM - Butuan City, Agusan Del Norte - Bombo Radyo", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "name": "DXLX-AM - Iligan City, Lanao Del Norte - Bombo Radyo", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 124.246, 8.23217 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "name": "DXIF-AM - Cagayan De Oro City, Misamis Oriental - Bombo Radyo", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "name": "DZVX-AM - Daet, Camarines Norte - Bombo Radyo", "freq_value": "1269.0" }, "geometry": { "type": "Point", "coordinates": [ 122.958, 14.1201 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "name": "DZNG-AM - Naga City, Camarines Sur - Bombo Radyo", "freq_value": "1044.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "name": "DYOW-AM - Roxas City, Capiz - Bombo Radyo", "freq_value": "900.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "name": "Bacolod - Bombo Radyo", "freq_value": "1269.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "name": "DZWX - Baguio City, Benguet - Bombo Radyo", "freq_value": "1035.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "name": "DYMF - Cebu - Bombo Radyo", "freq_value": "963.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "name": "DZWN - Dagupan City, Pangasinan - Bombo Radyo", "freq_value": "1125.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "name": "Mindanao - Davao - Bombo Radyo", "freq_value": "576.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "name": "DYRC - Dumaguete City, Negros Oriental - Bombo Radyo", "freq_value": "855.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "name": "Iloilo - Bombo Radyo", "freq_value": "837.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "name": "DZNC - Cauayan City, Isabela - Bombo Radyo", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 121.765, 16.9307 ] } }
+,
+{ "type": "Feature", "id": 41, "properties": { "name": "DYIN - Kalibo, Aklan - Bombo Radyo", "freq_value": "1107.0" }, "geometry": { "type": "Point", "coordinates": [ 122.368, 11.7091 ] } }
+,
+{ "type": "Feature", "id": 42, "properties": { "name": "DZSO - San Fernando City, La Union - Bombo Radyo", "freq_value": "720.0" }, "geometry": { "type": "Point", "coordinates": [ 120.319, 16.617 ] } }
+,
+{ "type": "Feature", "id": 43, "properties": { "name": "DZVR - Ilocos Norte - Bombo Radyo", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 44, "properties": { "name": "DZLG - Legazpi City, Albay - Bombo Radyo", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 45, "properties": { "name": "DZGR - Tuguegarao City, Cagayan - Bombo Radyo", "freq_value": "891.0" }, "geometry": { "type": "Point", "coordinates": [ 121.733, 17.6167 ] } }
+,
+{ "type": "Feature", "id": 46, "properties": { "name": "DZVR - Ilocos Sur - Bombo Radyo", "freq_value": "585.0" }, "geometry": { "type": "Point", "coordinates": [ 120.387, 17.5746 ] } }
+,
+{ "type": "Feature", "id": 47, "properties": { "name": "Daet, Camarines Norte - Caceres BC", "freq_value": "1197.0" }, "geometry": { "type": "Point", "coordinates": [ 122.958, 14.1201 ] } }
+,
+{ "type": "Feature", "id": 48, "properties": { "name": "DYAG-AM - Cadiz City, Negros Occidental - Cadiz Radio & TV Network Inc", "freq_value": "630.0" }, "geometry": { "type": "Point", "coordinates": [ 123.287, 10.9453 ] } }
+,
+{ "type": "Feature", "id": 49, "properties": { "name": "DZRA-AM - Virac, Catanduanes - Catanduanes State College", "freq_value": "1368.0" }, "geometry": { "type": "Point", "coordinates": [ 124.234, 13.5907 ] } }
+,
+{ "type": "Feature", "id": 50, "properties": { "name": "DZVT-AM - San Jose, Mindoro Occidental - Catholic Bishops Conference of the Philippines", "freq_value": "1395.0" }, "geometry": { "type": "Point", "coordinates": [ 121.085, 12.3698 ] } }
+,
+{ "type": "Feature", "id": 51, "properties": { "name": "DZWM - Alaminos City, Pangasinan - Catholic Welfare Organisation", "freq_value": "864.0" }, "geometry": { "type": "Point", "coordinates": [ 119.98, 16.1568 ] } }
+,
+{ "type": "Feature", "id": 52, "properties": { "name": "DYVW-AM - Clergy House, Baybay Boulevard, Borongan, Eastern Samar - Catholic Welfare Organisation", "freq_value": "1386.0" }, "geometry": { "type": "Point", "coordinates": [ 125.433, 11.6116 ] } }
+,
+{ "type": "Feature", "id": 53, "properties": { "name": "DYDM - Mambajao, Maasin City, Southern Leyte - Catholic Welfare Organisation", "freq_value": "1548.0" }, "geometry": { "type": "Point", "coordinates": [ 124.717, 9.25615 ] } }
+,
+{ "type": "Feature", "id": 54, "properties": { "name": "Cauayan City, Isabela - Cebu Broadcasting Corporation", "freq_value": "837.0" }, "geometry": { "type": "Point", "coordinates": [ 121.765, 16.9307 ] } }
+,
+{ "type": "Feature", "id": 55, "properties": { "name": "Cebu City, Cebu - Cebu Catholic Television Network", "freq_value": "1332.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 56, "properties": { "name": "DYBB-AM - Baybay, Leyte - CentralVisayas College", "freq_value": "1449.0" }, "geometry": { "type": "Point", "coordinates": [ 124.813, 10.6819 ] } }
+,
+{ "type": "Feature", "id": 57, "properties": { "name": "DXMU-AM -Musuan, Bukidnon - Central Mindanao University", "freq_value": "1422.0" }, "geometry": { "type": "Point", "coordinates": [ 125.255, 7.96682 ] } }
+,
+{ "type": "Feature", "id": 58, "properties": { "name": "DYZD-AM - Ubay, Bohol - Chronicle Radio", "freq_value": "1161.0" }, "geometry": { "type": "Point", "coordinates": [ 124.473, 10.0515 ] } }
+,
+{ "type": "Feature", "id": 59, "properties": { "name": "DWRS - Ilocos Sur - Commando Radyo 927", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 120.387, 17.5746 ] } }
+,
+{ "type": "Feature", "id": 60, "properties": { "name": "DYWB - Bacolod City, Negros Occidental - Consolidated BS", "freq_value": "1341.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 61, "properties": { "name": "DWBA - Abra - DWBA 1197", "freq_value": "1197.0" }, "geometry": { "type": "Point", "coordinates": [ 120.619, 17.5977 ] } }
+,
+{ "type": "Feature", "id": 62, "properties": { "name": "DWCT - Legazpi City, Albay - DWCT", "freq_value": "1557.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 63, "properties": { "name": "DWDW - Dagupan City, Pangasinan - DWDW 1017", "freq_value": "1017.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 64, "properties": { "name": "DWGW-AM - Legazpi City, Albay - DWGW-AM", "freq_value": "684.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 65, "properties": { "name": "DWHL - Olongapo City, Zambales - Radyo Apo 756", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 120.283, 14.8308 ] } }
+,
+{ "type": "Feature", "id": 66, "properties": { "name": "DWIN - Dagupan City, Pangasinan - Radyo Agila 1080", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 67, "properties": { "name": "DWJJ - Cabanatuan City, Nueva Ecija - DWJJ 684", "freq_value": "684.0" }, "geometry": { "type": "Point", "coordinates": [ 120.975, 15.4874 ] } }
+,
+{ "type": "Feature", "id": 68, "properties": { "name": "DWMC - Rosales, Pangasinan - DWMC 1260", "freq_value": "1260.0" }, "geometry": { "type": "Point", "coordinates": [ 120.631, 15.8973 ] } }
+,
+{ "type": "Feature", "id": 69, "properties": { "name": "DWMI-AM - Calapan City, Mindoro Oriental - DWMI-AM", "freq_value": "999.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 70, "properties": { "name": "DWMT-AM - Naga City, Camarines Sur - DWMT", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 71, "properties": { "name": "DWNE - Palayan City, Nueva Ecija - DWNE 900", "freq_value": "900.0" }, "geometry": { "type": "Point", "coordinates": [ 121.083, 15.55 ] } }
+,
+{ "type": "Feature", "id": 72, "properties": { "name": "DWRF - Iba, Zambales - DWRF", "freq_value": "1458.0" }, "geometry": { "type": "Point", "coordinates": [ 119.977, 15.3284 ] } }
+,
+{ "type": "Feature", "id": 73, "properties": { "name": "DWRS - Santiago City, Isabela - DWRS Radyo Pilipino 981", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 121.554, 16.715 ] } }
+,
+{ "type": "Feature", "id": 74, "properties": { "name": "DWTI - Lucena City, Quezon - DWTI 972", "freq_value": "972.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 75, "properties": { "name": "DXOS-AM - Basilan Island - DXOS-AM", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 122.059, 6.57625 ] } }
+,
+{ "type": "Feature", "id": 76, "properties": { "name": "DXRP-AM - Davao City - DXRP-AM", "freq_value": "666.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 77, "properties": { "name": "DYAB - Cebu - DYAB Radyo Patrol 1512", "freq_value": "1512.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 78, "properties": { "name": "DYCM - Cebu City, Cebu - DYCM", "freq_value": "1152.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 79, "properties": { "name": "DYEH-AM - Puerto Princesa City, Palawan - DYEH-AM", "freq_value": "729.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 80, "properties": { "name": "DYLA - Cebu City, Cebu - DYLA", "freq_value": "909.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 81, "properties": { "name": "DYRD-AM - Tagbilaran, Bohol - DYRD", "freq_value": "1161.0" }, "geometry": { "type": "Point", "coordinates": [ 123.863, 9.64842 ] } }
+,
+{ "type": "Feature", "id": 82, "properties": { "name": "DYRS-AM - San Carlos City, Negros Occidental - DYRS-AM", "freq_value": "1431.0" }, "geometry": { "type": "Point", "coordinates": [ 123.287, 10.9453 ] } }
+,
+{ "type": "Feature", "id": 83, "properties": { "name": "DYXT-AM - Tagbilaran, Bohol - DYXT-AM", "freq_value": "1071.0" }, "geometry": { "type": "Point", "coordinates": [ 123.863, 9.64842 ] } }
+,
+{ "type": "Feature", "id": 84, "properties": { "name": "DZAT - Lucena City, Quezon - DZAT 1512", "freq_value": "1512.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 85, "properties": { "name": "DZEL-AM - Lucena City, Quezon - DZEL-AM", "freq_value": "1260.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 86, "properties": { "name": "DZGB - Legazpi City, Albay - DZGB 729", "freq_value": "729.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 87, "properties": { "name": "DZHR-AM - Virac, Catanduanes - DZHR-AM", "freq_value": "576.0" }, "geometry": { "type": "Point", "coordinates": [ 124.234, 13.5907 ] } }
+,
+{ "type": "Feature", "id": 88, "properties": { "name": "DZLU - San Fernando City, La Union - DZLU", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 120.319, 16.617 ] } }
+,
+{ "type": "Feature", "id": 89, "properties": { "name": "DZMD - Daet, Camarines Norte - DZMD 1161", "freq_value": "1161.0" }, "geometry": { "type": "Point", "coordinates": [ 122.958, 14.1201 ] } }
+,
+{ "type": "Feature", "id": 90, "properties": { "name": "DZNL - San Fernando City, La Union - DZNL Aksyon Radyo 783", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 120.319, 16.617 ] } }
+,
+{ "type": "Feature", "id": 91, "properties": { "name": "DZOM-AM - Calapan City, Mindoro Oriental - DZOM-AM", "freq_value": "1107.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 92, "properties": { "name": "DZRA - Daet, Camarines Norte - DZRA 1503", "freq_value": "1503.0" }, "geometry": { "type": "Point", "coordinates": [ 122.958, 14.1201 ] } }
+,
+{ "type": "Feature", "id": 93, "properties": { "name": "DXRF-AM - Davao City - Nationwide", "freq_value": "1260.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 94, "properties": { "name": "Zamboanga City - Nationwide", "freq_value": "855.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 95, "properties": { "name": "DZRH - Metro Manila - Nationwide", "freq_value": "666.0" }, "geometry": { "type": "Point", "coordinates": [ 121.0, 14.55 ] } }
+,
+{ "type": "Feature", "id": 96, "properties": { "name": "DZMT - Ilocos Norte - Nationwide", "freq_value": "990.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 97, "properties": { "name": "General Santos City, South Cotabato - Nationwide", "freq_value": "531.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 98, "properties": { "name": "Cotabato City, Maguindanao - Nationwide", "freq_value": "567.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 99, "properties": { "name": "Cagayan De Oro City, Misamis Oriental - Nationwide", "freq_value": "972.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 100, "properties": { "name": "Lucena City, Quezon - Nationwide", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 121.651, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 101, "properties": { "name": "Lucena City, Quezon - Nationwide", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 102, "properties": { "name": "Iloilo - Nationwide", "freq_value": "1485.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 103, "properties": { "name": "DZRH - Bacolod - Nationwide", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 104, "properties": { "name": "DYRH - Cebu - Nationwide", "freq_value": "1395.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 105, "properties": { "name": "DZRH - Kalibo - Nationwide", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 122.368, 11.7091 ] } }
+,
+{ "type": "Feature", "id": 106, "properties": { "name": "DZRH - Tuguegarao City, Cagayan - Nationwide", "freq_value": "576.0" }, "geometry": { "type": "Point", "coordinates": [ 121.733, 17.6167 ] } }
+,
+{ "type": "Feature", "id": 107, "properties": { "name": "DZRH - Santiago City, Isabela - Nationwide", "freq_value": "648.0" }, "geometry": { "type": "Point", "coordinates": [ 121.554, 16.715 ] } }
+,
+{ "type": "Feature", "id": 108, "properties": { "name": "DZRH - Baguio City, Benguet - Nationwide", "freq_value": "612.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 109, "properties": { "name": "DZRH - Dagupan City, Pangasinan - Nationwide", "freq_value": "1440.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 110, "properties": { "name": "DZRH - Kalibo, Aklan - Nationwide", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 122.368, 11.7091 ] } }
+,
+{ "type": "Feature", "id": 111, "properties": { "name": "DZSD - Dagupan City, Pangasinan - DZSD Super Radyo 1548", "freq_value": "1548.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 112, "properties": { "name": "DZTC - Tarlac City, Tarlac - DZTC 828 Radyo Pilipino", "freq_value": "828.0" }, "geometry": { "type": "Point", "coordinates": [ 120.583, 15.4833 ] } }
+,
+{ "type": "Feature", "id": 113, "properties": { "name": "DZTG - Tuguegarao City, Cagayan - DZTG Radyo Ronda 621", "freq_value": "621.0" }, "geometry": { "type": "Point", "coordinates": [ 121.733, 17.6167 ] } }
+,
+{ "type": "Feature", "id": 114, "properties": { "name": "DZUP - Metro Manila - DZUP", "freq_value": "1602.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 115, "properties": { "name": "DZVC-AM - Virac, Catanduanes - DZVC-AM", "freq_value": "621.0" }, "geometry": { "type": "Point", "coordinates": [ 124.234, 13.5907 ] } }
+,
+{ "type": "Feature", "id": 116, "properties": { "name": "DZWM - Alaminos City, Pangasinan - DZWM Radyo Totoo 891", "freq_value": "891.0" }, "geometry": { "type": "Point", "coordinates": [ 119.98, 16.1568 ] } }
+,
+{ "type": "Feature", "id": 117, "properties": { "name": "DZWT - Baguio City, Benguet - DZWT 540", "freq_value": "540.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 118, "properties": { "name": "DZXL - Metro Manila - DZXL Radyo Mo Nationwide!", "freq_value": "558.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5667 ] } }
+,
+{ "type": "Feature", "id": 119, "properties": { "name": "DYFX - Talisay, Cebu - Eagle BC", "freq_value": "1305.0" }, "geometry": { "type": "Point", "coordinates": [ 124.067, 11.25 ] } }
+,
+{ "type": "Feature", "id": 120, "properties": { "name": "DXED-AM - Davao City - Eagle BC", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 121, "properties": { "name": "DZEL-AM - Lucena City, Quezon - Eagle BC", "freq_value": "1260.0" }, "geometry": { "type": "Point", "coordinates": [ 121.651, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 122, "properties": { "name": "DXIP-AM - Davao City - El Nuevo Bantay Radyo", "freq_value": "900.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 123, "properties": { "name": "DWSS - Metro Manila - Entertainment Radio", "freq_value": "1494.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5833 ] } }
+,
+{ "type": "Feature", "id": 124, "properties": { "name": "DYER-AM - Puerto Princesa City, Palawan - Environment Radio", "freq_value": "828.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 125, "properties": { "name": "DYVS - Bacolod City, Negros Occidental - Far East BC", "freq_value": "1233.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 126, "properties": { "name": "DXAS-AM - Zamboanga City - Far East BC", "freq_value": "1116.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 127, "properties": { "name": "DXKI-AM - Koronadal City, South Cotabato - Far East BC", "freq_value": "1062.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 128, "properties": { "name": "DWA<\/a Legazpi City, Albay - Far East BC", "freq_value": "1125.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 129, "properties": { "name": "Pinamalayan, Mindoro Oriental - Far East BC", "freq_value": "1539.0" }, "geometry": { "type": "Point", "coordinates": [ 121.478, 13.039 ] } }
+,
+{ "type": "Feature", "id": 130, "properties": { "name": "Davao City - Far East BC", "freq_value": "1197.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 131, "properties": { "name": "Santiago City, Isabela - Far East BC", "freq_value": "1143.0" }, "geometry": { "type": "Point", "coordinates": [ 121.554, 16.715 ] } }
+,
+{ "type": "Feature", "id": 132, "properties": { "name": "DZRC - Legazpi City, Albay - Filipinas Broadcasting Network", "freq_value": "873.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 133, "properties": { "name": "DXRH-AM - Zamboanga City - First BC", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 134, "properties": { "name": "Calbayog City, Samar - GMA Network", "freq_value": "1476.0" }, "geometry": { "type": "Point", "coordinates": [ 125.012, 11.8016 ] } }
+,
+{ "type": "Feature", "id": 135, "properties": { "name": "DWGO - Olongapo City, Zambales - GO AM 1008", "freq_value": "1008.0" }, "geometry": { "type": "Point", "coordinates": [ 120.283, 14.8308 ] } }
+,
+{ "type": "Feature", "id": 136, "properties": { "name": "DWGV - Angeles City, Pampanga - GVAM 792", "freq_value": "792.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 15.1432 ] } }
+,
+{ "type": "Feature", "id": 137, "properties": { "name": "DWXI - Metro Manila - Himpilang Pinagpala", "freq_value": "1314.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5667 ] } }
+,
+{ "type": "Feature", "id": 138, "properties": { "name": "Calbayog City, Samar - Hypersonic", "freq_value": "1089.0" }, "geometry": { "type": "Point", "coordinates": [ 125.012, 11.8016 ] } }
+,
+{ "type": "Feature", "id": 139, "properties": { "name": "Sorsogon City, Sorsogon - Hypersonic", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 124.007, 12.9767 ] } }
+,
+{ "type": "Feature", "id": 140, "properties": { "name": "Roxas, Isabela - Iddes Broadcast Corp.", "freq_value": "1071.0" }, "geometry": { "type": "Point", "coordinates": [ 121.632, 17.158 ] } }
+,
+{ "type": "Feature", "id": 141, "properties": { "name": "DWAR - Ilocos Norte - iFM", "freq_value": "819.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 142, "properties": { "name": "DYSJ-AM -Antique - Intercontinental BC", "freq_value": "1359.0" }, "geometry": { "type": "Point", "coordinates": [ 121.944, 10.7548 ] } }
+,
+{ "type": "Feature", "id": 143, "properties": { "name": "DWGW-AM -Lengazpi City, Albay - Intercontinental BC", "freq_value": "684.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 144, "properties": { "name": "DYJJ-AM -Roxas City, Capiz - Intercontinental BC", "freq_value": "1296.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 145, "properties": { "name": "DZKV-AM - Lipa City, Batangas - Kaissar BN Inc.", "freq_value": "1548.0" }, "geometry": { "type": "Point", "coordinates": [ 121.165, 13.9413 ] } }
+,
+{ "type": "Feature", "id": 146, "properties": { "name": "DXKT-AM - Davao City - Kalyaan BS", "freq_value": "1071.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 147, "properties": { "name": "DWAM-AM - Batangas City, Batangas - Katibag Enterprises", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 121.065, 13.7659 ] } }
+,
+{ "type": "Feature", "id": 148, "properties": { "name": "Mindanao - Davao - Kingdom Radio", "freq_value": "1404.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 149, "properties": { "name": "DXIQ - Malaybalay City, Bukidnon - Love Radio", "freq_value": "106.3" }, "geometry": { "type": "Point", "coordinates": [ 125.132, 8.16016 ] } }
+,
+{ "type": "Feature", "id": 150, "properties": { "name": "DWLW - Ilocos Norte - Love Radio", "freq_value": "675.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 151, "properties": { "name": "DZRH - Metro Manila - DZRH Nationwide", "freq_value": "666.0" }, "geometry": { "type": "Point", "coordinates": [ 121.0, 14.55 ] } }
+,
+{ "type": "Feature", "id": 152, "properties": { "name": "DZMT - Ilocos Norte - DZRH Nationwide", "freq_value": "990.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 153, "properties": { "name": "DXAJ-FM - Koronadal City, South Cotabato - DZRH Nationwide", "freq_value": "1215.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 154, "properties": { "name": "DXPH-AM - Prosperidad, Agusan Del Norte - DZRH Nationwide", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 125.9, 8.58331 ] } }
+,
+{ "type": "Feature", "id": 155, "properties": { "name": "DXPH-AM - Prosperidad, Agusan Del Sur - DZRH Nationwide", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 125.9, 8.58331 ] } }
+,
+{ "type": "Feature", "id": 156, "properties": { "name": "Legazpi City, Albay - DZRH Nationwide", "freq_value": "1305.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 157, "properties": { "name": "Naga City, Camarines Sur - DZRH Nationwide", "freq_value": "1359.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 158, "properties": { "name": "DZZH-AM - Sorsogon City, Sorsogon - DZRH Nationwide", "freq_value": "1287.0" }, "geometry": { "type": "Point", "coordinates": [ 124.007, 12.9767 ] } }
+,
+{ "type": "Feature", "id": 159, "properties": { "name": "DYPH-AM - Puerto Princesa City, Palawan - DZRH Nationwide", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 160, "properties": { "name": "Santiago City, Isabela - DZRH Nationwide", "freq_value": "1476.0" }, "geometry": { "type": "Point", "coordinates": [ 121.554, 16.715 ] } }
+,
+{ "type": "Feature", "id": 161, "properties": { "name": "DYME-AM - Masbate City, Masbate - Masbate Community Broadcasting Company", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 123.628, 12.3562 ] } }
+,
+{ "type": "Feature", "id": 162, "properties": { "name": "DXSA-AM - Marawi, Lanao Del Sur - Mindanao BC", "freq_value": "1449.0" }, "geometry": { "type": "Point", "coordinates": [ 124.294, 7.99855 ] } }
+,
+{ "type": "Feature", "id": 163, "properties": { "name": "Valencia, Bukidnon - Mountainview College", "freq_value": "96.9" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 164, "properties": { "name": "DWTT - Tarlac City, Tarlac - Nation BC", "freq_value": "1368.0" }, "geometry": { "type": "Point", "coordinates": [ 120.583, 15.4833 ] } }
+,
+{ "type": "Feature", "id": 165, "properties": { "name": "DYSR - Dumaguete City, Negros Oriental - National Council of Churches of the Philippines", "freq_value": "891.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 166, "properties": { "name": "DXOR-AM - Cagayan De Oro City, Misamis Oriental - Newsound BC", "freq_value": "729.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 167, "properties": { "name": "DYWR-AM - Santo Nino Corner Imelda Avenue, Tacloban City, Leyte - Newsound BN", "freq_value": "594.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 168, "properties": { "name": "DYCX-AM - Antique - Newsound BN", "freq_value": "1179.0" }, "geometry": { "type": "Point", "coordinates": [ 121.944, 10.7548 ] } }
+,
+{ "type": "Feature", "id": 169, "properties": { "name": "DXND-AM - Kidapawan City, Cotabato Province - Notre Dame BC", "freq_value": "747.0" }, "geometry": { "type": "Point", "coordinates": [ 125.087, 7.01112 ] } }
+,
+{ "type": "Feature", "id": 170, "properties": { "name": "DXOL-FM - Cotabato City, Maguindanao - Notre Dame BC", "freq_value": "882.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 171, "properties": { "name": "DZFA - Mabalacat, Pampanga - NS Network Mngt.", "freq_value": "1540.0" }, "geometry": { "type": "Point", "coordinates": [ 120.567, 15.2167 ] } }
+,
+{ "type": "Feature", "id": 172, "properties": { "name": "DZOM-AM - Calapan City, Mindoro Oriental - Omarco", "freq_value": "1107.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 173, "properties": { "name": "DYRR-AM - Bantigue, Ormoc City, 6541 Leyte - Ormoc BC", "freq_value": "792.0" }, "geometry": { "type": "Point", "coordinates": [ 124.617, 11.007 ] } }
+,
+{ "type": "Feature", "id": 174, "properties": { "name": "Valencia, Bukidnon - Oro BN", "freq_value": "90.5" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 175, "properties": { "name": "DYBH - Bacolod City, Negros Occidental - Pacific BS Inc.", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 176, "properties": { "name": "DYPR-AM - Puerto Princesa City, Palawan - Palawan BC", "freq_value": "765.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 177, "properties": { "name": "DZMS-AM - Sorsogon City, Sorsogon - PBN BN Inc.", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 124.007, 12.9767 ] } }
+,
+{ "type": "Feature", "id": 178, "properties": { "name": "DXGL-AM - Butuan City, Agusan Del Norte - PEC", "freq_value": "1125.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 179, "properties": { "name": "Subic, Zambales - Philippine BS", "freq_value": "1692.0" }, "geometry": { "type": "Point", "coordinates": [ 120.239, 14.8858 ] } }
+,
+{ "type": "Feature", "id": 180, "properties": { "name": "DXRG-AM - Philippine BS", "freq_value": "882.0" }, "geometry": { "type": "Point", "coordinates": [ 125.103, 8.82091 ] } }
+,
+{ "type": "Feature", "id": 181, "properties": { "name": "DWBF-AM - Virac, Catanduanes - Philippine BS", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 124.234, 13.5907 ] } }
+,
+{ "type": "Feature", "id": 182, "properties": { "name": "DYMP-AM - Palo, Leyte - Philippine BS", "freq_value": "1566.0" }, "geometry": { "type": "Point", "coordinates": [ 124.995, 11.1576 ] } }
+,
+{ "type": "Feature", "id": 183, "properties": { "name": "DYBR-AM - Sagcahan Road, Tacloban City, 6500 Leyte - Philippine Collective media corp.", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 184, "properties": { "name": "DZYR-AM - San Fernando City, La Union - Philippine Radio Corp", "freq_value": "1359.0" }, "geometry": { "type": "Point", "coordinates": [ 120.319, 16.617 ] } }
+,
+{ "type": "Feature", "id": 185, "properties": { "name": "DWRN-AM - Naga City, Camarines Sur - Philippine Radio Corp", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 186, "properties": { "name": "Cebu City, Cebu - Prime BN", "freq_value": "846.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 187, "properties": { "name": "Cebu City, Cebu - Radio Cebu", "freq_value": "648.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 188, "properties": { "name": "Butuan City, Agusan Del Norte - Radio Corp. of the Philippines", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 189, "properties": { "name": "Tarlac City, Tarlac - Radio Corp. of the Philippines", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 120.583, 15.4833 ] } }
+,
+{ "type": "Feature", "id": 190, "properties": { "name": "Ozamis City, Misamis Occidental - Radio Inc", "freq_value": "1494.0" }, "geometry": { "type": "Point", "coordinates": [ 123.841, 8.14601 ] } }
+,
+{ "type": "Feature", "id": 191, "properties": { "name": "Cebu City, Cebu - Radio Inc", "freq_value": "540.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 192, "properties": { "name": "DXAD-AM - Marawi, Lanao Del Sur - Radio Ranao", "freq_value": "1322.0" }, "geometry": { "type": "Point", "coordinates": [ 124.294, 7.99855 ] } }
+,
+{ "type": "Feature", "id": 193, "properties": { "name": "DZXO - Cabanatuan City, Nueva Ecija - Radio Vanguard 1188", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 120.975, 15.4874 ] } }
+,
+{ "type": "Feature", "id": 194, "properties": { "name": "DYSA - Iloilo City, Iloilo - Radio Veristas Global", "freq_value": "1053.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 195, "properties": { "name": "DZEL - Lucena City, Quezon - Radyo Agila Lucena 1053", "freq_value": "1053.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 196, "properties": { "name": "DXDC-AM - Davao City - Radyo Agong", "freq_value": "621.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 197, "properties": { "name": "DXDR - Dipolog City, Zamboanga Del Norte - Radyo Agong", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 123.347, 8.59201 ] } }
+,
+{ "type": "Feature", "id": 198, "properties": { "name": "DXRZ-AM - Zamboanga City - Radyo Agong", "freq_value": "900.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 199, "properties": { "name": "DXMD-AM - General Santos City, South Cotabato - Radyo Agong", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 200, "properties": { "name": "DXBC-AM - Butuan City, Agusan Del Norte - Radyo Agong", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 201, "properties": { "name": "DXIC-AM - Iligan City, Lanao Del Norte - Radyo Agong", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 124.246, 8.23217 ] } }
+,
+{ "type": "Feature", "id": 202, "properties": { "name": "DXCC-AM - Cagayan De Oro City, Misamis Oriental - Radyo Agong", "freq_value": "828.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 203, "properties": { "name": "DXRS-AM - Surigao City, Surigao Del Norte - Radyo Agong", "freq_value": "1206.0" }, "geometry": { "type": "Point", "coordinates": [ 125.446, 9.79304 ] } }
+,
+{ "type": "Feature", "id": 204, "properties": { "name": "DYVR-AM - Roxas City, Capiz - Radyo Agong", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 205, "properties": { "name": "DXDA-AM - Prosperidad, Agusan Del Sur - Radyo Agusan", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 125.9, 8.58331 ] } }
+,
+{ "type": "Feature", "id": 206, "properties": { "name": "DXRA-AM - Davao City - Radyo Arangkada", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 207, "properties": { "name": "DXOW-AM - Davao City - Radyo Asenso", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 208, "properties": { "name": "DXGS-AM - General Santos City, South Cotabato - Radyo Asenso", "freq_value": "765.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 209, "properties": { "name": "DXCO-AM - Cagayan De Oro City, Misamis Oriental - Radyo Asenso", "freq_value": "1044.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 210, "properties": { "name": "DZYA-AM - Angeles City, Pampanga - Radyo Asenso", "freq_value": "1467.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 15.1432 ] } }
+,
+{ "type": "Feature", "id": 211, "properties": { "name": "DYRM - Dumaguete City, Negros Oriental - Radyo Asenso", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 212, "properties": { "name": "DXBZ-AM - Pagadian City, Zamboanga Del Sur - Radyo Bagting", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 123.425, 7.8238 ] } }
+,
+{ "type": "Feature", "id": 213, "properties": { "name": "DZBR-AM - Batangas City, Batangas - Radyo Balisong", "freq_value": "531.0" }, "geometry": { "type": "Point", "coordinates": [ 121.065, 13.7659 ] } }
+,
+{ "type": "Feature", "id": 214, "properties": { "name": "DYWC-AM - Dumaguete City, Negros Oriental - Radyo Bandilyo", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 215, "properties": { "name": "DWNW-AM - Naga City, Camarines Sur - Radyo Budyong", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 216, "properties": { "name": "Maguikay, Mandaue City - Radyo Budyong", "freq_value": "864.0" }, "geometry": { "type": "Point", "coordinates": [ 123.933, 10.3333 ] } }
+,
+{ "type": "Feature", "id": 217, "properties": { "name": "Iloilo - Radyo Budyong", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 218, "properties": { "name": "DYRG-AM - Kalibo, Aklan - Radyo Budyong", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 122.368, 11.7091 ] } }
+,
+{ "type": "Feature", "id": 219, "properties": { "name": "DYDW - Burayan, San Jose, Tacloban City, 6500 Leyte - Radyo Diwa", "freq_value": "531.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 220, "properties": { "name": "DZIQ - Metro Manila - Radyo Inquirer", "freq_value": "990.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5667 ] } }
+,
+{ "type": "Feature", "id": 221, "properties": { "name": "DZLW-AM - Naga City, Camarines Sur - Radyo Isarog", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 222, "properties": { "name": "DXDD-AM - Ozamis City, Misamis Occidental - Radyo Kampana", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 123.841, 8.14601 ] } }
+,
+{ "type": "Feature", "id": 223, "properties": { "name": "DZRM - Metro Manila - Radyo Magasin", "freq_value": "1278.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 224, "properties": { "name": "DXSN - Surigao City, Surigao Del Norte - Radyo Magbalantay", "freq_value": "1017.0" }, "geometry": { "type": "Point", "coordinates": [ 125.446, 9.79304 ] } }
+,
+{ "type": "Feature", "id": 225, "properties": { "name": "DZBF - Metro Manila - Radyo Marikina", "freq_value": "1674.0" }, "geometry": { "type": "Point", "coordinates": [ 121.094, 14.6193 ] } }
+,
+{ "type": "Feature", "id": 226, "properties": { "name": "DZRC - Legazpi City, Albay - Radyo Mayon 783", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 227, "properties": { "name": "DWIM-AM - Calapan City, Mindoro Oriental - Radyo Mindoro", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 228, "properties": { "name": "DYRP-FM - Antique - Radyo Natin", "freq_value": "90.5" }, "geometry": { "type": "Point", "coordinates": [ 121.998, 10.9162 ] } }
+,
+{ "type": "Feature", "id": 229, "properties": { "name": "DWMI-AM - Calapan City, Mindoro Oriental - Radyo Natin", "freq_value": "999.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 230, "properties": { "name": "DWMC - Kalinga - Radyo Natin", "freq_value": "1323.0" }, "geometry": { "type": "Point", "coordinates": [ 121.444, 17.4134 ] } }
+,
+{ "type": "Feature", "id": 231, "properties": { "name": "DXMR-AM - Zamboanga City - Radyo ng Bayan", "freq_value": "1170.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 232, "properties": { "name": "DWPT - Batanes - Radyo ng Bayan", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 121.967, 20.45 ] } }
+,
+{ "type": "Feature", "id": 233, "properties": { "name": "DZRK - Mountain Province - Radyo ng Bayan", "freq_value": "972.0" }, "geometry": { "type": "Point", "coordinates": [ 120.977, 17.0896 ] } }
+,
+{ "type": "Feature", "id": 234, "properties": { "name": "DZER-AM - Boac, Marinduque - Radyo ng Bayan", "freq_value": "1350.0" }, "geometry": { "type": "Point", "coordinates": [ 121.84, 13.4453 ] } }
+,
+{ "type": "Feature", "id": 235, "properties": { "name": "DZAG - Agoo, La Union - Radyo ng Bayan", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 120.367, 16.3167 ] } }
+,
+{ "type": "Feature", "id": 236, "properties": { "name": "DZEC - Metro Manila - Radyo ng Pamilya Nationwide", "freq_value": "1062.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 237, "properties": { "name": "DWAD - Metro Manila - Radyo Ngayon", "freq_value": "1098.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5833 ] } }
+,
+{ "type": "Feature", "id": 238, "properties": { "name": "DZOR - Olongapo City, Zambales - Radyo Olongapo", "freq_value": "1422.0" }, "geometry": { "type": "Point", "coordinates": [ 120.283, 14.8308 ] } }
+,
+{ "type": "Feature", "id": 239, "properties": { "name": "DWHQ-AM - Radyo Oragon", "freq_value": "891.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 240, "properties": { "name": "DZMM - Metro Manila - Radyo Patrol", "freq_value": "630.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 241, "properties": { "name": "DYAB - Cebu City, Cebu - Radyo Patrol", "freq_value": "1512.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 242, "properties": { "name": "DYRV-AM - Catbalogan, Samar - Radyo Patrol", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 124.89, 11.7596 ] } }
+,
+{ "type": "Feature", "id": 243, "properties": { "name": "Mindanao - Davao - Radyo Patrol", "freq_value": "1296.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 244, "properties": { "name": "DWRL - Legazpi City, Albay - Radyo Pilipino 1080", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 245, "properties": { "name": "DZAL-AM - Iriga City, Camarines Sur - Radyo Rinconada", "freq_value": "954.0" }, "geometry": { "type": "Point", "coordinates": [ 123.408, 13.4189 ] } }
+,
+{ "type": "Feature", "id": 246, "properties": { "name": "Bacolod - Radyo Ronda", "freq_value": "1404.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 247, "properties": { "name": "Zamboanga Del Norte - Diplog City - Radyo Ronda", "freq_value": "1053.0" }, "geometry": { "type": "Point", "coordinates": [ 123.347, 8.59201 ] } }
+,
+{ "type": "Feature", "id": 248, "properties": { "name": "DYKW - Binalbagan, Negros Occidental - Radyo Ronda", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 122.864, 10.1951 ] } }
+,
+{ "type": "Feature", "id": 249, "properties": { "name": "DXKP-AM - Pagadian City, Zamboanga Del Sur - Radyo Ronda", "freq_value": "1377.0" }, "geometry": { "type": "Point", "coordinates": [ 123.425, 7.8238 ] } }
+,
+{ "type": "Feature", "id": 250, "properties": { "name": "DXXX-AM -Zamboanga City - Radyo Ronda", "freq_value": "1008.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 251, "properties": { "name": "DXDX-AM - General Santos City, South Cotabato - Radyo Ronda", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 252, "properties": { "name": "DXKO - Cagayan De Oro City, Misamis Oriental - Radyo Ronda", "freq_value": "1368.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 253, "properties": { "name": "DZKI-AM - Iriga City, Camarines Sur - Radyo Ronda", "freq_value": "1332.0" }, "geometry": { "type": "Point", "coordinates": [ 123.408, 13.4189 ] } }
+,
+{ "type": "Feature", "id": 254, "properties": { "name": "DYKC - Cebu City, Cebu - Radyo Ronda", "freq_value": "675.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 255, "properties": { "name": "DZBS - Baguio City, Benguet - Radyo Ronda", "freq_value": "1368.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 256, "properties": { "name": "DZRL - Ilocos Norte - Radyo Ronda", "freq_value": "639.0" }, "geometry": { "type": "Point", "coordinates": [ 120.562, 18.0577 ] } }
+,
+{ "type": "Feature", "id": 257, "properties": { "name": "DWSG - Morong, Rizal - Radyo San Guillermo", "freq_value": "648.0" }, "geometry": { "type": "Point", "coordinates": [ 121.24, 14.5164 ] } }
+,
+{ "type": "Feature", "id": 258, "properties": { "name": "DZGE-AM - Naga City, Camarines Sur - Radyo Sanggunian", "freq_value": "855.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 259, "properties": { "name": "DZRS-AM - Sorsogon City, Sorsogon - Radyo Sorsogon Network", "freq_value": "1179.0" }, "geometry": { "type": "Point", "coordinates": [ 124.007, 12.9767 ] } }
+,
+{ "type": "Feature", "id": 260, "properties": { "name": "DZTP Ilocos Sur - Radyo Tirad Pass", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 120.387, 17.5746 ] } }
+,
+{ "type": "Feature", "id": 261, "properties": { "name": "DZXE- Ilocos Sur - Radyo Tirador", "freq_value": "837.0" }, "geometry": { "type": "Point", "coordinates": [ 120.387, 17.5746 ] } }
+,
+{ "type": "Feature", "id": 262, "properties": { "name": "Cabanatuan City, Nueva Ecija - Radyo Totoo", "freq_value": "1467.0" }, "geometry": { "type": "Point", "coordinates": [ 120.975, 15.4874 ] } }
+,
+{ "type": "Feature", "id": 263, "properties": { "name": "DZPA - Abra - Radyo Totoo", "freq_value": "873.0" }, "geometry": { "type": "Point", "coordinates": [ 120.619, 17.5977 ] } }
+,
+{ "type": "Feature", "id": 264, "properties": { "name": "DZEA - Ilocos Norte - Radyo Totoo", "freq_value": "909.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 265, "properties": { "name": "DZNS - Ilocos Sur - Radyo Totoo", "freq_value": "963.0" }, "geometry": { "type": "Point", "coordinates": [ 120.387, 17.5746 ] } }
+,
+{ "type": "Feature", "id": 266, "properties": { "name": "DYKA - Antique - Radyo Totoo", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 121.944, 10.7548 ] } }
+,
+{ "type": "Feature", "id": 267, "properties": { "name": "DYRF - Cebu City, Cebu - Radyo Totoo", "freq_value": "1215.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 268, "properties": { "name": "DXHM-AM - Mati City, Davao Oriental - Radyo Totoo", "freq_value": "549.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 269, "properties": { "name": "DXCP-AM - General Santos City, South Cotabato - Radyo Totoo", "freq_value": "585.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 270, "properties": { "name": "DXDB-AM - Malaybalay City, Bukidnon - Radyo Totoo", "freq_value": "594.0" }, "geometry": { "type": "Point", "coordinates": [ 125.132, 8.16016 ] } }
+,
+{ "type": "Feature", "id": 271, "properties": { "name": "DXMM-AM - Jolo, Sulu - Radyo Totoo", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 120.995, 6.04696 ] } }
+,
+{ "type": "Feature", "id": 272, "properties": { "name": "DWBS - Legazpi City, Albay - Radyo Veritas", "freq_value": "1008.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 273, "properties": { "name": "DWRV - Bayombong, Nueva Vizcaya - Radyo Veritas", "freq_value": "1233.0" }, "geometry": { "type": "Point", "coordinates": [ 121.152, 16.4853 ] } }
+,
+{ "type": "Feature", "id": 274, "properties": { "name": "DXDN-AM - Tagum City, Davao Del Norte - Radyo Ukay", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 275, "properties": { "name": "DXDS-AM - Digos City, Davao Del Sur - Radyo Ukay", "freq_value": "1161.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 276, "properties": { "name": "DXLL-AM -Zamboanga City - Radyo Ukay", "freq_value": "1044.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 277, "properties": { "name": "DXLL-AM - Cotabato City, Maguindanao - Radyo Ukay", "freq_value": "1089.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 278, "properties": { "name": "DXRA-AM - Davao City - Radyo Ukay", "freq_value": "819.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 279, "properties": { "name": "DXMV-AM - Valencia, Bukidnon - Radyo Ukay", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 280, "properties": { "name": "DZME -Metro Manila - Radyo Uno", "freq_value": "1530.0" }, "geometry": { "type": "Point", "coordinates": [ 120.971, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 281, "properties": { "name": "DXVP-AM - Zamboanga City - Radyo Verdadero", "freq_value": "1467.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 282, "properties": { "name": "DXFM-AM - Marawi, Lanao Del Sur - Ranao Radio BS", "freq_value": "1593.0" }, "geometry": { "type": "Point", "coordinates": [ 124.294, 7.99855 ] } }
+,
+{ "type": "Feature", "id": 283, "properties": { "name": "DXRC - Zamboanga City - Republic BS", "freq_value": "1287.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 284, "properties": { "name": "DXRL-AM - Koronadal City, South Cotabato - Republic BS", "freq_value": "1341.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 285, "properties": { "name": "DWRB-AM - Lipa City, Batangas - Ribbon BC", "freq_value": "1476.0" }, "geometry": { "type": "Point", "coordinates": [ 121.165, 13.9413 ] } }
+,
+{ "type": "Feature", "id": 286, "properties": { "name": "DXMB-AM - Malaybalay City, Bukidnon - Radyo Mo Nationwide", "freq_value": "648.0" }, "geometry": { "type": "Point", "coordinates": [ 125.132, 8.16016 ] } }
+,
+{ "type": "Feature", "id": 287, "properties": { "name": "DXVR - Valencia, Bukidnon - Radyo Mo Nationwide", "freq_value": "95.3" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 288, "properties": { "name": "DYCC-AM - Calbayog City, Samar - Radyo Mo Nationwide", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 125.012, 11.8016 ] } }
+,
+{ "type": "Feature", "id": 289, "properties": { "name": "DXMY-AM - Cotabato City, Maguindanao - Radyo Mo Nationwide", "freq_value": "729.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 290, "properties": { "name": "DXKS-AM - Surigao City, Surigao Del Norte - Radyo Mo Nationwide", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 125.446, 9.79304 ] } }
+,
+{ "type": "Feature", "id": 291, "properties": { "name": "Bacolod - Radyo Mo Nationwide", "freq_value": "747.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 292, "properties": { "name": "DYHP - Cebu City, Cebu - Radyo Mo Nationwide", "freq_value": "612.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 293, "properties": { "name": "DYKR - Kalibo - Radyo Mo Nationwide", "freq_value": "1161.0" }, "geometry": { "type": "Point", "coordinates": [ 122.368, 11.7091 ] } }
+,
+{ "type": "Feature", "id": 294, "properties": { "name": "DXPR - Pagadian City, Zamboanga Del Sur - Radyo Mo Nationwide", "freq_value": "603.0" }, "geometry": { "type": "Point", "coordinates": [ 123.425, 7.8238 ] } }
+,
+{ "type": "Feature", "id": 295, "properties": { "name": "DXKR - Koronadal City, South Cotabato - Radyo Mo Nationwide", "freq_value": "639.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 296, "properties": { "name": "DZLT - Lucena City, Quezon - Radyo Mo Nationwide", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 297, "properties": { "name": "DWPR -Dagupan City, Pangasinan - Radyo Mo Nationwide", "freq_value": "1296.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 298, "properties": { "name": "DZCV - Tuguegarao City, Cagayan - Radyo Mo Nationwide", "freq_value": "684.0" }, "geometry": { "type": "Point", "coordinates": [ 121.733, 17.6167 ] } }
+,
+{ "type": "Feature", "id": 299, "properties": { "name": "DWDY - Cauayan City, Isabela - Radyo Mo Nationwide", "freq_value": "1107.0" }, "geometry": { "type": "Point", "coordinates": [ 121.765, 16.9307 ] } }
+,
+{ "type": "Feature", "id": 300, "properties": { "name": "DYRI - Iloilo - Radyo Mo Nationwide", "freq_value": "774.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 301, "properties": { "name": "DWES-AM - Narra, Palawan - Rolin Broadcasting Enterprises", "freq_value": "792.0" }, "geometry": { "type": "Point", "coordinates": [ 118.4, 9.2667 ] } }
+,
+{ "type": "Feature", "id": 302, "properties": { "name": "DWJS-AM - Roxas, Palawan - Rolin Broadcasting Enterprises", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 119.347, 10.3254 ] } }
+,
+{ "type": "Feature", "id": 303, "properties": { "name": "DXML-AM - Digos City, Davao Del Sur - Rural Electrification Corp.", "freq_value": "1044.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 304, "properties": { "name": "DWBL - Metro Manila - Serbisyo Publiko", "freq_value": "1242.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5833 ] } }
+,
+{ "type": "Feature", "id": 305, "properties": { "name": "DZAR - Metro Manila - Sonshine Radio", "freq_value": "1026.0" }, "geometry": { "type": "Point", "coordinates": [ 121.034, 14.5616 ] } }
+,
+{ "type": "Feature", "id": 306, "properties": { "name": "DZRD - Dagupan City, Pangasinan - Sonshine Radio", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 307, "properties": { "name": "DYAR - Cebu - Sonshine Radio", "freq_value": "765.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 308, "properties": { "name": "DXYZ-AM - Zamboanga City - Sonshine Radio", "freq_value": "963.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 309, "properties": { "name": "DXRE-AM - General Santos City, South Cotabato - Sonshine Radio", "freq_value": "837.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 310, "properties": { "name": "DXRO-AM - Cotabato City, Maguindanao - Sonshine Radio", "freq_value": "945.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 311, "properties": { "name": "DWSI - Santiago City, Isabela - Sonshine Radio", "freq_value": "864.0" }, "geometry": { "type": "Point", "coordinates": [ 121.554, 16.715 ] } }
+,
+{ "type": "Feature", "id": 312, "properties": { "name": "DXCL-AM - Cagayan De Oro City, Misamis Oriental - Sonshine Radio", "freq_value": "1098.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 313, "properties": { "name": "DXBL-AM - Bislig City, Surigao Del Sur - Sonshine Radio", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 126.099, 8.71809 ] } }
+,
+{ "type": "Feature", "id": 314, "properties": { "name": "DZSP-AM - San Pablo City, Laguna - Sonshine Radio", "freq_value": "864.0" }, "geometry": { "type": "Point", "coordinates": [ 121.326, 14.071 ] } }
+,
+{ "type": "Feature", "id": 315, "properties": { "name": "DZYA - Tuguegarao City, Cagayan - Sonshine Radio", "freq_value": "765.0" }, "geometry": { "type": "Point", "coordinates": [ 121.733, 17.6167 ] } }
+,
+{ "type": "Feature", "id": 316, "properties": { "name": "DZYI - Ilagan, Isabela - Sonshine Radio", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 121.886, 17.1433 ] } }
+,
+{ "type": "Feature", "id": 317, "properties": { "name": "DWAY - Cabanatuan City, Nueva Ecija - Sonshine Radio", "freq_value": "1332.0" }, "geometry": { "type": "Point", "coordinates": [ 120.975, 15.4874 ] } }
+,
+{ "type": "Feature", "id": 318, "properties": { "name": "DXRD-AM - Davao City - Sonshine Radio", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 319, "properties": { "name": "DXRB-AM Butuan City, Agusan Del Norte - Sonshine Radio", "freq_value": "873.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 320, "properties": { "name": "DXJR-AM - Cagayan De Oro City, Misamis Oriental - Southern Institute Of Technlogy", "freq_value": "1440.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 321, "properties": { "name": "DXSC-AM - Calarian,Zamboanga City - Southern Philippines Mass Comm.", "freq_value": "819.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 322, "properties": { "name": "DZSR - Metro Manila - Sports Radio Sports Radio", "freq_value": "918.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 323, "properties": { "name": "DXGD-AM - Bongao, Sulu - Sulu Tawi-Tawi Broadcasting", "freq_value": "675.0" }, "geometry": { "type": "Point", "coordinates": [ 119.767, 5.03333 ] } }
+,
+{ "type": "Feature", "id": 324, "properties": { "name": "DZBB - Metro Manila - Super", "freq_value": "594.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 325, "properties": { "name": "DZBB - Basco, Batanes - Super", "freq_value": "594.0" }, "geometry": { "type": "Point", "coordinates": [ 121.967, 20.45 ] } }
+,
+{ "type": "Feature", "id": 326, "properties": { "name": "Zamboanga Del Norte - Diplog City - Super", "freq_value": "1350.0" }, "geometry": { "type": "Point", "coordinates": [ 123.347, 8.59201 ] } }
+,
+{ "type": "Feature", "id": 327, "properties": { "name": "DXBB-AM - General Santos City, South Cotabato - Super", "freq_value": "1107.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 328, "properties": { "name": "DXBM-AM - Cotabato City, Maguindanao - Super", "freq_value": "990.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 329, "properties": { "name": "DXRL - Koronadal City, South Cotabato - Super", "freq_value": "1179.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 330, "properties": { "name": "DXYK-AM - Butuan City, Agusan Del Norte - Super", "freq_value": "1179.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 331, "properties": { "name": "DYBB - Roxas City, Capiz - Super", "freq_value": "1503.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 332, "properties": { "name": "DWRA - Baguio City, Benguet - Super", "freq_value": "1413.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 333, "properties": { "name": "DYSS - Cebu - Super", "freq_value": "999.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 334, "properties": { "name": "Mindanao - Davao - Super", "freq_value": "1125.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 335, "properties": { "name": "Bacolod - Super", "freq_value": "1179.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 336, "properties": { "name": "Iloilo - Super", "freq_value": "1323.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 337, "properties": { "name": "DZBB - Ilocos Norte - Super", "freq_value": "1269.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 338, "properties": { "name": "DYSP-AM - Puerto Princesa City, Palawan - Super", "freq_value": "909.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 339, "properties": { "name": "DYRT - Tagbilaran, Bohol - Tagbilaran Broadcasting", "freq_value": "1116.0" }, "geometry": { "type": "Point", "coordinates": [ 123.863, 9.64842 ] } }
+,
+{ "type": "Feature", "id": 340, "properties": { "name": "DYXT-AM - Taglibaran, Bohol - Tatak RMN", "freq_value": "1071.0" }, "geometry": { "type": "Point", "coordinates": [ 123.863, 9.64842 ] } }
+,
+{ "type": "Feature", "id": 341, "properties": { "name": "DWWW - Metro Manila - The Premiere Station", "freq_value": "774.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 342, "properties": { "name": "DWVA - San Fernando City, La Union - The Voice of America", "freq_value": "1170.0" }, "geometry": { "type": "Point", "coordinates": [ 120.319, 16.617 ] } }
+,
+{ "type": "Feature", "id": 343, "properties": { "name": "DZRJ - Metro Manila - The Voice of The Philippines", "freq_value": "810.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5667 ] } }
+,
+{ "type": "Feature", "id": 344, "properties": { "name": "DXSY-AM - Ozamis City, Misamis Occidental - Times BC", "freq_value": "1242.0" }, "geometry": { "type": "Point", "coordinates": [ 123.841, 8.14601 ] } }
+,
+{ "type": "Feature", "id": 345, "properties": { "name": "DZEM - Metro Manila - Tining Ng Katotohanan", "freq_value": "954.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 346, "properties": { "name": "DWIZ- Metro Manila - DWIZ", "freq_value": "882.0" }, "geometry": { "type": "Point", "coordinates": [ 121.034, 14.5616 ] } }
+,
+{ "type": "Feature", "id": 347, "properties": { "name": "DXZB-AM - Zamboanga City - TV13 Cooperative Ind.", "freq_value": "1242.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 348, "properties": { "name": "DYMM-AM - Sunshine Village, Esperos Street, Tacloban City, Leyte - Universal BC", "freq_value": "954.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 349, "properties": { "name": "DZLB-AM - Los Baños, Laguna - University of the Philippines Los Banos", "freq_value": "1116.0" }, "geometry": { "type": "Point", "coordinates": [ 121.183, 14.1833 ] } }
+,
+{ "type": "Feature", "id": 350, "properties": { "name": "DWMG - Bayombong, Nueva Vizcaya - DWMG-AM", "freq_value": "819.0" }, "geometry": { "type": "Point", "coordinates": [ 121.152, 16.4853 ] } }
+,
+{ "type": "Feature", "id": 351, "properties": { "name": "DZRV - Metro Manila - Veritas Radyo Totoo", "freq_value": "846.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 352, "properties": { "name": "DYAF - Bacolod - Veritas 1143 Radyo Totoo Bacolod", "freq_value": "1143.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 353, "properties": { "name": "DXDV-AM - Butuan City, Agusan Del Norte - VisMin Radio", "freq_value": "945.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 354, "properties": { "name": "DXCR-AM - Valencia, Bukidnon - Voice of Hope", "freq_value": "1386.0" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 355, "properties": { "name": "DYBE-AM - Salcedo, Eastern Samar - Wave 89.1", "freq_value": "1062.0" }, "geometry": { "type": "Point", "coordinates": [ 125.662, 11.1519 ] } }
+,
+{ "type": "Feature", "id": 356, "properties": { "name": "DXWB - Valencia, Bukidnon - Wild FM", "freq_value": "92.9" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 357, "properties": { "name": "DXMI-AM - Iligan City, Lanao Del Norte - University of Mindanao", "freq_value": "1026.0" }, "geometry": { "type": "Point", "coordinates": [ 124.246, 8.23217 ] } }
+,
+{ "type": "Feature", "id": 358, "properties": { "name": "DYUM-AM - Ormoc City, Leyte - University of Mindanao", "freq_value": "1035.0" }, "geometry": { "type": "Point", "coordinates": [ 124.617, 11.0 ] } }
+,
+{ "type": "Feature", "id": 359, "properties": { "name": "DZJV-AM - Calamba, Laguna - ZOE BN", "freq_value": "1458.0" }, "geometry": { "type": "Point", "coordinates": [ 121.154, 14.2079 ] } }
+,
+{ "type": "Feature", "id": 360, "properties": { "name": "DWZR - Legazpi City, Albay - Zoom Radio 828", "freq_value": "828.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 361, "properties": { "name": "DYSJ-AM -Antique - Intercontinental BC", "freq_value": "1359.0" }, "geometry": { "type": "Point", "coordinates": [ 121.944, 10.7548 ] } }
+,
+{ "type": "Feature", "id": 362, "properties": { "name": "DWGW-AM -Lengazpi City, Albay - Intercontinental BC", "freq_value": "684.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 363, "properties": { "name": "DYJJ-AM -Roxas City, Capiz - Intercontinental BC", "freq_value": "1296.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 364, "properties": { "name": "DZKV-AM - Lipa City, Batangas - Kaissar BN Inc.", "freq_value": "1548.0" }, "geometry": { "type": "Point", "coordinates": [ 121.165, 13.9413 ] } }
+,
+{ "type": "Feature", "id": 365, "properties": { "name": "DXKT-AM - Davao City - Kalyaan BS", "freq_value": "1071.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 366, "properties": { "name": "DWAM-AM - Batangas City, Batangas - Katibag Enterprises", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 121.065, 13.7659 ] } }
+,
+{ "type": "Feature", "id": 367, "properties": { "name": "Mindanao - Davao - Kingdom Radio", "freq_value": "1404.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 368, "properties": { "name": "DXIQ - Malaybalay City, Bukidnon - Love Radio", "freq_value": "106.3" }, "geometry": { "type": "Point", "coordinates": [ 125.132, 8.16016 ] } }
+,
+{ "type": "Feature", "id": 369, "properties": { "name": "DWLW - Ilocos Norte - Love Radio", "freq_value": "675.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 370, "properties": { "name": "DZRH - Metro Manila - DZRH Nationwide", "freq_value": "666.0" }, "geometry": { "type": "Point", "coordinates": [ 121.0, 14.55 ] } }
+,
+{ "type": "Feature", "id": 371, "properties": { "name": "DZMT - Ilocos Norte - DZRH Nationwide", "freq_value": "990.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 372, "properties": { "name": "DXAJ-FM - Koronadal City, South Cotabato - DZRH Nationwide", "freq_value": "1215.0" }, "geometry": { "type": "Point", "coordinates": [ 124.846, 6.50139 ] } }
+,
+{ "type": "Feature", "id": 373, "properties": { "name": "DXPH-AM - Prosperidad, Agusan Del Norte - DZRH Nationwide", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 125.9, 8.58331 ] } }
+,
+{ "type": "Feature", "id": 374, "properties": { "name": "DXPH-AM - Prosperidad, Agusan Del Sur - DZRH Nationwide", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 125.9, 8.58331 ] } }
+,
+{ "type": "Feature", "id": 375, "properties": { "name": "Legazpi City, Albay - DZRH Nationwide", "freq_value": "1305.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 376, "properties": { "name": "Naga City, Camarines Sur - DZRH Nationwide", "freq_value": "1359.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 377, "properties": { "name": "DZZH-AM - Sorsogon City, Sorsogon - DZRH Nationwide", "freq_value": "1287.0" }, "geometry": { "type": "Point", "coordinates": [ 124.007, 12.9767 ] } }
+,
+{ "type": "Feature", "id": 378, "properties": { "name": "DYPH-AM - Puerto Princesa City, Palawan - DZRH Nationwide", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 379, "properties": { "name": "Santiago City, Isabela - DZRH Nationwide", "freq_value": "1476.0" }, "geometry": { "type": "Point", "coordinates": [ 121.554, 16.715 ] } }
+,
+{ "type": "Feature", "id": 380, "properties": { "name": "DYME-AM - Masbate City, Masbate - Masbate Community Broadcasting Company", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 123.628, 12.3562 ] } }
+,
+{ "type": "Feature", "id": 381, "properties": { "name": "DXSA-AM - Marawi, Lanao Del Sur - Mindanao BC", "freq_value": "1449.0" }, "geometry": { "type": "Point", "coordinates": [ 124.294, 7.99855 ] } }
+,
+{ "type": "Feature", "id": 382, "properties": { "name": "Valencia, Bukidnon - Mountainview College", "freq_value": "96.9" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 383, "properties": { "name": "DWTT - Tarlac City, Tarlac - Nation BC", "freq_value": "1368.0" }, "geometry": { "type": "Point", "coordinates": [ 120.583, 15.4833 ] } }
+,
+{ "type": "Feature", "id": 384, "properties": { "name": "DYSR - Dumaguete City, Negros Oriental - National Council of Churches of the Philippines", "freq_value": "891.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 385, "properties": { "name": "DXOR-AM - Cagayan De Oro City, Misamis Oriental - Newsound BC", "freq_value": "729.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 386, "properties": { "name": "DYWR-AM - Santo Nino Corner Imelda Avenue, Tacloban City, Leyte - Newsound BN", "freq_value": "594.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 387, "properties": { "name": "DYCX-AM - Antique - Newsound BN", "freq_value": "1179.0" }, "geometry": { "type": "Point", "coordinates": [ 121.944, 10.7548 ] } }
+,
+{ "type": "Feature", "id": 388, "properties": { "name": "DXND-AM - Kidapawan City, Cotabato Province - Notre Dame BC", "freq_value": "747.0" }, "geometry": { "type": "Point", "coordinates": [ 125.087, 7.01112 ] } }
+,
+{ "type": "Feature", "id": 389, "properties": { "name": "DXOL-FM - Cotabato City, Maguindanao - Notre Dame BC", "freq_value": "882.0" }, "geometry": { "type": "Point", "coordinates": [ 124.243, 7.22301 ] } }
+,
+{ "type": "Feature", "id": 390, "properties": { "name": "DZFA - Mabalacat, Pampanga - NS Network Mngt.", "freq_value": "1540.0" }, "geometry": { "type": "Point", "coordinates": [ 120.567, 15.2167 ] } }
+,
+{ "type": "Feature", "id": 391, "properties": { "name": "DZOM-AM - Calapan City, Mindoro Oriental - Omarco", "freq_value": "1107.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 392, "properties": { "name": "DYRR-AM - Bantigue, Ormoc City, 6541 Leyte - Ormoc BC", "freq_value": "792.0" }, "geometry": { "type": "Point", "coordinates": [ 124.617, 11.007 ] } }
+,
+{ "type": "Feature", "id": 393, "properties": { "name": "Valencia, Bukidnon - Oro BN", "freq_value": "90.5" }, "geometry": { "type": "Point", "coordinates": [ 125.083, 7.9167 ] } }
+,
+{ "type": "Feature", "id": 394, "properties": { "name": "DYBH - Bacolod City, Negros Occidental - Pacific BS Inc.", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 395, "properties": { "name": "DYPR-AM - Puerto Princesa City, Palawan - Palawan BC", "freq_value": "765.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 396, "properties": { "name": "DZMS-AM - Sorsogon City, Sorsogon - PBN BN Inc.", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 124.007, 12.9767 ] } }
+,
+{ "type": "Feature", "id": 397, "properties": { "name": "DXGL-AM - Butuan City, Agusan Del Norte - PEC", "freq_value": "1125.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 398, "properties": { "name": "Subic, Zambales - Philippine BS", "freq_value": "1692.0" }, "geometry": { "type": "Point", "coordinates": [ 120.239, 14.8858 ] } }
+,
+{ "type": "Feature", "id": 399, "properties": { "name": "DXRG-AM - Philippine BS", "freq_value": "882.0" }, "geometry": { "type": "Point", "coordinates": [ 125.103, 8.82091 ] } }
+,
+{ "type": "Feature", "id": 400, "properties": { "name": "DWBF-AM - Virac, Catanduanes - Philippine BS", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 124.234, 13.5907 ] } }
+,
+{ "type": "Feature", "id": 401, "properties": { "name": "DYMP-AM - Palo, Leyte - Philippine BS", "freq_value": "1566.0" }, "geometry": { "type": "Point", "coordinates": [ 124.995, 11.1576 ] } }
+,
+{ "type": "Feature", "id": 402, "properties": { "name": "DYBR-AM - Sagcahan Road, Tacloban City, 6500 Leyte - Philippine Collective media corp.", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 403, "properties": { "name": "DZYR-AM - San Fernando City, La Union - Philippine Radio Corp", "freq_value": "1359.0" }, "geometry": { "type": "Point", "coordinates": [ 120.319, 16.617 ] } }
+,
+{ "type": "Feature", "id": 404, "properties": { "name": "DWRN-AM - Naga City, Camarines Sur - Philippine Radio Corp", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 405, "properties": { "name": "Cebu City, Cebu - Prime BN", "freq_value": "846.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 406, "properties": { "name": "Cebu City, Cebu - Radio Cebu", "freq_value": "648.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 407, "properties": { "name": "Butuan City, Agusan Del Norte - Radio Corp. of the Philippines", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 408, "properties": { "name": "Tarlac City, Tarlac - Radio Corp. of the Philippines", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 120.583, 15.4833 ] } }
+,
+{ "type": "Feature", "id": 409, "properties": { "name": "Ozamis City, Misamis Occidental - Radio Inc", "freq_value": "1494.0" }, "geometry": { "type": "Point", "coordinates": [ 123.841, 8.14601 ] } }
+,
+{ "type": "Feature", "id": 410, "properties": { "name": "Cebu City, Cebu - Radio Inc", "freq_value": "540.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 411, "properties": { "name": "DXAD-AM - Marawi, Lanao Del Sur - Radio Ranao", "freq_value": "1322.0" }, "geometry": { "type": "Point", "coordinates": [ 124.294, 7.99855 ] } }
+,
+{ "type": "Feature", "id": 412, "properties": { "name": "DZXO - Cabanatuan City, Nueva Ecija - Radio Vanguard 1188", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 120.975, 15.4874 ] } }
+,
+{ "type": "Feature", "id": 413, "properties": { "name": "DYSA - Iloilo City, Iloilo - Radio Veristas Global", "freq_value": "1053.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 414, "properties": { "name": "DZEL - Lucena City, Quezon - Radyo Agila Lucena 1053", "freq_value": "1053.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 415, "properties": { "name": "DXDC-AM - Davao City - Radyo Agong", "freq_value": "621.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 416, "properties": { "name": "DXDR - Dipolog City, Zamboanga Del Norte - Radyo Agong", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 123.347, 8.59201 ] } }
+,
+{ "type": "Feature", "id": 417, "properties": { "name": "DXRZ-AM - Zamboanga City - Radyo Agong", "freq_value": "900.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 418, "properties": { "name": "DXMD-AM - General Santos City, South Cotabato - Radyo Agong", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 419, "properties": { "name": "DXBC-AM - Butuan City, Agusan Del Norte - Radyo Agong", "freq_value": "693.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 420, "properties": { "name": "DXIC-AM - Iligan City, Lanao Del Norte - Radyo Agong", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 124.246, 8.23217 ] } }
+,
+{ "type": "Feature", "id": 421, "properties": { "name": "DXCC-AM - Cagayan De Oro City, Misamis Oriental - Radyo Agong", "freq_value": "828.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 422, "properties": { "name": "DXRS-AM - Surigao City, Surigao Del Norte - Radyo Agong", "freq_value": "1206.0" }, "geometry": { "type": "Point", "coordinates": [ 125.446, 9.79304 ] } }
+,
+{ "type": "Feature", "id": 423, "properties": { "name": "DYVR-AM - Roxas City, Capiz - Radyo Agong", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 122.756, 11.5852 ] } }
+,
+{ "type": "Feature", "id": 424, "properties": { "name": "DXDA-AM - Prosperidad, Agusan Del Sur - Radyo Agusan", "freq_value": "927.0" }, "geometry": { "type": "Point", "coordinates": [ 125.9, 8.58331 ] } }
+,
+{ "type": "Feature", "id": 425, "properties": { "name": "DXRA-AM - Davao City - Radyo Arangkada", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 426, "properties": { "name": "DXOW-AM - Davao City - Radyo Asenso", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 427, "properties": { "name": "DXGS-AM - General Santos City, South Cotabato - Radyo Asenso", "freq_value": "765.0" }, "geometry": { "type": "Point", "coordinates": [ 125.197, 6.12918 ] } }
+,
+{ "type": "Feature", "id": 428, "properties": { "name": "DXCO-AM - Cagayan De Oro City, Misamis Oriental - Radyo Asenso", "freq_value": "1044.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 429, "properties": { "name": "DZYA-AM - Angeles City, Pampanga - Radyo Asenso", "freq_value": "1467.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 15.1432 ] } }
+,
+{ "type": "Feature", "id": 430, "properties": { "name": "DYRM - Dumaguete City, Negros Oriental - Radyo Asenso", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 431, "properties": { "name": "DXBZ-AM - Pagadian City, Zamboanga Del Sur - Radyo Bagting", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 123.425, 7.8238 ] } }
+,
+{ "type": "Feature", "id": 432, "properties": { "name": "DZBR-AM - Batangas City, Batangas - Radyo Balisong", "freq_value": "531.0" }, "geometry": { "type": "Point", "coordinates": [ 121.065, 13.7659 ] } }
+,
+{ "type": "Feature", "id": 433, "properties": { "name": "DYWC-AM - Dumaguete City, Negros Oriental - Radyo Bandilyo", "freq_value": "801.0" }, "geometry": { "type": "Point", "coordinates": [ 123.311, 9.3073 ] } }
+,
+{ "type": "Feature", "id": 434, "properties": { "name": "DWNW-AM - Naga City, Camarines Sur - Radyo Budyong", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 435, "properties": { "name": "Maguikay, Mandaue City - Radyo Budyong", "freq_value": "864.0" }, "geometry": { "type": "Point", "coordinates": [ 123.933, 10.3333 ] } }
+,
+{ "type": "Feature", "id": 436, "properties": { "name": "Iloilo - Radyo Budyong", "freq_value": "981.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 437, "properties": { "name": "DYRG-AM - Kalibo, Aklan - Radyo Budyong", "freq_value": "1251.0" }, "geometry": { "type": "Point", "coordinates": [ 122.368, 11.7091 ] } }
+,
+{ "type": "Feature", "id": 438, "properties": { "name": "DYDW - Burayan, San Jose, Tacloban City, 6500 Leyte - Radyo Diwa", "freq_value": "531.0" }, "geometry": { "type": "Point", "coordinates": [ 125.002, 11.2407 ] } }
+,
+{ "type": "Feature", "id": 439, "properties": { "name": "DZIQ - Metro Manila - Radyo Inquirer", "freq_value": "990.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5667 ] } }
+,
+{ "type": "Feature", "id": 440, "properties": { "name": "DZLW-AM - Naga City, Camarines Sur - Radyo Isarog", "freq_value": "711.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 441, "properties": { "name": "DXDD-AM - Ozamis City, Misamis Occidental - Radyo Kampana", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 123.841, 8.14601 ] } }
+,
+{ "type": "Feature", "id": 442, "properties": { "name": "DZRM - Metro Manila - Radyo Magasin", "freq_value": "1278.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 443, "properties": { "name": "DXSN - Surigao City, Surigao Del Norte - Radyo Magbalantay", "freq_value": "1017.0" }, "geometry": { "type": "Point", "coordinates": [ 125.446, 9.79304 ] } }
+,
+{ "type": "Feature", "id": 444, "properties": { "name": "DZBF - Metro Manila - Radyo Marikina", "freq_value": "1674.0" }, "geometry": { "type": "Point", "coordinates": [ 121.094, 14.6193 ] } }
+,
+{ "type": "Feature", "id": 445, "properties": { "name": "DZRC - Legazpi City, Albay - Radyo Mayon 783", "freq_value": "783.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 446, "properties": { "name": "DWIM-AM - Calapan City, Mindoro Oriental - Radyo Mindoro", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 447, "properties": { "name": "DYRP-FM - Antique - Radyo Natin", "freq_value": "90.5" }, "geometry": { "type": "Point", "coordinates": [ 121.998, 10.9162 ] } }
+,
+{ "type": "Feature", "id": 448, "properties": { "name": "DWMI-AM - Calapan City, Mindoro Oriental - Radyo Natin", "freq_value": "999.0" }, "geometry": { "type": "Point", "coordinates": [ 120.928, 12.8698 ] } }
+,
+{ "type": "Feature", "id": 449, "properties": { "name": "DWMC - Kalinga - Radyo Natin", "freq_value": "1323.0" }, "geometry": { "type": "Point", "coordinates": [ 121.444, 17.4134 ] } }
+,
+{ "type": "Feature", "id": 450, "properties": { "name": "DXMR-AM - Zamboanga City - Radyo ng Bayan", "freq_value": "1170.0" }, "geometry": { "type": "Point", "coordinates": [ 122.063, 6.91136 ] } }
+,
+{ "type": "Feature", "id": 451, "properties": { "name": "DWPT - Batanes - Radyo ng Bayan", "freq_value": "1134.0" }, "geometry": { "type": "Point", "coordinates": [ 121.967, 20.45 ] } }
+,
+{ "type": "Feature", "id": 452, "properties": { "name": "DZRK - Mountain Province - Radyo ng Bayan", "freq_value": "972.0" }, "geometry": { "type": "Point", "coordinates": [ 120.977, 17.0896 ] } }
+,
+{ "type": "Feature", "id": 453, "properties": { "name": "DZER-AM - Boac, Marinduque - Radyo ng Bayan", "freq_value": "1350.0" }, "geometry": { "type": "Point", "coordinates": [ 121.84, 13.4453 ] } }
+,
+{ "type": "Feature", "id": 454, "properties": { "name": "DZAG - Agoo, La Union - Radyo ng Bayan", "freq_value": "1224.0" }, "geometry": { "type": "Point", "coordinates": [ 120.367, 16.3167 ] } }
+,
+{ "type": "Feature", "id": 455, "properties": { "name": "DZEQ - Baguio City, Benguet - Radyo ng Bayan", "freq_value": "999.0" }, "geometry": { "type": "Point", "coordinates": [ 120.594, 16.4116 ] } }
+,
+{ "type": "Feature", "id": 456, "properties": { "name": "DXPT-AM - Bongao, Sulu - Radyo ng Bayan", "freq_value": "999.0" }, "geometry": { "type": "Point", "coordinates": [ 119.767, 5.03333 ] } }
+,
+{ "type": "Feature", "id": 457, "properties": { "name": "DYES-AM - Capitol Compound, Borongan, Eastern Samar - Radyo ng Bayan", "freq_value": "657.0" }, "geometry": { "type": "Point", "coordinates": [ 125.433, 11.6116 ] } }
+,
+{ "type": "Feature", "id": 458, "properties": { "name": "DWFR-AM - Bontoc, Mountain Province - Radyo ng Bayan", "freq_value": "972.0" }, "geometry": { "type": "Point", "coordinates": [ 120.977, 17.0896 ] } }
+,
+{ "type": "Feature", "id": 459, "properties": { "name": "DZMQ - Dagupan City, Pangasinan - Radyo ng Bayan", "freq_value": "576.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 460, "properties": { "name": "DXBN-AM - Butuan City, Agusan Del Norte - Radyo ng Bayan", "freq_value": "792.0" }, "geometry": { "type": "Point", "coordinates": [ 125.555, 8.95003 ] } }
+,
+{ "type": "Feature", "id": 461, "properties": { "name": "DXRG-AM - Cagayan De Oro City, Misamis Oriental - Radyo ng Bayan", "freq_value": "810.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 462, "properties": { "name": "DXIM-AM - Cagayan De Oro City, Misamis Oriental - Radyo ng Bayan", "freq_value": "936.0" }, "geometry": { "type": "Point", "coordinates": [ 124.649, 8.48514 ] } }
+,
+{ "type": "Feature", "id": 463, "properties": { "name": "DYOG-AM - Calbayog City, Samar - Radyo ng Bayan", "freq_value": "882.0" }, "geometry": { "type": "Point", "coordinates": [ 125.012, 11.8016 ] } }
+,
+{ "type": "Feature", "id": 464, "properties": { "name": "DZRK - Cebu City, Cebu - Radyo ng Bayan", "freq_value": "576.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 465, "properties": { "name": "DWFB - Ilocos Norte - Radyo ng Bayan", "freq_value": "954.0" }, "geometry": { "type": "Point", "coordinates": [ 120.593, 18.1981 ] } }
+,
+{ "type": "Feature", "id": 466, "properties": { "name": "DZRK - Iloilo - Radyo ng Bayan", "freq_value": "585.0" }, "geometry": { "type": "Point", "coordinates": [ 122.571, 10.6969 ] } }
+,
+{ "type": "Feature", "id": 467, "properties": { "name": "DWPE - Tuguegarao City, Cagayan - Radyo ng Bayan", "freq_value": "729.0" }, "geometry": { "type": "Point", "coordinates": [ 121.733, 17.6167 ] } }
+,
+{ "type": "Feature", "id": 468, "properties": { "name": "DXSM-AM - Jolo, Sulu - Radyo ng Bayan", "freq_value": "774.0" }, "geometry": { "type": "Point", "coordinates": [ 120.995, 6.04696 ] } }
+,
+{ "type": "Feature", "id": 469, "properties": { "name": "DZRK - Kalinga - Radyo ng Bayan", "freq_value": "1323.0" }, "geometry": { "type": "Point", "coordinates": [ 121.444, 17.4134 ] } }
+,
+{ "type": "Feature", "id": 470, "properties": { "name": "DZFU - Legazpi City, Albay - Radyo ng Bayan", "freq_value": "621.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 471, "properties": { "name": "DWLC - Lucena City, Quezon - Radyo ng Bayan", "freq_value": "1017.0" }, "geometry": { "type": "Point", "coordinates": [ 121.612, 13.9353 ] } }
+,
+{ "type": "Feature", "id": 472, "properties": { "name": "DXSO-AM - Marawi, Lanao Del Sur - Radyo ng Bayan", "freq_value": "774.0" }, "geometry": { "type": "Point", "coordinates": [ 124.294, 7.99855 ] } }
+,
+{ "type": "Feature", "id": 473, "properties": { "name": "DZRB - Metro Manila - Radyo ng Bayan", "freq_value": "738.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 474, "properties": { "name": "DWRP-AM - Naga City, Camarines Sur - Radyo ng Bayan", "freq_value": "567.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 475, "properties": { "name": "DWRM-AM - Puerto Princesa City, Palawan - Radyo ng Bayan", "freq_value": "648.0" }, "geometry": { "type": "Point", "coordinates": [ 118.733, 9.7333 ] } }
+,
+{ "type": "Feature", "id": 476, "properties": { "name": "DYSL - Sogod, Southern Leyte - Radyo ng Bayan", "freq_value": "1170.0" }, "geometry": { "type": "Point", "coordinates": [ 125.0, 10.4013 ] } }
+,
+{ "type": "Feature", "id": 477, "properties": { "name": "DXJS-AM - Tandag, Surigao Del Sur - Radyo ng Bayan", "freq_value": "837.0" }, "geometry": { "type": "Point", "coordinates": [ 126.2, 9.0769 ] } }
+,
+{ "type": "Feature", "id": 478, "properties": { "name": "DXJT-AM - Tangub City, Misamis Occidental - Radyo ng Bayan", "freq_value": "954.0" }, "geometry": { "type": "Point", "coordinates": [ 123.733, 8.05 ] } }
+,
+{ "type": "Feature", "id": 479, "properties": { "name": "DWRS-AM - Tayug, Pangasinan - Radyo ng Bayan", "freq_value": "756.0" }, "geometry": { "type": "Point", "coordinates": [ 120.742, 16.0268 ] } }
+,
+{ "type": "Feature", "id": 480, "properties": { "name": "DZMQ - Dagupan City, Pangasinan - Radyo ng Bayan", "freq_value": "576.0" }, "geometry": { "type": "Point", "coordinates": [ 120.332, 16.0284 ] } }
+,
+{ "type": "Feature", "id": 481, "properties": { "name": "DZEC - Metro Manila - Radyo ng Pamilya Nationwide", "freq_value": "1062.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 482, "properties": { "name": "DWAD - Metro Manila - Radyo Ngayon", "freq_value": "1098.0" }, "geometry": { "type": "Point", "coordinates": [ 121.033, 14.5833 ] } }
+,
+{ "type": "Feature", "id": 483, "properties": { "name": "DZOR - Olongapo City, Zambales - Radyo Olongapo", "freq_value": "1422.0" }, "geometry": { "type": "Point", "coordinates": [ 120.283, 14.8308 ] } }
+,
+{ "type": "Feature", "id": 484, "properties": { "name": "DWHQ-AM - Radyo Oragon", "freq_value": "891.0" }, "geometry": { "type": "Point", "coordinates": [ 123.178, 13.6162 ] } }
+,
+{ "type": "Feature", "id": 485, "properties": { "name": "DZMM - Metro Manila - Radyo Patrol", "freq_value": "630.0" }, "geometry": { "type": "Point", "coordinates": [ 121.05, 14.6495 ] } }
+,
+{ "type": "Feature", "id": 486, "properties": { "name": "DYAB - Cebu City, Cebu - Radyo Patrol", "freq_value": "1512.0" }, "geometry": { "type": "Point", "coordinates": [ 123.895, 10.3101 ] } }
+,
+{ "type": "Feature", "id": 487, "properties": { "name": "DYRV-AM - Catbalogan, Samar - Radyo Patrol", "freq_value": "1188.0" }, "geometry": { "type": "Point", "coordinates": [ 124.89, 11.7596 ] } }
+,
+{ "type": "Feature", "id": 488, "properties": { "name": "Mindanao - Davao - Radyo Patrol", "freq_value": "1296.0" }, "geometry": { "type": "Point", "coordinates": [ 125.613, 7.07996 ] } }
+,
+{ "type": "Feature", "id": 489, "properties": { "name": "DWRL - Legazpi City, Albay - Radyo Pilipino 1080", "freq_value": "1080.0" }, "geometry": { "type": "Point", "coordinates": [ 123.745, 13.1363 ] } }
+,
+{ "type": "Feature", "id": 490, "properties": { "name": "DZAL-AM - Iriga City, Camarines Sur - Radyo Rinconada", "freq_value": "954.0" }, "geometry": { "type": "Point", "coordinates": [ 123.408, 13.4189 ] } }
+,
+{ "type": "Feature", "id": 491, "properties": { "name": "Bacolod - Radyo Ronda", "freq_value": "1404.0" }, "geometry": { "type": "Point", "coordinates": [ 122.951, 10.6784 ] } }
+,
+{ "type": "Feature", "id": 492, "properties": { "name": "Zamboanga Del Norte - Diplog City - Radyo Ronda", "freq_value": "1053.0" }, "geometry": { "type": "Point", "coordinates": [ 123.347, 8.59201 ] } }
+
+]
+}
