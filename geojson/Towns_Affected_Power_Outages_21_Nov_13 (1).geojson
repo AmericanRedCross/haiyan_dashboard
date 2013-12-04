@@ -1,0 +1,216 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Province": "Palawan", "Town": "Busuanga", "Electric C": "BISELCO", "Latitude": 12.166667, "Longitude": 119.95 }, "geometry": { "type": "Point", "coordinates": [ 119.95, 12.166667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Palawan", "Town": "Coron", "Electric C": "BISELCO", "Latitude": 11.9988443, "Longitude": 120.206024 }, "geometry": { "type": "Point", "coordinates": [ 120.206024, 11.9988443 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Palawan", "Town": "Coron Island", "Electric C": "BISELCO", "Latitude": 11.904167, "Longitude": 120.233889 }, "geometry": { "type": "Point", "coordinates": [ 120.233889, 11.904167 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Palawan", "Town": "Culion", "Electric C": "BISELCO", "Latitude": 12.0494774, "Longitude": 120.0792359 }, "geometry": { "type": "Point", "coordinates": [ 120.0792359, 12.0494774 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Masbate", "Town": "Esperanza", "Electric C": "MASELCO", "Latitude": 11.736359, "Longitude": 124.0428757 }, "geometry": { "type": "Point", "coordinates": [ 124.0428757, 11.736359 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Altavas", "Electric C": "AKELCO", "Latitude": 11.5373891, "Longitude": 122.4881375 }, "geometry": { "type": "Point", "coordinates": [ 122.4881375, 11.5373891 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Balete", "Electric C": "AKELCO", "Latitude": 11.5564171, "Longitude": 122.3797001 }, "geometry": { "type": "Point", "coordinates": [ 122.3797001, 11.5564171 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Banga", "Electric C": "AKELCO", "Latitude": 11.915873, "Longitude": 121.94801 }, "geometry": { "type": "Point", "coordinates": [ 121.94801, 11.915873 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Batan", "Electric C": "AKELCO", "Latitude": 11.5869107, "Longitude": 122.4962482 }, "geometry": { "type": "Point", "coordinates": [ 122.4962482, 11.5869107 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Buruanga", "Electric C": "AKELCO", "Latitude": 11.844278, "Longitude": 121.88841 }, "geometry": { "type": "Point", "coordinates": [ 121.88841, 11.844278 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Lezo", "Electric C": "AKELCO", "Latitude": 11.6679782, "Longitude": 122.3286725 }, "geometry": { "type": "Point", "coordinates": [ 122.3286725, 11.6679782 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Libacao", "Electric C": "AKELCO", "Latitude": 11.416667, "Longitude": 122.316667 }, "geometry": { "type": "Point", "coordinates": [ 122.316667, 11.416667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Madalang", "Electric C": "AKELCO", "Latitude": 11.516667, "Longitude": 122.3 }, "geometry": { "type": "Point", "coordinates": [ 122.3, 11.516667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Malinao", "Electric C": "AKELCO", "Latitude": 11.6, "Longitude": 122.233333 }, "geometry": { "type": "Point", "coordinates": [ 122.233333, 11.6 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Nabas", "Electric C": "AKELCO", "Latitude": 11.8288316, "Longitude": 122.0933335 }, "geometry": { "type": "Point", "coordinates": [ 122.0933335, 11.8288316 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "New Washington", "Electric C": "AKELCO", "Latitude": 11.6479685, "Longitude": 122.4337823 }, "geometry": { "type": "Point", "coordinates": [ 122.4337823, 11.6479685 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Numancia", "Electric C": "AKELCO", "Latitude": 11.7060054, "Longitude": 122.3283148 }, "geometry": { "type": "Point", "coordinates": [ 122.3283148, 11.7060054 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Tangalan", "Electric C": "AKELCO", "Latitude": 11.733333, "Longitude": 122.216667 }, "geometry": { "type": "Point", "coordinates": [ 122.216667, 11.733333 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Libertad", "Electric C": "AKELCO", "Latitude": 11.8802869, "Longitude": 122.0240982 }, "geometry": { "type": "Point", "coordinates": [ 122.0240982, 11.8802869 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Pandan", "Electric C": "AKELCO", "Latitude": 11.7434834, "Longitude": 122.0728458 }, "geometry": { "type": "Point", "coordinates": [ 122.0728458, 11.7434834 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Aklan", "Town": "Makato", "Electric C": "AKELCO", "Latitude": 11.7136268, "Longitude": 122.2907829 }, "geometry": { "type": "Point", "coordinates": [ 122.2907829, 11.7136268 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Antique", "Town": "Culasi", "Electric C": "ANTECO", "Latitude": 11.42567, "Longitude": 122.0568111 }, "geometry": { "type": "Point", "coordinates": [ 122.0568111, 11.42567 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Antique", "Town": "Sebaste", "Electric C": "ANTECO", "Latitude": 11.59258125, "Longitude": 122.1184974 }, "geometry": { "type": "Point", "coordinates": [ 122.1184974, 11.59258125 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Antique", "Town": "Tibiao", "Electric C": "ANTECO", "Latitude": 11.3021152, "Longitude": 122.0701837 }, "geometry": { "type": "Point", "coordinates": [ 122.0701837, 11.3021152 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Calinog", "Electric C": "ILECO II", "Latitude": 11.1228227, "Longitude": 122.52021310000001 }, "geometry": { "type": "Point", "coordinates": [ 122.52021310000001, 11.1228227 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Bingawan", "Electric C": "ILECO II", "Latitude": 11.2084363, "Longitude": 122.5665689 }, "geometry": { "type": "Point", "coordinates": [ 122.5665689, 11.2084363 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Anilao", "Electric C": "ILECO III", "Latitude": 11.0, "Longitude": 122.716667 }, "geometry": { "type": "Point", "coordinates": [ 122.716667, 11.0 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Banate", "Electric C": "ILECO III", "Latitude": 11.0006803, "Longitude": 122.8182702 }, "geometry": { "type": "Point", "coordinates": [ 122.8182702, 11.0006803 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Barotac Viejo", "Electric C": "ILECO III", "Latitude": 11.066667, "Longitude": 122.883333 }, "geometry": { "type": "Point", "coordinates": [ 122.883333, 11.066667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Concepcion", "Electric C": "ILECO III", "Latitude": 11.2157417, "Longitude": 123.1061591 }, "geometry": { "type": "Point", "coordinates": [ 123.1061591, 11.2157417 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "San Dionisio", "Electric C": "ILECO III", "Latitude": 11.2701921, "Longitude": 123.0942709 }, "geometry": { "type": "Point", "coordinates": [ 123.0942709, 11.2701921 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Balasan", "Electric C": "ILECO III", "Latitude": 11.4731483, "Longitude": 123.08914710000001 }, "geometry": { "type": "Point", "coordinates": [ 123.08914710000001, 11.4731483 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Batad", "Electric C": "ILECO III", "Latitude": 11.4172743, "Longitude": 123.1102554 }, "geometry": { "type": "Point", "coordinates": [ 123.1102554, 11.4172743 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Estancia", "Electric C": "ILECO III", "Latitude": 11.466667, "Longitude": 123.15 }, "geometry": { "type": "Point", "coordinates": [ 123.15, 11.466667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "San Rafael", "Electric C": "ILECO III", "Latitude": 10.7069957, "Longitude": 122.550896 }, "geometry": { "type": "Point", "coordinates": [ 122.550896, 10.7069957 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Ajuy", "Electric C": "ILECO III", "Latitude": 11.1713335, "Longitude": 123.0199077 }, "geometry": { "type": "Point", "coordinates": [ 123.0199077, 11.1713335 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Carles", "Electric C": "ILECO III", "Latitude": 11.533333, "Longitude": 123.25 }, "geometry": { "type": "Point", "coordinates": [ 123.25, 11.533333 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Lemery", "Electric C": "ILECO III", "Latitude": 11.225827, "Longitude": 122.9274305 }, "geometry": { "type": "Point", "coordinates": [ 122.9274305, 11.225827 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Iloilo", "Town": "Sara", "Electric C": "ILECO III", "Latitude": 11.2587241, "Longitude": 123.0128832 }, "geometry": { "type": "Point", "coordinates": [ 123.0128832, 11.2587241 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Cuartero", "Electric C": "CAPELCO", "Latitude": 11.3238677, "Longitude": 122.6874109 }, "geometry": { "type": "Point", "coordinates": [ 122.6874109, 11.3238677 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Dao", "Electric C": "CAPELCO", "Latitude": 10.52350355, "Longitude": 121.9742487 }, "geometry": { "type": "Point", "coordinates": [ 121.9742487, 10.52350355 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Dumalag", "Electric C": "CAPELCO", "Latitude": 11.283333, "Longitude": 122.616667 }, "geometry": { "type": "Point", "coordinates": [ 122.616667, 11.283333 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Dumarao", "Electric C": "CAPELCO", "Latitude": 11.2632048, "Longitude": 122.6872028 }, "geometry": { "type": "Point", "coordinates": [ 122.6872028, 11.2632048 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Ivisan", "Electric C": "CAPELCO", "Latitude": 11.521667, "Longitude": 122.690833 }, "geometry": { "type": "Point", "coordinates": [ 122.690833, 11.521667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Jamindan", "Electric C": "CAPELCO", "Latitude": 11.3979133, "Longitude": 122.4725527 }, "geometry": { "type": "Point", "coordinates": [ 122.4725527, 11.3979133 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Ma-ayon", "Electric C": "CAPELCO", "Latitude": 11.383333, "Longitude": 122.783333 }, "geometry": { "type": "Point", "coordinates": [ 122.783333, 11.383333 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Mambusao", "Electric C": "CAPELCO", "Latitude": 11.4266817, "Longitude": 122.5942299 }, "geometry": { "type": "Point", "coordinates": [ 122.5942299, 11.4266817 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Panay", "Electric C": "CAPELCO", "Latitude": 11.530556, "Longitude": 122.817222 }, "geometry": { "type": "Point", "coordinates": [ 122.817222, 11.530556 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Panitan", "Electric C": "CAPELCO", "Latitude": 11.4631934, "Longitude": 122.7687618 }, "geometry": { "type": "Point", "coordinates": [ 122.7687618, 11.4631934 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Pilar", "Electric C": "CAPELCO", "Latitude": 11.4861234, "Longitude": 122.9963607 }, "geometry": { "type": "Point", "coordinates": [ 122.9963607, 11.4861234 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Pontevedra", "Electric C": "CAPELCO", "Latitude": 11.4818484, "Longitude": 122.8327477 }, "geometry": { "type": "Point", "coordinates": [ 122.8327477, 11.4818484 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "President Roxas", "Electric C": "CAPELCO", "Latitude": 11.4307634, "Longitude": 122.9264572 }, "geometry": { "type": "Point", "coordinates": [ 122.9264572, 11.4307634 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Roxas", "Electric C": "CAPELCO", "Latitude": 11.5895171, "Longitude": 122.7500577 }, "geometry": { "type": "Point", "coordinates": [ 122.7500577, 11.5895171 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Sapian", "Electric C": "CAPELCO", "Latitude": 11.5, "Longitude": 122.6 }, "geometry": { "type": "Point", "coordinates": [ 122.6, 11.5 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Sigma", "Electric C": "CAPELCO", "Latitude": 11.4241578, "Longitude": 122.665641 }, "geometry": { "type": "Point", "coordinates": [ 122.665641, 11.4241578 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Capiz", "Town": "Tapaz", "Electric C": "CAPELCO", "Latitude": 11.216667, "Longitude": 122.4 }, "geometry": { "type": "Point", "coordinates": [ 122.4, 11.216667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Negros Occidental", "Town": "Cadiz City", "Electric C": "VRESCO", "Latitude": 10.9462871, "Longitude": 123.29707740000001 }, "geometry": { "type": "Point", "coordinates": [ 123.29707740000001, 10.9462871 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Negros Occidental", "Town": "Calatrava", "Electric C": "VRESCO", "Latitude": 10.5940442, "Longitude": 123.4763844 }, "geometry": { "type": "Point", "coordinates": [ 123.4763844, 10.5940442 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Negros Occidental", "Town": "Escalante City", "Electric C": "VRESCO", "Latitude": 10.833333, "Longitude": 123.5 }, "geometry": { "type": "Point", "coordinates": [ 123.5, 10.833333 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Negros Occidental", "Town": "Toboso", "Electric C": "VRESCO", "Latitude": 10.7154294, "Longitude": 123.5061762 }, "geometry": { "type": "Point", "coordinates": [ 123.5061762, 10.7154294 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "Daan Bantayan", "Electric C": "CEBECO II", "Latitude": 11.1864456, "Longitude": 123.9463918 }, "geometry": { "type": "Point", "coordinates": [ 123.9463918, 11.1864456 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "Tabogon", "Electric C": "CEBECO II", "Latitude": 10.9410102, "Longitude": 124.0292144 }, "geometry": { "type": "Point", "coordinates": [ 124.0292144, 10.9410102 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "Bogo", "Electric C": "CEBECO II", "Latitude": 9.8575548, "Longitude": 123.570171 }, "geometry": { "type": "Point", "coordinates": [ 123.570171, 9.8575548 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "San Remigio", "Electric C": "CEBECO II", "Latitude": 11.0786678, "Longitude": 123.9403303 }, "geometry": { "type": "Point", "coordinates": [ 123.9403303, 11.0786678 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "Medellin", "Electric C": "CEBECO II", "Latitude": 11.1276626, "Longitude": 123.96215530000001 }, "geometry": { "type": "Point", "coordinates": [ 123.96215530000001, 11.1276626 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "San Francisco", "Electric C": "CELCO", "Latitude": 10.646095, "Longitude": 124.3815881 }, "geometry": { "type": "Point", "coordinates": [ 124.3815881, 10.646095 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "Tudela", "Electric C": "CELCO", "Latitude": 10.6367597, "Longitude": 124.4694504 }, "geometry": { "type": "Point", "coordinates": [ 124.4694504, 10.6367597 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Cebu", "Town": "Pilar", "Electric C": "CELCO", "Latitude": 10.8069, "Longitude": 124.5648507 }, "geometry": { "type": "Point", "coordinates": [ 124.5648507, 10.8069 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Alburquerque", "Electric C": "BOHECO I", "Latitude": 9.611585, "Longitude": 123.9581793 }, "geometry": { "type": "Point", "coordinates": [ 123.9581793, 9.611585 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Antequera", "Electric C": "BOHECO I", "Latitude": 9.78, "Longitude": 123.898889 }, "geometry": { "type": "Point", "coordinates": [ 123.898889, 9.78 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Baclayon", "Electric C": "BOHECO I", "Latitude": 9.6249965, "Longitude": 123.9110494 }, "geometry": { "type": "Point", "coordinates": [ 123.9110494, 9.6249965 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Balilihan", "Electric C": "BOHECO I", "Latitude": 9.756487, "Longitude": 123.9716881 }, "geometry": { "type": "Point", "coordinates": [ 123.9716881, 9.756487 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Calape", "Electric C": "BOHECO I", "Latitude": 9.888889, "Longitude": 123.883333 }, "geometry": { "type": "Point", "coordinates": [ 123.883333, 9.888889 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Catigbian", "Electric C": "BOHECO I", "Latitude": 9.850278, "Longitude": 124.000278 }, "geometry": { "type": "Point", "coordinates": [ 124.000278, 9.850278 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Corella", "Electric C": "BOHECO I", "Latitude": 9.6878109, "Longitude": 123.9206792 }, "geometry": { "type": "Point", "coordinates": [ 123.9206792, 9.6878109 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Cortes", "Electric C": "BOHECO I", "Latitude": 9.7226602, "Longitude": 123.87906390000001 }, "geometry": { "type": "Point", "coordinates": [ 123.87906390000001, 9.7226602 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Dauis", "Electric C": "BOHECO I", "Latitude": 9.6239476, "Longitude": 123.8664675 }, "geometry": { "type": "Point", "coordinates": [ 123.8664675, 9.6239476 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Loon", "Electric C": "BOHECO I", "Latitude": 9.7990074, "Longitude": 123.793589 }, "geometry": { "type": "Point", "coordinates": [ 123.793589, 9.7990074 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Maribojoc", "Electric C": "BOHECO I", "Latitude": 9.7402743, "Longitude": 123.8441702 }, "geometry": { "type": "Point", "coordinates": [ 123.8441702, 9.7402743 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Panglao", "Electric C": "BOHECO I", "Latitude": 9.5808139, "Longitude": 123.7498389 }, "geometry": { "type": "Point", "coordinates": [ 123.7498389, 9.5808139 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Sikatuna", "Electric C": "BOHECO I", "Latitude": 9.691667, "Longitude": 123.973889 }, "geometry": { "type": "Point", "coordinates": [ 123.973889, 9.691667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Tubigon", "Electric C": "BOHECO I", "Latitude": 9.9519248, "Longitude": 123.9639128 }, "geometry": { "type": "Point", "coordinates": [ 123.9639128, 9.9519248 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Clarin", "Electric C": "BOHECO I", "Latitude": 9.9630488, "Longitude": 124.0237874 }, "geometry": { "type": "Point", "coordinates": [ 124.0237874, 9.9630488 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Inabanga", "Electric C": "BOHECO I", "Latitude": 10.031861, "Longitude": 124.06662660000001 }, "geometry": { "type": "Point", "coordinates": [ 124.06662660000001, 10.031861 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Sagbayan", "Electric C": "BOHECO I", "Latitude": 9.9133976, "Longitude": 124.0923468 }, "geometry": { "type": "Point", "coordinates": [ 124.0923468, 9.9133976 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "San Isidro", "Electric C": "BOHECO I", "Latitude": 9.830556, "Longitude": 123.955278 }, "geometry": { "type": "Point", "coordinates": [ 123.955278, 9.830556 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Batuan", "Electric C": "BOHECO I", "Latitude": 9.7841355, "Longitude": 124.14983460000001 }, "geometry": { "type": "Point", "coordinates": [ 124.14983460000001, 9.7841355 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Bilar", "Electric C": "BOHECO I", "Latitude": 9.705958, "Longitude": 124.1046264 }, "geometry": { "type": "Point", "coordinates": [ 124.1046264, 9.705958 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Buenavista", "Electric C": "BOHECO II", "Latitude": 10.066667, "Longitude": 124.15 }, "geometry": { "type": "Point", "coordinates": [ 124.15, 10.066667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Danao", "Electric C": "BOHECO II", "Latitude": 9.9512474, "Longitude": 124.22223870000001 }, "geometry": { "type": "Point", "coordinates": [ 124.22223870000001, 9.9512474 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Talibon", "Electric C": "BOHECO II", "Latitude": 10.116667, "Longitude": 124.283333 }, "geometry": { "type": "Point", "coordinates": [ 124.283333, 10.116667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "San Miguel", "Electric C": "BOHECO II", "Latitude": 10.0, "Longitude": 124.316667 }, "geometry": { "type": "Point", "coordinates": [ 124.316667, 10.0 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Trinidad", "Electric C": "BOHECO II", "Latitude": 10.066667, "Longitude": 124.333333 }, "geometry": { "type": "Point", "coordinates": [ 124.333333, 10.066667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Dagohoy", "Electric C": "BOHECO II", "Latitude": 9.916667, "Longitude": 124.283333 }, "geometry": { "type": "Point", "coordinates": [ 124.283333, 9.916667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Ubay", "Electric C": "BOHECO II", "Latitude": 10.0571124, "Longitude": 124.47354060000001 }, "geometry": { "type": "Point", "coordinates": [ 124.47354060000001, 10.0571124 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Guindulman", "Electric C": "BOHECO II", "Latitude": 9.764411, "Longitude": 124.4889984 }, "geometry": { "type": "Point", "coordinates": [ 124.4889984, 9.764411 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Pilar", "Electric C": "BOHECO II", "Latitude": 9.8364479, "Longitude": 124.33392720000001 }, "geometry": { "type": "Point", "coordinates": [ 124.33392720000001, 9.8364479 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Valencia", "Electric C": "BOHECO II", "Latitude": 9.610482, "Longitude": 124.188934 }, "geometry": { "type": "Point", "coordinates": [ 124.188934, 9.610482 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Candijay", "Electric C": "BOHECO II", "Latitude": 9.833333, "Longitude": 124.483333 }, "geometry": { "type": "Point", "coordinates": [ 124.483333, 9.833333 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Duero", "Electric C": "BOHECO II", "Latitude": 9.766667, "Longitude": 124.4 }, "geometry": { "type": "Point", "coordinates": [ 124.4, 9.766667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Jagna", "Electric C": "BOHECO II", "Latitude": 9.6501981, "Longitude": 124.3662248 }, "geometry": { "type": "Point", "coordinates": [ 124.3662248, 9.6501981 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Alicia", "Electric C": "BOHECO II", "Latitude": 9.9, "Longitude": 124.433333 }, "geometry": { "type": "Point", "coordinates": [ 124.433333, 9.9 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Garcia Hernandez", "Electric C": "BOHECO II", "Latitude": 9.616667, "Longitude": 124.3 }, "geometry": { "type": "Point", "coordinates": [ 124.3, 9.616667 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Mabini", "Electric C": "BOHECO II", "Latitude": 9.8609915, "Longitude": 124.498392 }, "geometry": { "type": "Point", "coordinates": [ 124.498392, 9.8609915 ] } }
+,
+{ "type": "Feature", "properties": { "Province": "Bohol", "Town": "Sierra Bullones", "Electric C": "BOHECO II", "Latitude": 9.816667, "Longitude": 124.283333 }, "geometry": { "type": "Point", "coordinates": [ 124.283333, 9.816667 ] } }
+
+]
+}

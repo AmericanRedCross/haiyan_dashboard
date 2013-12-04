@@ -1,0 +1,196 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "ID": 1, "Region": "Northern and Southern Luzon", "Chapter": "Abra", "Lat": 17.59871, "Long": 120.61504, "Chapter_ID": 1 }, "geometry": { "type": "Point", "coordinates": [ 120.61504, 17.59871 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "ID": 2, "Region": "Northern and Southern Luzon", "Chapter": "Alaminos City", "Lat": 16.155511, "Long": 119.979283, "Chapter_ID": 2 }, "geometry": { "type": "Point", "coordinates": [ 119.979283, 16.155511 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "ID": 3, "Region": "Northern and Southern Luzon", "Chapter": "Apayao", "Lat": 18.3311, "Long": 121.3628, "Chapter_ID": 3 }, "geometry": { "type": "Point", "coordinates": [ 121.3628, 18.3311 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "ID": 4, "Region": "Northern and Southern Luzon", "Chapter": "Aurora", "Lat": 15.759504, "Long": 121.552731, "Chapter_ID": 4 }, "geometry": { "type": "Point", "coordinates": [ 121.552731, 15.759504 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "ID": 5, "Region": "Northern and Southern Luzon", "Chapter": "Baguio", "Lat": 16.410059, "Long": 120.597216, "Chapter_ID": 5 }, "geometry": { "type": "Point", "coordinates": [ 120.597216, 16.410059 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "ID": 6, "Region": "Northern and Southern Luzon", "Chapter": "Bataan", "Lat": 14.67739, "Long": 120.53804, "Chapter_ID": 6 }, "geometry": { "type": "Point", "coordinates": [ 120.53804, 14.67739 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "ID": 7, "Region": "Northern and Southern Luzon", "Chapter": "Benguet", "Lat": 16.450995, "Long": 120.588168, "Chapter_ID": 7 }, "geometry": { "type": "Point", "coordinates": [ 120.588168, 16.450995 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "ID": 8, "Region": "Northern and Southern Luzon", "Chapter": "Bulacan", "Lat": 14.855941, "Long": 120.813752, "Chapter_ID": 8 }, "geometry": { "type": "Point", "coordinates": [ 120.813752, 14.855941 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "ID": 9, "Region": "Northern and Southern Luzon", "Chapter": "Cagayan", "Lat": 17.614237, "Long": 121.725574, "Chapter_ID": 9 }, "geometry": { "type": "Point", "coordinates": [ 121.725574, 17.614237 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "ID": 10, "Region": "Northern and Southern Luzon", "Chapter": "Ifugao", "Lat": 16.797269, "Long": 121.122588, "Chapter_ID": 10 }, "geometry": { "type": "Point", "coordinates": [ 121.122588, 16.797269 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "ID": 11, "Region": "Northern and Southern Luzon", "Chapter": "Ilocos Norte", "Lat": 18.199797, "Long": 120.601724, "Chapter_ID": 11 }, "geometry": { "type": "Point", "coordinates": [ 120.601724, 18.199797 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "ID": 12, "Region": "Northern and Southern Luzon", "Chapter": "Ilocos Sur", "Lat": 17.579108, "Long": 120.378889, "Chapter_ID": 12 }, "geometry": { "type": "Point", "coordinates": [ 120.378889, 17.579108 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "ID": 13, "Region": "Northern and Southern Luzon", "Chapter": "Isabela", "Lat": 17.12051, "Long": 122.003106, "Chapter_ID": 13 }, "geometry": { "type": "Point", "coordinates": [ 122.003106, 17.12051 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "ID": 14, "Region": "Northern and Southern Luzon", "Chapter": "Kalinga", "Lat": 17.472556, "Long": 121.466606, "Chapter_ID": 14 }, "geometry": { "type": "Point", "coordinates": [ 121.466606, 17.472556 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "ID": 15, "Region": "Northern and Southern Luzon", "Chapter": "La Union", "Lat": 16.614773, "Long": 120.317271, "Chapter_ID": 15 }, "geometry": { "type": "Point", "coordinates": [ 120.317271, 16.614773 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "ID": 16, "Region": "Northern and Southern Luzon", "Chapter": "Mt. Province", "Lat": 17.090204, "Long": 120.975812, "Chapter_ID": 16 }, "geometry": { "type": "Point", "coordinates": [ 120.975812, 17.090204 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "ID": 17, "Region": "Northern and Southern Luzon", "Chapter": "Nueva Ecija", "Lat": 15.489446, "Long": 120.970018, "Chapter_ID": 17 }, "geometry": { "type": "Point", "coordinates": [ 120.970018, 15.489446 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "ID": 18, "Region": "Northern and Southern Luzon", "Chapter": "Nueva Vizcaya", "Lat": 16.488086, "Long": 121.158942, "Chapter_ID": 18 }, "geometry": { "type": "Point", "coordinates": [ 121.158942, 16.488086 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "ID": 19, "Region": "Northern and Southern Luzon", "Chapter": "Olongapo City", "Lat": 14.837761, "Long": 120.282814, "Chapter_ID": 19 }, "geometry": { "type": "Point", "coordinates": [ 120.282814, 14.837761 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "ID": 20, "Region": "Northern and Southern Luzon", "Chapter": "Pampanga", "Lat": 15.065182, "Long": 120.655865, "Chapter_ID": 20 }, "geometry": { "type": "Point", "coordinates": [ 120.655865, 15.065182 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "ID": 21, "Region": "Northern and Southern Luzon", "Chapter": "Pangasinan", "Lat": 16.041029, "Long": 120.342698, "Chapter_ID": 21 }, "geometry": { "type": "Point", "coordinates": [ 120.342698, 16.041029 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "ID": 22, "Region": "Northern and Southern Luzon", "Chapter": "Quirino", "Lat": 16.5147, "Long": 121.5229, "Chapter_ID": 22 }, "geometry": { "type": "Point", "coordinates": [ 121.5229, 16.5147 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "ID": 23, "Region": "Northern and Southern Luzon", "Chapter": "Santiago City", "Lat": 16.703882, "Long": 121.558816, "Chapter_ID": 23 }, "geometry": { "type": "Point", "coordinates": [ 121.558816, 16.703882 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "ID": 24, "Region": "Northern and Southern Luzon", "Chapter": "Tarlac", "Lat": 15.480575, "Long": 120.588532, "Chapter_ID": 24 }, "geometry": { "type": "Point", "coordinates": [ 120.588532, 15.480575 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "ID": 25, "Region": "Northern and Southern Luzon", "Chapter": "Zambales", "Lat": 15.314186, "Long": 119.994219, "Chapter_ID": 25 }, "geometry": { "type": "Point", "coordinates": [ 119.994219, 15.314186 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "ID": 26, "Region": "National Capital", "Chapter": "Caloocan", "Lat": 14.647135, "Long": 120.989405, "Chapter_ID": 26 }, "geometry": { "type": "Point", "coordinates": [ 120.989405, 14.647135 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "ID": 27, "Region": "National Capital", "Chapter": "Las Pinas", "Lat": 14.471957, "Long": 120.972215, "Chapter_ID": 27 }, "geometry": { "type": "Point", "coordinates": [ 120.972215, 14.471957 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "ID": 28, "Region": "National Capital", "Chapter": "Manila", "Lat": 14.587716, "Long": 120.976069, "Chapter_ID": 28 }, "geometry": { "type": "Point", "coordinates": [ 120.976069, 14.587716 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "ID": 29, "Region": "National Capital", "Chapter": "Malabon City", "Lat": 14.655506, "Long": 120.96254, "Chapter_ID": 29 }, "geometry": { "type": "Point", "coordinates": [ 120.96254, 14.655506 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "ID": 30, "Region": "National Capital", "Chapter": "Palawan", "Lat": 9.739607, "Long": 118.737529, "Chapter_ID": 30 }, "geometry": { "type": "Point", "coordinates": [ 118.737529, 9.739607 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "ID": 31, "Region": "National Capital", "Chapter": "Pasay City", "Lat": 14.530893, "Long": 121.00423, "Chapter_ID": 31 }, "geometry": { "type": "Point", "coordinates": [ 121.00423, 14.530893 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "ID": 32, "Region": "National Capital", "Chapter": "Quezon City", "Lat": 14.647109, "Long": 121.050902, "Chapter_ID": 32 }, "geometry": { "type": "Point", "coordinates": [ 121.050902, 14.647109 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "ID": 33, "Region": "National Capital", "Chapter": "Rizal", "Lat": 14.574716, "Long": 121.060848, "Chapter_ID": 33 }, "geometry": { "type": "Point", "coordinates": [ 121.060848, 14.574716 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "ID": 34, "Region": "National Capital", "Chapter": "Valenzuela", "Lat": 14.678081, "Long": 120.978515, "Chapter_ID": 34 }, "geometry": { "type": "Point", "coordinates": [ 120.978515, 14.678081 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "ID": 35, "Region": "National Capital", "Chapter": "Navotas City", "Lat": 14.655257, "Long": 120.962164, "Chapter_ID": 35 }, "geometry": { "type": "Point", "coordinates": [ 120.962164, 14.655257 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "ID": 36, "Region": "Southern Tagalog", "Chapter": "Batangas", "Lat": 13.763938, "Long": 121.064217, "Chapter_ID": 36 }, "geometry": { "type": "Point", "coordinates": [ 121.064217, 13.763938 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "ID": 37, "Region": "Southern Tagalog", "Chapter": "Cavite", "Lat": 14.481576, "Long": 120.908035, "Chapter_ID": 37 }, "geometry": { "type": "Point", "coordinates": [ 120.908035, 14.481576 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "ID": 38, "Region": "Southern Tagalog", "Chapter": "Laguna", "Lat": 14.274677, "Long": 121.417743, "Chapter_ID": 38 }, "geometry": { "type": "Point", "coordinates": [ 121.417743, 14.274677 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "ID": 39, "Region": "Southern Tagalog", "Chapter": "Marinduque", "Lat": 13.44661, "Long": 121.841328, "Chapter_ID": 39 }, "geometry": { "type": "Point", "coordinates": [ 121.841328, 13.44661 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "ID": 40, "Region": "Southern Tagalog", "Chapter": "Quezon", "Lat": 13.928975, "Long": 121.613748, "Chapter_ID": 40 }, "geometry": { "type": "Point", "coordinates": [ 121.613748, 13.928975 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "ID": 41, "Region": "Southern Tagalog", "Chapter": "Romblon", "Lat": 12.5789, "Long": 122.274129, "Chapter_ID": 41 }, "geometry": { "type": "Point", "coordinates": [ 122.274129, 12.5789 ] } }
+,
+{ "type": "Feature", "id": 41, "properties": { "ID": 42, "Region": "Southern Tagalog", "Chapter": "Occidental Mindoro", "Lat": 12.352338, "Long": 121.068488, "Chapter_ID": 42 }, "geometry": { "type": "Point", "coordinates": [ 121.068488, 12.352338 ] } }
+,
+{ "type": "Feature", "id": 42, "properties": { "ID": 43, "Region": "Southern Tagalog", "Chapter": "Oriental Mindoro", "Lat": 13.405087, "Long": 121.177395, "Chapter_ID": 43 }, "geometry": { "type": "Point", "coordinates": [ 121.177395, 13.405087 ] } }
+,
+{ "type": "Feature", "id": 43, "properties": { "ID": 44, "Region": "Southern Tagalog", "Chapter": "San Pablo City", "Lat": 14.07022, "Long": 121.325213, "Chapter_ID": 44 }, "geometry": { "type": "Point", "coordinates": [ 121.325213, 14.07022 ] } }
+,
+{ "type": "Feature", "id": 44, "properties": { "ID": 45, "Region": "Bicol", "Chapter": "Albay", "Lat": 13.139222, "Long": 123.73595, "Chapter_ID": 45 }, "geometry": { "type": "Point", "coordinates": [ 123.73595, 13.139222 ] } }
+,
+{ "type": "Feature", "id": 45, "properties": { "ID": 46, "Region": "Bicol", "Chapter": "Camarines Norte", "Lat": 14.118441, "Long": 122.956107, "Chapter_ID": 46 }, "geometry": { "type": "Point", "coordinates": [ 122.956107, 14.118441 ] } }
+,
+{ "type": "Feature", "id": 46, "properties": { "ID": 47, "Region": "Bicol", "Chapter": "Camarines Sur", "Lat": 13.622704, "Long": 123.189985, "Chapter_ID": 47 }, "geometry": { "type": "Point", "coordinates": [ 123.189985, 13.622704 ] } }
+,
+{ "type": "Feature", "id": 47, "properties": { "ID": 48, "Region": "Bicol", "Chapter": "Catanduanes", "Lat": 13.579793, "Long": 124.220006, "Chapter_ID": 48 }, "geometry": { "type": "Point", "coordinates": [ 124.220006, 13.579793 ] } }
+,
+{ "type": "Feature", "id": 48, "properties": { "ID": 49, "Region": "Bicol", "Chapter": "Masbate", "Lat": 12.37181, "Long": 123.623409, "Chapter_ID": 49 }, "geometry": { "type": "Point", "coordinates": [ 123.623409, 12.37181 ] } }
+,
+{ "type": "Feature", "id": 49, "properties": { "ID": 50, "Region": "Bicol", "Chapter": "Sorsogon", "Lat": 12.971742, "Long": 124.001446, "Chapter_ID": 50 }, "geometry": { "type": "Point", "coordinates": [ 124.001446, 12.971742 ] } }
+,
+{ "type": "Feature", "id": 50, "properties": { "ID": 51, "Region": "Visayas", "Chapter": "Aklan", "Lat": 11.706903, "Long": 122.365989, "Chapter_ID": 51 }, "geometry": { "type": "Point", "coordinates": [ 122.365989, 11.706903 ] } }
+,
+{ "type": "Feature", "id": 51, "properties": { "ID": 52, "Region": "Visayas", "Chapter": "Antique", "Lat": 10.75186, "Long": 121.941523, "Chapter_ID": 52 }, "geometry": { "type": "Point", "coordinates": [ 121.941523, 10.75186 ] } }
+,
+{ "type": "Feature", "id": 52, "properties": { "ID": 53, "Region": "Visayas", "Chapter": "Bohol", "Lat": 9.640148, "Long": 123.857317, "Chapter_ID": 53 }, "geometry": { "type": "Point", "coordinates": [ 123.857317, 9.640148 ] } }
+,
+{ "type": "Feature", "id": 53, "properties": { "ID": 54, "Region": "Visayas", "Chapter": "Capiz", "Lat": 11.576444, "Long": 122.75668, "Chapter_ID": 54 }, "geometry": { "type": "Point", "coordinates": [ 122.75668, 11.576444 ] } }
+,
+{ "type": "Feature", "id": 54, "properties": { "ID": 55, "Region": "Visayas", "Chapter": "Cebu", "Lat": 10.302258, "Long": 123.895772, "Chapter_ID": 55 }, "geometry": { "type": "Point", "coordinates": [ 123.895772, 10.302258 ] } }
+,
+{ "type": "Feature", "id": 55, "properties": { "ID": 56, "Region": "Visayas", "Chapter": "Eastern Samar", "Lat": 11.603434, "Long": 125.437857, "Chapter_ID": 56 }, "geometry": { "type": "Point", "coordinates": [ 125.437857, 11.603434 ] } }
+,
+{ "type": "Feature", "id": 56, "properties": { "ID": 57, "Region": "Visayas", "Chapter": "Guimaras", "Lat": 10.598035, "Long": 122.589396, "Chapter_ID": 57 }, "geometry": { "type": "Point", "coordinates": [ 122.589396, 10.598035 ] } }
+,
+{ "type": "Feature", "id": 57, "properties": { "ID": 58, "Region": "Visayas", "Chapter": "Iloilo", "Lat": 10.704082, "Long": 122.567891, "Chapter_ID": 58 }, "geometry": { "type": "Point", "coordinates": [ 122.567891, 10.704082 ] } }
+,
+{ "type": "Feature", "id": 58, "properties": { "ID": 59, "Region": "Visayas", "Chapter": "Lapu-Lapu", "Lat": 10.310452, "Long": 123.95021, "Chapter_ID": 59 }, "geometry": { "type": "Point", "coordinates": [ 123.95021, 10.310452 ] } }
+,
+{ "type": "Feature", "id": 59, "properties": { "ID": 60, "Region": "Visayas", "Chapter": "Leyte", "Lat": 11.250007, "Long": 125.006051, "Chapter_ID": 60 }, "geometry": { "type": "Point", "coordinates": [ 125.006051, 11.250007 ] } }
+,
+{ "type": "Feature", "id": 60, "properties": { "ID": 61, "Region": "Visayas", "Chapter": "Negros Occidental", "Lat": 10.676033, "Long": 122.957502, "Chapter_ID": 61 }, "geometry": { "type": "Point", "coordinates": [ 122.957502, 10.676033 ] } }
+,
+{ "type": "Feature", "id": 61, "properties": { "ID": 62, "Region": "Visayas", "Chapter": "Negros Oriental", "Lat": 9.322251, "Long": 123.300373, "Chapter_ID": 62 }, "geometry": { "type": "Point", "coordinates": [ 123.300373, 9.322251 ] } }
+,
+{ "type": "Feature", "id": 62, "properties": { "ID": 63, "Region": "Visayas", "Chapter": "Northern Samar", "Lat": 12.50381, "Long": 124.631995, "Chapter_ID": 63 }, "geometry": { "type": "Point", "coordinates": [ 124.631995, 12.50381 ] } }
+,
+{ "type": "Feature", "id": 63, "properties": { "ID": 64, "Region": "Visayas", "Chapter": "Ormoc City", "Lat": 11.023218, "Long": 124.60263, "Chapter_ID": 64 }, "geometry": { "type": "Point", "coordinates": [ 124.60263, 11.023218 ] } }
+,
+{ "type": "Feature", "id": 64, "properties": { "ID": 65, "Region": "Visayas", "Chapter": "Siquijor", "Lat": 9.214055, "Long": 123.514468, "Chapter_ID": 65 }, "geometry": { "type": "Point", "coordinates": [ 123.514468, 9.214055 ] } }
+,
+{ "type": "Feature", "id": 65, "properties": { "ID": 66, "Region": "Visayas", "Chapter": "Southern Leyte", "Lat": 10.132976, "Long": 124.838332, "Chapter_ID": 66 }, "geometry": { "type": "Point", "coordinates": [ 124.838332, 10.132976 ] } }
+,
+{ "type": "Feature", "id": 66, "properties": { "ID": 67, "Region": "Visayas", "Chapter": "Western Samar", "Lat": 11.77261, "Long": 124.88511, "Chapter_ID": 67 }, "geometry": { "type": "Point", "coordinates": [ 124.88511, 11.77261 ] } }
+,
+{ "type": "Feature", "id": 67, "properties": { "ID": 68, "Region": "Mindanao", "Chapter": "Agusan del Norte", "Lat": 8.94146, "Long": 125.534579, "Chapter_ID": 68 }, "geometry": { "type": "Point", "coordinates": [ 125.534579, 8.94146 ] } }
+,
+{ "type": "Feature", "id": 68, "properties": { "ID": 69, "Region": "Mindanao", "Chapter": "Agusan del Sur", "Lat": 8.549194, "Long": 125.94119, "Chapter_ID": 69 }, "geometry": { "type": "Point", "coordinates": [ 125.94119, 8.549194 ] } }
+,
+{ "type": "Feature", "id": 69, "properties": { "ID": 70, "Region": "Mindanao", "Chapter": "Basilan", "Lat": 6.707231, "Long": 121.971088, "Chapter_ID": 70 }, "geometry": { "type": "Point", "coordinates": [ 121.971088, 6.707231 ] } }
+,
+{ "type": "Feature", "id": 70, "properties": { "ID": 71, "Region": "Mindanao", "Chapter": "Bukidnon", "Lat": 8.127773, "Long": 125.128096, "Chapter_ID": 71 }, "geometry": { "type": "Point", "coordinates": [ 125.128096, 8.127773 ] } }
+,
+{ "type": "Feature", "id": 71, "properties": { "ID": 73, "Region": "Mindanao", "Chapter": "Compostela Valley", "Lat": 7.602937, "Long": 125.965866, "Chapter_ID": 72 }, "geometry": { "type": "Point", "coordinates": [ 125.965866, 7.602937 ] } }
+,
+{ "type": "Feature", "id": 72, "properties": { "ID": 74, "Region": "Mindanao", "Chapter": "Cotabato", "Lat": 7.221449, "Long": 124.243815, "Chapter_ID": 73 }, "geometry": { "type": "Point", "coordinates": [ 124.243815, 7.221449 ] } }
+,
+{ "type": "Feature", "id": 73, "properties": { "ID": 75, "Region": "Mindanao", "Chapter": "Davao City", "Lat": 7.067413, "Long": 125.616221, "Chapter_ID": 74 }, "geometry": { "type": "Point", "coordinates": [ 125.616221, 7.067413 ] } }
+,
+{ "type": "Feature", "id": 74, "properties": { "ID": 76, "Region": "Mindanao", "Chapter": "Davao del Norte", "Lat": 7.460454, "Long": 125.784978, "Chapter_ID": 75 }, "geometry": { "type": "Point", "coordinates": [ 125.784978, 7.460454 ] } }
+,
+{ "type": "Feature", "id": 75, "properties": { "ID": 77, "Region": "Mindanao", "Chapter": "Davao del Sur", "Lat": 6.756979, "Long": 125.353144, "Chapter_ID": 76 }, "geometry": { "type": "Point", "coordinates": [ 125.353144, 6.756979 ] } }
+,
+{ "type": "Feature", "id": 76, "properties": { "ID": 78, "Region": "Mindanao", "Chapter": "Davao Oriental", "Lat": 6.944532, "Long": 126.240205, "Chapter_ID": 77 }, "geometry": { "type": "Point", "coordinates": [ 126.240205, 6.944532 ] } }
+,
+{ "type": "Feature", "id": 77, "properties": { "ID": 79, "Region": "Mindanao", "Chapter": "General Santos", "Lat": 6.113921, "Long": 125.171294, "Chapter_ID": 78 }, "geometry": { "type": "Point", "coordinates": [ 125.171294, 6.113921 ] } }
+,
+{ "type": "Feature", "id": 78, "properties": { "ID": 80, "Region": "Mindanao", "Chapter": "Gingoog City", "Lat": 8.830467, "Long": 125.096398, "Chapter_ID": 79 }, "geometry": { "type": "Point", "coordinates": [ 125.096398, 8.830467 ] } }
+,
+{ "type": "Feature", "id": 79, "properties": { "ID": 81, "Region": "Mindanao", "Chapter": "Iligan City", "Lat": 8.215748, "Long": 124.239169, "Chapter_ID": 80 }, "geometry": { "type": "Point", "coordinates": [ 124.239169, 8.215748 ] } }
+,
+{ "type": "Feature", "id": 80, "properties": { "ID": 83, "Region": "Mindanao", "Chapter": "Lanao del Norte", "Lat": 8.214676, "Long": 124.240146, "Chapter_ID": 81 }, "geometry": { "type": "Point", "coordinates": [ 124.240146, 8.214676 ] } }
+,
+{ "type": "Feature", "id": 81, "properties": { "ID": 84, "Region": "Mindanao", "Chapter": "Lanao del Sur", "Lat": 8.008534, "Long": 124.277633, "Chapter_ID": 82 }, "geometry": { "type": "Point", "coordinates": [ 124.277633, 8.008534 ] } }
+,
+{ "type": "Feature", "id": 82, "properties": { "ID": 85, "Region": "Mindanao", "Chapter": "Misamis Occidental", "Lat": 8.459596, "Long": 123.79933, "Chapter_ID": 83 }, "geometry": { "type": "Point", "coordinates": [ 123.79933, 8.459596 ] } }
+,
+{ "type": "Feature", "id": 83, "properties": { "ID": 86, "Region": "Mindanao", "Chapter": "Misamis Oriental", "Lat": 8.484867, "Long": 124.648968, "Chapter_ID": 84 }, "geometry": { "type": "Point", "coordinates": [ 124.648968, 8.484867 ] } }
+,
+{ "type": "Feature", "id": 84, "properties": { "ID": 87, "Region": "Mindanao", "Chapter": "Ozamiz City", "Lat": 8.154163, "Long": 123.854279, "Chapter_ID": 85 }, "geometry": { "type": "Point", "coordinates": [ 123.854279, 8.154163 ] } }
+,
+{ "type": "Feature", "id": 85, "properties": { "ID": 88, "Region": "Mindanao", "Chapter": "Sibugay", "Lat": 7.780864, "Long": 122.583941, "Chapter_ID": 86 }, "geometry": { "type": "Point", "coordinates": [ 122.583941, 7.780864 ] } }
+,
+{ "type": "Feature", "id": 86, "properties": { "ID": 89, "Region": "Mindanao", "Chapter": "South Cotabato", "Lat": 7.221513, "Long": 124.243407, "Chapter_ID": 87 }, "geometry": { "type": "Point", "coordinates": [ 124.243407, 7.221513 ] } }
+,
+{ "type": "Feature", "id": 87, "properties": { "ID": 90, "Region": "Mindanao", "Chapter": "Sultan Kudarat", "Lat": 6.693453, "Long": 124.67476, "Chapter_ID": 88 }, "geometry": { "type": "Point", "coordinates": [ 124.67476, 6.693453 ] } }
+,
+{ "type": "Feature", "id": 88, "properties": { "ID": 91, "Region": "Mindanao", "Chapter": "Sulu", "Lat": 6.054388, "Long": 121.001507, "Chapter_ID": 89 }, "geometry": { "type": "Point", "coordinates": [ 121.001507, 6.054388 ] } }
+,
+{ "type": "Feature", "id": 89, "properties": { "ID": 92, "Region": "Mindanao", "Chapter": "Surigao del Norte", "Lat": 9.791734, "Long": 125.494647, "Chapter_ID": 90 }, "geometry": { "type": "Point", "coordinates": [ 125.494647, 9.791734 ] } }
+,
+{ "type": "Feature", "id": 90, "properties": { "ID": 93, "Region": "Mindanao", "Chapter": "Surigao del Sur", "Lat": 9.101101, "Long": 126.158548, "Chapter_ID": 91 }, "geometry": { "type": "Point", "coordinates": [ 126.158548, 9.101101 ] } }
+,
+{ "type": "Feature", "id": 91, "properties": { "ID": 94, "Region": "Mindanao", "Chapter": "Tangub City", "Lat": 8.061333, "Long": 123.75144, "Chapter_ID": 92 }, "geometry": { "type": "Point", "coordinates": [ 123.75144, 8.061333 ] } }
+,
+{ "type": "Feature", "id": 92, "properties": { "ID": 95, "Region": "Mindanao", "Chapter": "Tawi-Tawi", "Lat": 5.0243, "Long": 119.765948, "Chapter_ID": 93 }, "geometry": { "type": "Point", "coordinates": [ 119.765948, 5.0243 ] } }
+,
+{ "type": "Feature", "id": 93, "properties": { "ID": 96, "Region": "Mindanao", "Chapter": "Zamboanga City", "Lat": 6.903112, "Long": 122.078939, "Chapter_ID": 94 }, "geometry": { "type": "Point", "coordinates": [ 122.078939, 6.903112 ] } }
+,
+{ "type": "Feature", "id": 94, "properties": { "ID": 97, "Region": "Mindanao", "Chapter": "Zamboanga del Norte", "Lat": 8.583567, "Long": 123.346807, "Chapter_ID": 95 }, "geometry": { "type": "Point", "coordinates": [ 123.346807, 8.583567 ] } }
+
+]
+}
