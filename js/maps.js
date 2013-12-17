@@ -53,6 +53,10 @@ var grouped_overlays = {
         "Pre Imagery - Medellin": {
             url: "http://hiu-maps.net/hot/1.0.0/cebu-post-flipped/{z}/{x}/{y}.png",
             attribution: "&copy; US Government (USG) under the NextView (NV) License"
+        },
+        "Post Imagery - Carles": {
+            url: "http://hiu-maps.net/hot/1.0.0/carles-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; US Government (USG) under the NextView (NV) License"
         }
     },
     "Base Layers": {
