@@ -69,6 +69,10 @@ ul {
 	height: 16px;
 }
 
+.map-tooltip {
+	font-size: small;
+}
+
 /*bootstrap has white text for this and the text in the legend pulled from mapbox doesnt show*/
 .label {
 	color: black;
