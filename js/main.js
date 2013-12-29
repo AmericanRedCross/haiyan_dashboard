@@ -170,3 +170,14 @@ resize();
 function resize(){
         $('#map').css('height', ($(window).height()));
 }
+
+//toggleLegend code
+function toggleLegend(element) {
+    if($(element).hasClass("visible")){
+        $(element).removeClass("visible");
+        $(".map-legends").hide();
+    } else {
+        $(element).addClass("visible");
+        $(".map-legends").show();
+    }
+}
