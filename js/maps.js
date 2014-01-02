@@ -97,6 +97,10 @@ var grouped_overlays = {
         }
     },
     "Damage Layers": {
+        "Leyte (eastern) HH Totally Damaged by Barangay": {
+            url: "americanredcross.Leyte_HH_TotalDamage",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        },
         "Storm Surge Max Height": {
             url: "americanredcross.HAIYAN_Storm_Surge"
         },
@@ -186,6 +190,18 @@ var grouped_overlays = {
         "Philippine RC Chapters": {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+        },
+        "Leyte (eastern) HH Covered by Distributions": {
+            url: "americanredcross.Leyte_HH_distributionsChoropleth",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        },
+        "Leyte (eastern) Food Distributions": {
+            url: "americanredcross.Leyte_HH_distributions_food",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        },
+        "Leyte (eastern) NFI Distributions": {
+            url: "americanredcross.Leyte_HH_distributions_nfi",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
         }
     },
     "Other Organizations": {
