@@ -61,7 +61,7 @@ var grouped_overlays = {
     },
     "Base Layers": {
         "Population by Baranguy": {
-            url: "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010"
+            url: "americanredcross.PHL_population"
         },
         // "Elements at Risk": {
         //     url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
@@ -191,10 +191,14 @@ var grouped_overlays = {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         },
-        "Leyte (eastern) HH Covered by Distributions": {
-            url: "americanredcross.Leyte_HH_distributionsChoropleth",
-            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        "Leyte (eastern) Planned Cash Distributions": {
+            url: "americanredcross.Leyte_HH_distributions_cash",
+            attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         },
+        // "Leyte (eastern) HH Covered by Distributions": {
+        //     url: "americanredcross.Leyte_HH_distributionsChoropleth",
+        //     attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        // },
         "Leyte (eastern) Food Distributions": {
             url: "americanredcross.Leyte_HH_distributions_food",
             attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
