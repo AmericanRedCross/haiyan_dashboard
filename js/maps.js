@@ -191,11 +191,10 @@ var grouped_overlays = {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         },
-<<<<<<< HEAD
         "Leyte - Water Distributions": {
             url: "americanredcross.haiyan_water_dist",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
-=======
+        },
         "Leyte (eastern) Planned Cash Distributions": {
             url: "americanredcross.Leyte_HH_distributions_cash",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
@@ -211,7 +210,6 @@ var grouped_overlays = {
         "Leyte (eastern) NFI Distributions": {
             url: "americanredcross.Leyte_HH_distributions_nfi",
             attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
->>>>>>> c175400db22ff36ca50ab31831f5786906566277
         }
     },
     "Other Organizations": {
