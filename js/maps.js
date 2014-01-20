@@ -61,7 +61,7 @@ var grouped_overlays = {
     },
     "Base Layers": {
         "Population by Baranguy": {
-            url: "americanredcross.HAIYAN_OCHA_Population_by_Barangay_2010"
+            url: "americanredcross.PHL_population"
         },
         // "Elements at Risk": {
         //     url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
@@ -97,6 +97,10 @@ var grouped_overlays = {
         }
     },
     "Damage Layers": {
+        "Leyte (eastern) HH Totally Damaged by Barangay": {
+            url: "americanredcross.Leyte_HH_TotalDamage",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        },
         "Storm Surge Max Height": {
             url: "americanredcross.HAIYAN_Storm_Surge"
         },
@@ -187,9 +191,27 @@ var grouped_overlays = {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         },
+<<<<<<< HEAD
         "Leyte - Water Distributions": {
             url: "americanredcross.haiyan_water_dist",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+=======
+        "Leyte (eastern) Planned Cash Distributions": {
+            url: "americanredcross.Leyte_HH_distributions_cash",
+            attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+        },
+        // "Leyte (eastern) HH Covered by Distributions": {
+        //     url: "americanredcross.Leyte_HH_distributionsChoropleth",
+        //     attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        // },
+        "Leyte (eastern) Food Distributions": {
+            url: "americanredcross.Leyte_HH_distributions_food",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        },
+        "Leyte (eastern) NFI Distributions": {
+            url: "americanredcross.Leyte_HH_distributions_nfi",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+>>>>>>> c175400db22ff36ca50ab31831f5786906566277
         }
     },
     "Other Organizations": {

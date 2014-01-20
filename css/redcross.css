@@ -63,10 +63,28 @@ ul {
 	border-radius: 4px;
 	padding: 6px 8px;	
 	border: 1px solid #ccc;
+	font-size:smaller;
+}
+
+#toggleLegends {
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	right: 55px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 6px 8px;	
+	font-size:smaller;
+	cursor: pointer;
+	box-shadow: 0 1px 7px rgba(0,0,0,0.4);
 }
 
 .timeicon {
 	height: 16px;
+}
+
+.map-tooltip {
+	font-size: small;
 }
 
 /*bootstrap has white text for this and the text in the legend pulled from mapbox doesnt show*/
