@@ -186,6 +186,10 @@ var grouped_overlays = {
         "Philippine RC Chapters": {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+        },
+        "Leyte - Water Distributions": {
+            url: "americanredcross.haiyan_water_dist",
+            attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         }
     },
     "Other Organizations": {
