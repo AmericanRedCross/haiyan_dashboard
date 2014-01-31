@@ -191,26 +191,18 @@ var grouped_overlays = {
             url: "americanredcross.m5zv9529",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         },
-        "Leyte - Water Distributions": {
+        "Leyte Water Distributions": {
             url: "americanredcross.haiyan_water_dist",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
         },
-        "Leyte (eastern) Planned Cash Distributions": {
+        "Cash Distributions": {
             url: "americanredcross.Leyte_HH_distributions_cash",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
-        },
-        // "Leyte (eastern) HH Covered by Distributions": {
-        //     url: "americanredcross.Leyte_HH_distributionsChoropleth",
-        //     attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
-        // },
-        "Leyte (eastern) Food Distributions": {
-            url: "americanredcross.Leyte_HH_distributions_food",
-            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
-        },
-        "Leyte (eastern) NFI Distributions": {
-            url: "americanredcross.Leyte_HH_distributions_nfi",
-            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
         }
+        "NFI Distributions": {
+            url: "americanredcross.Haiyan_IFRC_ReliefDistributions_NFI",
+            attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+        },
     },
     "Other Organizations": {
         "UN Coordination Hubs": {
