@@ -198,11 +198,11 @@ var grouped_overlays = {
         "Cash Distributions": {
             url: "americanredcross.Leyte_HH_distributions_cash",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
-        }
+        },
         "NFI Distributions": {
             url: "americanredcross.Haiyan_IFRC_ReliefDistributions_NFI",
             attribution: "<a href='http://redcross.org.ph'>PRC</a>"
-        },
+        }
     },
     "Other Organizations": {
         "UN Coordination Hubs": {
