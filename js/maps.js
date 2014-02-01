@@ -60,7 +60,10 @@ var grouped_overlays = {
         }
     },
     "Base Layers": {
-        "Population by Baranguy": {
+        "Administrative Boundaries (Province, Municipality)": {
+            url: "americanredcross.PHL_admin"
+        },
+        "Population by Barangay": {
             url: "americanredcross.PHL_population"
         },
         // "Elements at Risk": {
