@@ -45,24 +45,140 @@ var base_layers = {
 };
 
 var grouped_overlays = {
-    "Neighborhood Areas (zoom out to see)": {
-        "Lima": {
-            url: "americanredcross.Lima_Neighborhoods_OFDA_APS_Example",
-            attribution: "&copy; OpenStreetMap contributors, <a href='redcross.org'>Red Cross</a>"
+    "Imagery": {
+        "Digital Globe": {
+            url: "http://hiu-maps.net/hot/1.0.0/haiyan-dg-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; Digital Globe & US Government (USG) under the NextView (NV) License"
+        },
+        "Post Imagery - Tacloban": {
+            url: "http://hiu-maps.net/hot/1.0.0/taclobancity-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; US Government (USG) under the NextView (NV) License"
+        },
+        "Pre Imagery - Medellin": {
+            url: "http://hiu-maps.net/hot/1.0.0/cebu-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; US Government (USG) under the NextView (NV) License"
+        },
+        "Post Imagery - Carles": {
+            url: "http://hiu-maps.net/hot/1.0.0/carles-post-flipped/{z}/{x}/{y}.png",
+            attribution: "&copy; US Government (USG) under the NextView (NV) License"
         }
     },
-    "Neighorhood Profile": {
-        "Neighborhood Affiliation": {
-            url: "americanredcross.Lima_Example_Social_Nhood"
+    "Base Layers": {
+        "Population by Baranguy": {
+            url: "americanredcross.PHL_population"
         },
-        "Tenancy Status": {
-            url: "americanredcross.Lima_Example_Tenancy"
+        // "Elements at Risk": {
+        //     url: "http://openmapsurfer.uni-hd.de/tiles/disaster/haiyan/elr/x={x}&y={y}&z={z}",
+        //     attribution: "&copy; OpenStreetMap contriubutors &copy; tiles: GIScience Heidelberg",
+        // },
+        "Schools DFED 2009": {
+            url: "americanredcross.HAIYAN_Schools"
         },
-        "Overall Vulnerability (Indexed)": {
-            url: "americanredcross.Lima_Example_Vulnerability"
+        "Airports": {
+            url: "americanredcross.Philippines_airstrips"
         },
-        "Accessible of Water": {
-            url: "americanredcross.Lima_Example_Water"
+        "Townhalls": {
+            url: "americanredcross.HAIYAN_Townhalls"
+        },
+        "Cash Transfers": {
+            url: "americanredcross.HAIYAN_CashTransfer_Nov13",
+            attribution: "OpenStreetMap"
+        },
+        "Poverty by Municipality": {
+            url: "americanredcross.HAIYAN_Poverty_by_Municipality"
+        },
+        "Atlas": {
+            "url": "americanredcross.HAIYAN_Atlas_Bounds",
+            "attribution":"GADM"
+        },
+        "Mangroves": {
+            "url": "americanredcross.ivqme7b9",
+            "attribution": "<a href='http://usgs.gov'>USGS</a>"
+        },
+        "Radio Stations": {
+            "url": "americanredcross.Haiyan_Radio_Stations",
+            "attribution": "<a href='http://infoasaid'>Infoasaid</a>"
+        }
+    },
+    "Damage Layers": {
+        "Leyte (eastern) HH Totally Damaged by Barangay": {
+            url: "americanredcross.Leyte_HH_TotalDamage",
+            attribution: "<a href='http://www.redcross.org.ph/'>PRC</a>"
+        },
+        "Storm Surge Max Height": {
+            url: "americanredcross.HAIYAN_Storm_Surge"
+        },
+        "USG Damage Assessment": {
+            url: "americanredcross.NGA_DamageAssessment_Nov11",
+            attribution: "NGA"
+        },
+        "Tacloban Building Damage Nov. 8": {
+            url: "americanredcross.COPERNICUS_Damages_Tacloban"
+        },
+        "UNOSAT Building Assessment": {
+            url: "americanredcross.HAIYAN_Ormoc_Damages",
+            attribution: "UNOSAT"
+        },
+        // "Impassable Roads": {
+        //     url: "americanredcross.HAIYAN_Bridges"
+        // },
+        "Tacloban Roads": {
+            url: "americanredcross.HAIYAN_Tomnod_Nov12"
+        },
+        "Capoocan - Buildings": {
+            url: "americanredcross.f168ncdi",
+            attribution: "UNOSAT"
+        },
+        "Dulag - Buildings": {
+            url: "americanredcross.8xwjc3di",
+            attribution: "UNOSAT"
+        },
+        "Isabel - Buildings": {
+            url: "americanredcross.8famj9k9",
+            attribution: "UNOSAT"
+        },
+        "Madridejos - Buildings": {
+            url: "americanredcross.n81l9pb9",
+            attribution: "UNOSAT"
+        },
+        "Ormoc - Buildings": {
+            url: "americanredcross.cp5bfbt9",
+            attribution: "UNOSAT"
+        }
+
+    },
+    "NDRRMC": {
+        "Power Outages": {
+            url: "americanredcross.4362bj4i",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Affected Families": {
+            url: "americanredcross.wa0s5rk9",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Affected Persons": {
+            url: "americanredcross.jb8rggb9",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Families in Shelters": {
+            url: "americanredcross.lvsiqkt9",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Families outside Shelters": {
+            url: "americanredcross.en42huxr",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        // "Number of Shelters": {
+        //     url: "americanredcross.en42huxr",
+        //     attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        // },
+        "Persons in Shelters": {
+            url: "americanredcross.gdpzm2t9",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
+        },
+        "Persons outside Shelters": {
+            url: "americanredcross.0zskbj4i",
+            attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         }
     }
 };
