@@ -55,9 +55,9 @@ var baseLayers = baseMaker(base_layers);
 var groupedOverlays = overlayMaker(grouped_overlays);
 
 var map = L.map('map', {
-    zoom: 18,
-    center: [-11.956, -77.052],
-    layers: [baseLayers["Mapbox Terrain"]]
+    zoom: 8,
+    center: [11.2500, 125.0000],
+    layers: [baseLayers["Humanitarian OSM"]]
 });
 
 //need to add geocoder, fails for some reason
@@ -129,6 +129,38 @@ map.on('zoomend', function(){
     zoomLevel = map.getZoom().toString();
     $('#zoomLevel').html(zoomLevel);
 });
+
+// time code
+function getTime() {
+    var philTimeURL = 'http://api.geonames.org/timezoneJSON?lat=14.5833&lng=120.9667&username=amcross';
+    var dcTimeURL = 'http://api.geonames.org/timezoneJSON?lat=38.8951&lng=-77.0367&username=amcross';
+    var genevaTimeURL = 'http://api.geonames.org/timezoneJSON?lat=46.2000&lng=6.1500&username=amcross';
+    var klTimeURL = 'http://api.geonames.org/timezoneJSON?lat=3.1357&lng=101.6880&username=amcross';
+    
+    $.getJSON(philTimeURL, function(json, textStatus) {
+                 // var philTime = json.time.substring((json.time.length-5),json.time.length);
+                 var philSunset = json.sunset.substring((json.sunset.length-5),json.sunset.length);
+                 var philSunrise = json.sunrise.substring((json.sunrise.length-5),json.sunrise.length);
+                 $('#philTime').append(json.time + '<br /><img src="images/sun.png" class="timeicon">Sunrise: ' + philSunrise + '<br /><img src="images/moon.png" class="timeicon">Sunset: ' + philSunset);
+             });
+    
+    $.getJSON(dcTimeURL, function(json, textStatus) {
+                 // var dcTime = json.time.substring((json.time.length-5),json.time.length);
+                 $('#dcTime').append(json.time);
+             });
+    
+    $.getJSON(genevaTimeURL, function(json, textStatus) {
+                 // var genevaTime = json.time.substring((json.time.length-5),json.time.length);
+                 $('#genevaTime').append(json.time);
+             });
+    
+    $.getJSON(klTimeURL, function(json, textStatus) {
+                 // var klTime = json.time.substring((json.time.length-5),json.time.length);
+                 $('#klTime').append(json.time);
+             });
+}
+
+setTimeout(getTime(),1000);
 
 //map size code
 $('#map').css('height', ($(window).height()));
