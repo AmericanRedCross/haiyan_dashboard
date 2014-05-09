@@ -46,6 +46,10 @@ var base_layers = {
 
 var grouped_overlays = {
     "Imagery": {
+        "Drone Adventures - Tacloban": {
+            url: "http://a.tiles.mapbox.com/v3/droneadv.i4khp3b1/{z}/{x}/{y}.png",
+            attribution: "&copy; Drone Adventures"
+        },
         "Digital Globe": {
             url: "http://hiu-maps.net/hot/1.0.0/haiyan-dg-post-flipped/{z}/{x}/{y}.png",
             attribution: "&copy; Digital Globe & US Government (USG) under the NextView (NV) License"
@@ -64,7 +68,10 @@ var grouped_overlays = {
         }
     },
     "Base Layers": {
-        "Population by Baranguy": {
+        "Administrative Boundaries (Province, Municipality)": {
+            url: "americanredcross.PHL_admin"
+        },
+        "Population by Barangay": {
             url: "americanredcross.PHL_population"
         },
         // "Elements at Risk": {
@@ -180,5 +187,41 @@ var grouped_overlays = {
             url: "americanredcross.0zskbj4i",
             attribution: "<a href='http://www.ndrrmc.gov.ph/'>NDRRMC</a>"
         }
-    }
+    },
+    "Red Cross": {
+     "IFRC Area of Opps": {
+         url: "americanredcross.HAIYAN_Evacuation_Centers",
+         attribution: "<a href='http://ifrc.org'>IFRC</a>"
+     },
+     "ICRC Area of Opps": {
+         url: "americanredcross.ztmrhpvi",
+         attribution: "<a href='http://icrc.org'>ICRC</a>"
+     },
+     "Philippine RC Chapters": {
+         url: "americanredcross.m5zv9529",
+         attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+     },
+     "Leyte Water Distributions": {
+         url: "americanredcross.haiyan_water_dist",
+         attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+     },
+     "Cash Distributions": {
+         url: "americanredcross.Leyte_HH_distributions_cash",
+         attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+     },
+     "NFI Distributions": {
+         url: "americanredcross.Haiyan_IFRC_ReliefDistributions_NFI",
+         attribution: "<a href='http://redcross.org.ph'>PRC</a>"
+     }
+ },
+ "Other Organizations": {
+     "UN Coordination Hubs": {
+         "url": "americanredcross.uncoordinationhubs",
+         "attribution": "UNOCHA & MapAction"
+     },
+     "Humanitarian 3W": {
+         url: "americanredcross.HAIYAN_3W",
+         attribution: "UNOCHA & MapAction"
+     }
+ }
 };
