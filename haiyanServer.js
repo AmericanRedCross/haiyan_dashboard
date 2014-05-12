@@ -24,7 +24,7 @@ passport.use(new BasicStrategy({
   function(username, password, done) {
     // asynchronous verification, for effect...
     process.nextTick(function () {
-      
+
       // Find the user by username.  If there is no user with the given
       // username, or the password is not correct, set the user to `false` to
       // indicate failure.  Otherwise, return the authenticated `user`.
@@ -58,7 +58,7 @@ app.configure(function() {
 
 // );
 
-app.get('/secure', 
+app.get('/secure',
   // Authenticate using HTTP Basic credentials, with session support disabled.
   passport.authenticate('basic', { session: false })
 );
